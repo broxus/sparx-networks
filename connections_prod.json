@@ -48,9 +48,9 @@
       "networkName": "Everscale",
       "networkType": "ever",
       "icons": {
-        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-wallet-anti-phishing/master/icons/ever/native_token.svg",
-        "network": "https://raw.githubusercontent.com/broxus/sparx-wallet-anti-phishing/master/icons/ever/network.svg",
-        "vector": "https://raw.githubusercontent.com/broxus/sparx-wallet-anti-phishing/master/icons/ever/vector.svg"
+        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/native_token.svg",
+        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/network.svg",
+        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/vector.svg"
       },
       "availableWalletTypes": [
         {
@@ -142,9 +142,9 @@
       "networkName": "Venom",
       "networkType": "venom",
       "icons": {
-        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-wallet-anti-phishing/master/icons/venom/native_token.svg",
-        "network": "https://raw.githubusercontent.com/broxus/sparx-wallet-anti-phishing/master/icons/venom/network.svg",
-        "vector": "https://raw.githubusercontent.com/broxus/sparx-wallet-anti-phishing/master/icons/venom/vector.svg"
+        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/native_token.svg",
+        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/network.svg",
+        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/vector.svg"
       },
       "availableWalletTypes": [
         {
