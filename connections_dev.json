@@ -113,7 +113,6 @@
       "defaultWalletType": {
         "type": "everWallet"
       },
-      "nativeTokenIcon": "TODO PATH",
       "nativeTokenTickerOption": {
         "type": "byName",
         "name": "EVER"
@@ -177,7 +176,6 @@
       "defaultWalletType": {
         "type": "everWallet"
       },
-      "nativeTokenIcon": "TODO PATH",
       "nativeTokenTickerOption": {
         "type": "byName",
         "name": "VENOM"
