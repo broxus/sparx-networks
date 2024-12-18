@@ -1,0 +1,50 @@
+{
+    defaultConnectionId: String,
+    networks: [
+        {
+            id: String,
+            name: String,
+            group: String, // mainnet, venom_mainnet, ton, etc
+            type: String, // proto, gql, jrpc
+            endpoints: List<String>,
+            networkType: String,
+            blockExplorerUrl: String,
+            manifestUrl: String,
+            nativeTokenTicker: String,
+            sortingOrder: double,
+            latencyDetectionInterval: int?,
+            maxLatency: int?,
+            endpointSelectionRetryCount: int?,
+        }
+    ],
+    transports: [
+        {
+            availableWalletTypes: List<Map<String, dynamic>,
+            walletDefaultAccountNames: {
+                multisig: String | Map<String, dynamic>,
+                walletV3: String | Map<String, dynamic>
+                highloadWalletV2: String | Map<String, dynamic>
+                everWallet: String | Map<String, dynamic>
+                walletV4R1: String | Map<String, dynamic>
+                walletV4R2: String | Map<String, dynamic>
+                walletV5R1: String | Map<String, dynamic>
+            },
+            defaultWalletType: Map<String, String>,
+            baseCurrencyUrl: String?,
+            nativeTokenIcon: String,
+            nativeTokenTickerOption: Map<String, String>,
+            manifestOption: Map<String, String>,
+            nativeTokenAddress: String?,
+            networkName: String,
+            networkType: String,
+            seedPhraseWordsCount: List<int>,
+            defaultNativeCurrencyDecimal: int,
+            genericTokenType: String, // tip3, jetton
+            accountExplorerLinkType: String, // accounts, accountDetails, packAddress
+            transactionExplorerLinkType: String, 
+            stakeInformation: Map<String, dynamic>?,
+            tokenApiBaseUrl: String?,
+            currencyApiBaseUrl: String?,
+        }
+    ]
+}
