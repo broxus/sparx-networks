@@ -41,6 +41,20 @@
       "manifestUrl":
       "https://cdn.venom.foundation/assets/mainnet/manifest.json",
       "sortingOrder": 3
+    },
+    {
+      "id": "preset_ton_mainnet_proto",
+      "name": "TON",
+      "group": "ton",
+      "type": "proto",
+      "endpoints": [
+        "https://jrpc-ton.broxus.com"
+      ],
+      "networkType": "ton",
+      "blockExplorerUrl": "https://tonviewer.com",
+      "manifestUrl":
+      "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/ton/manifest.json",
+      "sortingOrder": 4
     }
   ],
   "transports": [
@@ -192,6 +206,67 @@
       "genericTokenType": "tip3",
       "accountExplorerLinkType": "accounts",
       "transactionExplorerLinkType": "transactions"
+    },
+    {
+      "networkName": "TON",
+      "networkType": "ton",
+      "icons": {
+        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/native_token.svg",
+        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/network.svg",
+        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/vector.svg"
+      },
+      "availableWalletTypes": [
+        {
+          "type": "everWallet"
+        },
+        {
+          "type": "multisig",
+          "value": "multisig2_1"
+        },
+        {
+          "type": "walletV4R1"
+        },
+        {
+          "type": "walletV4R2"
+        },
+        {
+          "type": "walletV5R1"
+        }
+      ],
+      "walletDefaultAccountNames": {
+        "multisig": {
+          "safeMultisigWallet": "SafeMultisig24h",
+          "safeMultisigWallet24h": "SafeMultisig24h",
+          "setcodeMultisigWallet": "SetcodeMultisig",
+          "setcodeMultisigWallet24h": "SetcodeMultisig24h",
+          "bridgeMultisigWallet": "BridgeMultisig",
+          "surfWallet": "Surf Wallet",
+          "multisig2": "Legacy Multi-sig",
+          "multisig2_1": "Multi-sig"
+        },
+        "walletV3": "Legacy",
+        "highloadWalletV2": "HighloadWallet",
+        "everWallet": "EverWallet",
+        "walletV4R1": "WalletV4R1",
+        "walletV4R2": "WalletV4R2",
+        "walletV5R1": "WalletV5R1"
+      },
+      "defaultWalletType": {
+        "type": "walletV5R1"
+      },
+      "nativeTokenTickerOption": {
+        "type": "byName",
+        "name": "TON"
+      },
+      "manifestOption": {
+        "type": "fromConnection"
+      },
+      "nativeTokenAddress": "0:9a8da514d575d20234c3fb1395ee9138f5f1ad838abc905dc42c2389b46bd015",
+      "seedPhraseWordsCount": [12, 24],
+      "defaultNativeCurrencyDecimal": 9,
+      "genericTokenType": "jetton",
+      "accountExplorerLinkType": "packAddress",
+      "transactionExplorerLinkType": "transaction"
     }
   ]
 }
