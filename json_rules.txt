@@ -15,6 +15,7 @@
             latencyDetectionInterval: int?,
             maxLatency: int?,
             endpointSelectionRetryCount: int?,
+            isUsedOnStart: bool? // default ture
         }
     ],
     transports: [

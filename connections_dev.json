@@ -6,6 +6,7 @@
       "name": "Everscale",
       "group": "mainnet",
       "type": "proto",
+      "isUsedOnStart": true,
       "endpoints": [
         "https://jrpc.everwallet.net"
       ],
@@ -19,6 +20,7 @@
       "name": "Everscale (reserve)",
       "group": "mainnet",
       "type": "gql",
+      "isUsedOnStart": false,
       "endpoints": [
         "https://mainnet.evercloud.dev/89a3b8f46a484f2ea3bdd364ddaee3a3/graphql"
       ],
@@ -33,6 +35,7 @@
       "name": "Venom",
       "group": "venom_mainnet",
       "type": "proto",
+      "isUsedOnStart": true,
       "endpoints": [
         "https://jrpc.venom.foundation"
       ],
@@ -47,6 +50,7 @@
       "name": "TON",
       "group": "ton",
       "type": "proto",
+      "isUsedOnStart": true,
       "endpoints": [
         "https://jrpc-ton.broxus.com"
       ],
