@@ -46,21 +46,6 @@
       "sortingOrder": 3
     },
     {
-      "id": "preset_ton_mainnet_proto",
-      "name": "TON",
-      "group": "ton",
-      "type": "proto",
-      "isUsedOnStart": true,
-      "endpoints": [
-        "https://jrpc-ton.broxus.com"
-      ],
-      "networkType": "ton",
-      "blockExplorerUrl": "https://tonviewer.com",
-      "manifestUrl": 
-      "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/ton/manifest.json",
-      "sortingOrder": 4
-    },
-    {
       "id": "preset_tycho_testnet_proto",
       "name": "Tycho Testnet",
       "group": "tycho_testnet",
@@ -73,7 +58,7 @@
       "blockExplorerUrl": "https://testnet.tychoprotocol.com/",
       "manifestUrl":
       "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tychotestnet/manifest.json",
-      "sortingOrder": 5
+      "sortingOrder": 4
     }
   ],
   "transports": [
