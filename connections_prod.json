@@ -56,7 +56,8 @@
       ],
       "networkType": "ton",
       "blockExplorerUrl": "https://tonviewer.com",
-      "manifestUrl": "",
+      "manifestUrl": 
+      "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/ton/manifest.json",
       "sortingOrder": 4
     },
     {
