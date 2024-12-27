@@ -56,8 +56,7 @@
       ],
       "networkType": "ton",
       "blockExplorerUrl": "https://tonviewer.com",
-      "manifestUrl":
-      "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/ton/manifest.json",
+      "manifestUrl": "",
       "sortingOrder": 4
     },
     {
@@ -265,7 +264,7 @@
         },
         "walletV3": "Legacy",
         "highloadWalletV2": "HighloadWallet",
-        "everWallet": "EverWallet",
+        "everWallet": "Default",
         "walletV4R1": "WalletV4R1",
         "walletV4R2": "WalletV4R2",
         "walletV5R1": "WalletV5R1"
