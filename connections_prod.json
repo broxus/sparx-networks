@@ -59,6 +59,20 @@
       "manifestUrl":
       "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tychotestnet/manifest.json",
       "sortingOrder": 4
+    },
+    {
+      "id": "preset_ton_mainnet_proto",
+      "name": "TON",
+      "group": "ton",
+      "type": "proto",
+      "isUsedOnStart": true,
+      "endpoints": [
+        "https://jrpc-ton.broxus.com"
+      ],
+      "networkType": "ton",
+      "blockExplorerUrl": "https://tonviewer.com",
+      "manifestUrl": "",
+      "sortingOrder": 5
     }
   ],
   "transports": [
