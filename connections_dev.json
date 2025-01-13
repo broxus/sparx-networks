@@ -374,6 +374,7 @@
             "seedPhraseWordsCount": [12],
             "defaultNativeCurrencyDecimal": 9,
             "baseCurrencyUrl": "https://api-test-tycho.flatqube.io/v1/currencies",
+            "tokenApiBaseUrl": "https://e-tokens-api-tycho.broxus.com/v1/",
             "genericTokenType": "tip3",
             "accountExplorerLinkType": "accounts",
             "transactionExplorerLinkType": "transactions"
