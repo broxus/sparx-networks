@@ -64,7 +64,7 @@
         "https://rpc-testnet.tychoprotocol.com/"
       ],
       "networkType": "tycho",
-      "blockExplorerUrl": "https://testnet.tychoprotocol.com/",
+      "blockExplorerUrl": "https://testnet.tychoprotocol.com",
       "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tychotestnet/manifest.json",
       "sortingOrder": 4
     },
