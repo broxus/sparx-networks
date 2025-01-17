@@ -61,7 +61,7 @@
       "type": "proto",
       "isUsedOnStart": true,
       "endpoints": [
-        "https://rpc-testnet.tychoprotocol.com/"
+        "https://rpc-testnet.tychoprotocol.com"
       ],
       "networkType": "tycho",
       "blockExplorerUrl": "https://testnet.tychoprotocol.com",
@@ -384,7 +384,7 @@
       ],
       "defaultNativeCurrencyDecimal": 9,
       "baseCurrencyUrl": "https://api-test-tycho.flatqube.io/v1/currencies",
-      "tokenApiBaseUrl": "https://e-tokens-api-tycho.broxus.com/v1/",
+      "tokenApiBaseUrl": "https://e-tokens-api-tycho.broxus.com/v1",
       "genericTokenType": "tip3",
       "accountExplorerLinkType": "accounts",
       "transactionExplorerLinkType": "transactions"
