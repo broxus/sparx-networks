@@ -56,16 +56,16 @@
     },
     {
       "id": "preset_tycho_testnet_proto",
-      "name": "Tycho Testnet",
+      "name": "Tycho Testnet1",
       "group": "tycho_testnet",
       "type": "proto",
       "isUsedOnStart": true,
       "endpoints": [
-        "https://rpc-testnet.tychoprotocol.com"
+        ""https://rpc-devnet1.tychoprotocol.com"
       ],
       "networkType": "tycho",
       "blockExplorerUrl": "https://testnet.tychoprotocol.com",
-      "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tychotestnet/manifest.json",
+      "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tychodevnet1/manifest.json",
       "sortingOrder": 4
     },
     {
@@ -303,7 +303,7 @@
       "transactionExplorerLinkType": "transaction"
     },
     {
-      "networkName": "Tycho Testnet",
+      "networkName": "Tycho Testnet1",
       "networkType": "tycho",
       "icons": {
         "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/tycho/native_token.svg",
@@ -378,13 +378,13 @@
       "manifestOption": {
         "type": "fromConnection"
       },
-      "nativeTokenAddress": "0:6b3355b19c6aedc65be291c00abbf6e5061c07e1926a3fd543863c7a8d06cc79",
+      "nativeTokenAddress": "0:658426d691009fb7abb02209a5b53ef3384079c969bb2c856fd7eeff95234ab2",
       "seedPhraseWordsCount": [
         12
       ],
       "defaultNativeCurrencyDecimal": 9,
-      "baseCurrencyUrl": "https://api-test-tycho.flatqube.io/v1/currencies",
-      "tokenApiBaseUrl": "https://e-tokens-api-tycho.broxus.com/v1",
+      "baseCurrencyUrl": "https://api-test-tycho-devnet.flatqube.io/v1/currencies",
+      "tokenApiBaseUrl": "https://e-tokens-api-devnet1.broxus.com/v1",
       "genericTokenType": "tip3",
       "accountExplorerLinkType": "accounts",
       "transactionExplorerLinkType": "transactions"
