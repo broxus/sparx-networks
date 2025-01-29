@@ -61,7 +61,7 @@
       "type": "proto",
       "isUsedOnStart": true,
       "endpoints": [
-        ""https://rpc-devnet1.tychoprotocol.com"
+        "https://rpc-devnet1.tychoprotocol.com"
       ],
       "networkType": "tycho",
       "blockExplorerUrl": "https://testnet.tychoprotocol.com",
