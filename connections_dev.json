@@ -1,5 +1,5 @@
 {
-  "defaultConnectionId": "preset_devnet1_proto",
+  "defaultConnectionId": "preset_ever_mainnet_proto",
   "customNetworkOptions": [
     {
       "networkType": "ever"
