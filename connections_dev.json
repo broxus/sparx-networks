@@ -1,5 +1,5 @@
 {
-  "defaultConnectionId": "preset_ever_mainnet_proto",
+  "defaultConnectionId": "preset_devnet1_proto",
   "customNetworkOptions": [
     {
       "networkType": "ever"
@@ -41,20 +41,6 @@
       "sortingOrder": 2
     },
 	{
-      "id": "preset_tycho_testnet_proto",
-      "name": "Tycho Testnet",
-      "group": "tycho_testnet",
-      "type": "proto",
-      "isUsedOnStart": true,
-      "endpoints": [
-        "https://rpc-testnet.tychoprotocol.com"
-      ],
-      "networkType": "tycho",
-      "blockExplorerUrl": "https://testnet.tychoprotocol.com",
-      "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tychotestnet/manifest.json",
-      "sortingOrder": 3
-    },
-	{
       "id": "preset_ever_mainnet_proto",
       "name": "Everscale",
       "group": "mainnet",
@@ -66,7 +52,7 @@
       "networkType": "ever",
       "blockExplorerUrl": "https://everscan.io",
       "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
-      "sortingOrder": 4
+      "sortingOrder": 3
     },
     {
       "id": "preset_ever_mainnet_gql",
@@ -80,7 +66,7 @@
       "networkType": "ever",
       "blockExplorerUrl": "https://everscan.io",
       "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
-      "sortingOrder": 5
+      "sortingOrder": 4
     },
 	{
       "id": "preset_venom_mainnet_proto",
@@ -94,14 +80,14 @@
       "networkType": "venom",
       "blockExplorerUrl": "https://venomscan.com",
       "manifestUrl": "https://cdn.venom.foundation/assets/mainnet/manifest.json",
-      "sortingOrder": 6
+      "sortingOrder": 5
     }    
   ],
   "transports": [
     {
       "networkName": "DevNet 1",
       "networkType": "tycho",
-	    "networkGroup": "devnet1",
+	  "networkGroup": "devnet1",
       "icons": {
         "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/tycho/native_token.svg",
         "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/tycho/network.svg",
@@ -114,6 +100,15 @@
         {
           "type": "multisig",
           "value": "multisig2_1"
+        },
+        {
+          "type": "walletV4R1"
+        },
+        {
+          "type": "walletV4R2"
+        },
+        {
+          "type": "walletV5R1"
         }
       ],
       "walletDefaultAccountNames": {
@@ -135,7 +130,7 @@
         "walletV5R1": "WalletV5R1"
       },
       "defaultWalletType": {
-        "type": "everWallet"
+        "type": "walletV5R1"
       },
       "nativeTokenTickerOption": {
         "type": "byName",
@@ -152,94 +147,6 @@
       "defaultNativeCurrencyDecimal": 9,
       "baseCurrencyUrl": "https://api-test-tycho-devnet.flatqube.io/v1/currencies",
       "tokenApiBaseUrl": "https://e-tokens-api-devnet1.broxus.com/v1",
-      "genericTokenType": "tip3",
-      "accountExplorerLinkType": "accounts",
-      "transactionExplorerLinkType": "transactions"
-    },
-	{
-      "networkName": "Tycho Testnet",
-      "networkType": "tycho",
-	  "networkGroup": "tycho_testnet",
-      "icons": {
-        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/tycho/native_token.svg",
-        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/tycho/network.svg",
-        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/tycho/vector.svg"
-      },
-      "availableWalletTypes": [
-        {
-          "type": "everWallet"
-        },
-        {
-          "type": "multisig",
-          "value": "multisig2"
-        },
-        {
-          "type": "multisig",
-          "value": "multisig2_1"
-        },
-        {
-          "type": "walletV3"
-        },
-        {
-          "type": "multisig",
-          "value": "safeMultisigWallet"
-        },
-        {
-          "type": "multisig",
-          "value": "safeMultisigWallet24h"
-        },
-        {
-          "type": "multisig",
-          "value": "setcodeMultisigWallet"
-        },
-        {
-          "type": "multisig",
-          "value": "setcodeMultisigWallet24h"
-        },
-        {
-          "type": "multisig",
-          "value": "bridgeMultisigWallet"
-        },
-        {
-          "type": "multisig",
-          "value": "surfWallet"
-        }
-      ],
-      "walletDefaultAccountNames": {
-        "multisig": {
-          "safeMultisigWallet": "SafeMultisig",
-          "safeMultisigWallet24h": "SafeMultisig24h",
-          "setcodeMultisigWallet": "SetcodeMultisig",
-          "setcodeMultisigWallet24h": "SetcodeMultisig24h",
-          "bridgeMultisigWallet": "BridgeMultisig",
-          "surfWallet": "Surf Wallet",
-          "multisig2": "Legacy Multi-sig",
-          "multisig2_1": "Multi-sig"
-        },
-        "walletV3": "WalletV3",
-        "highloadWalletV2": "HighloadWallet",
-        "everWallet": "Default",
-        "walletV4R1": "WalletV4R1",
-        "walletV4R2": "WalletV4R2",
-        "walletV5R1": "WalletV5R1"
-      },
-      "defaultWalletType": {
-        "type": "everWallet"
-      },
-      "nativeTokenTickerOption": {
-        "type": "byName",
-        "name": "TYCHO"
-      },
-      "manifestOption": {
-        "type": "fromConnection"
-      },
-      "nativeTokenAddress": "0:6b3355b19c6aedc65be291c00abbf6e5061c07e1926a3fd543863c7a8d06cc79",
-      "seedPhraseWordsCount": [
-        12
-      ],
-      "defaultNativeCurrencyDecimal": 9,
-      "baseCurrencyUrl": "https://api-test-tycho.flatqube.io/v1/currencies",
-      "tokenApiBaseUrl": "https://e-tokens-api-tycho.broxus.com/v1",
       "genericTokenType": "tip3",
       "accountExplorerLinkType": "accounts",
       "transactionExplorerLinkType": "transactions"
