@@ -30,7 +30,7 @@
       "id": "preset_devnet4_proto",
       "name": "DevNet 4",
       "group": "devnet4",
-      "type": "jrpc",
+      "type": "proto",
       "isUsedOnStart": true,
       "endpoints": [
         "https://rpc-devnet4.tychoprotocol.com"
@@ -225,7 +225,7 @@
         "walletV5R1": "WalletV5R1"
       },
       "defaultWalletType": {
-        "type": "WalletV5R1"
+        "type": "walletV5R1"
       },
       "nativeTokenTickerOption": {
         "type": "byName",
