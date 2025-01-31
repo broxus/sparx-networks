@@ -31,7 +31,7 @@
       "name": "DevNet 4",
       "group": "devnet4",
       "type": "proto",
-      "isUsedOnStart": false,
+      "isUsedOnStart": true,
       "endpoints": [
         "https://rpc-devnet4.tychoprotocol.com"
       ],
