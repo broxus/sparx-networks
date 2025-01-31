@@ -30,7 +30,7 @@
       "id": "preset_devnet4_proto",
       "name": "DevNet 4",
       "group": "devnet4",
-      "type": "proto",
+      "type": "jrpc",
       "isUsedOnStart": true,
       "endpoints": [
         "https://rpc-devnet4.tychoprotocol.com"
