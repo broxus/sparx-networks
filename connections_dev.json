@@ -184,9 +184,9 @@
       "networkType": "tycho",
       "networkGroup": "devnet4",
       "icons": {
-        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/tycho/native_token.svg",
-        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/tycho/network.svg",
-        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/tycho/vector.svg"
+        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/hamster/native_token.svg",
+        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/hamster/network.svg",
+        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/hamster/vector.svg"
       },
       "availableWalletTypes": [
         {
