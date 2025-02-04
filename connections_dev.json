@@ -30,7 +30,7 @@
       "id": "preset_devnet4_proto",
       "name": "DevNet 4",
       "group": "devnet4",
-      "type": "jrpc",
+      "type": "proto",
       "isUsedOnStart": true,
       "endpoints": [
         "https://rpc-devnet4.tychoprotocol.com"
@@ -323,7 +323,7 @@
       "manifestOption": {
         "type": "fromConnection"
       },
-      "nativeTokenAddress": "0:0619a1789738fbeb8f8a46a4d71268cd277b049ad5da3df3c7b8a8e9f10c3a22",
+      "nativeTokenAddress": "0:8233ae1a3a94f77a9b12ab9b07f37923144fb78a7a8c582a5e3e2ed86cb40ced",
       "seedPhraseWordsCount": [
         12
       ],
