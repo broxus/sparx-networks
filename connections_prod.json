@@ -23,7 +23,7 @@
       ],
       "networkType": "ton",
       "blockExplorerUrl": "https://tonviewer.com",
-      "manifestUrl": "",
+      "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/ton-prod/manifest.json",
       "sortingOrder": 1
     },
     {
