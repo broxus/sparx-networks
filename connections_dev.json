@@ -1,5 +1,5 @@
 {
-  "defaultConnectionId": "preset_devnet1_proto",
+  "defaultConnectionId": "preset_hmstr_mainnet_proto",
   "customNetworkOptions": [
     {
       "networkType": "ever"
@@ -13,34 +13,6 @@
   ],
   "networks": [
 	{
-      "id": "preset_devnet1_proto",
-      "name": "DevNet 1",
-      "group": "devnet1",
-      "type": "proto",
-      "isUsedOnStart": true,
-      "endpoints": [
-        "https://rpc-devnet1.tychoprotocol.com"
-      ],
-      "networkType": "tycho",
-      "blockExplorerUrl": "https://e-tycho-devnet1.broxus.com",
-      "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tychodevnet1/manifest.json",
-      "sortingOrder": 1
-    },
-	{
-      "id": "preset_devnet4_proto",
-      "name": "DevNet 4",
-      "group": "devnet4",
-      "type": "proto",
-      "isUsedOnStart": true,
-      "endpoints": [
-        "https://rpc.hamster.network"
-      ],
-      "networkType": "tycho",
-      "blockExplorerUrl": "https://hamsterscan.io",
-      "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/hmstr/manifest.json",
-      "sortingOrder": 2
-    },
-	{
       "id": "preset_ton_mainnet_proto",
       "name": "TON",
       "group": "ton",
@@ -52,6 +24,34 @@
       "networkType": "ton",
       "blockExplorerUrl": "https://tonviewer.com",
       "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/ton-prod/manifest.json",
+      "sortingOrder": 1
+    },
+	{
+      "id": "preset_hmstr_mainnet_proto",
+      "name": "Hamster Network",
+      "group": "hmstr_mainnet",
+      "type": "proto",
+      "isUsedOnStart": true,
+      "endpoints": [
+        "https://rpc.hamster.network"
+      ],
+      "networkType": "tycho",
+      "blockExplorerUrl": "https://hamsterscan.io",
+      "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/hmstr/manifest.json",
+      "sortingOrder": 2
+    },
+	{
+      "id": "preset_devnet1_proto",
+      "name": "DevNet 1",
+      "group": "devnet1",
+      "type": "proto",
+      "isUsedOnStart": true,
+      "endpoints": [
+        "https://rpc-devnet1.tychoprotocol.com"
+      ],
+      "networkType": "tycho",
+      "blockExplorerUrl": "https://e-tycho-devnet1.broxus.com",
+      "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tychodevnet1/manifest.json",
       "sortingOrder": 3
     },
 	{
@@ -180,9 +180,9 @@
       "transactionExplorerLinkType": "transactions"
     },
     {
-      "networkName": "DevNet 4",
+      "networkName": "Hamster Network",
       "networkType": "tycho",
-      "networkGroup": "devnet4",
+      "networkGroup": "hmstr_mainnet",
       "icons": {
         "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/hamster/native_token.svg",
         "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/hamster/network.svg",
@@ -219,7 +219,7 @@
         },
         "walletV3": "WalletV3",
         "highloadWalletV2": "HighloadWallet",
-        "everWallet": "Default",
+        "everWallet": "SparX Wallet",
         "walletV4R1": "WalletV4R1",
         "walletV4R2": "WalletV4R2",
         "walletV5R1": "WalletV5R1"
@@ -229,7 +229,7 @@
       },
       "nativeTokenTickerOption": {
         "type": "byName",
-        "name": "DVN4"
+        "name": "HMSTR"
       },
       "manifestOption": {
         "type": "fromConnection"
