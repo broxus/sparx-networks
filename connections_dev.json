@@ -406,6 +406,7 @@
         24
       ],
       "defaultNativeCurrencyDecimal": 9,
+      "currencyApiBaseUrl": "https://tonapi.io/v2",    
       "genericTokenType": "jetton",
       "accountExplorerLinkType": "packAddress",
       "transactionExplorerLinkType": "transaction"
