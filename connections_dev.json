@@ -503,7 +503,7 @@
         "stakeRemovePendingWithdrawAttachedFee": "2000000000",
         "stakeWithdrawAttachedFee": "3000000000"
       },
-      "tokenApiBaseUrl": "",
+      "tokenApiBaseUrl": "https://tokens.everscan.io/v1",
       "currencyApiBaseUrl": "https://api.flatqube.io/v1/currencies",
       "genericTokenType": "tip3",
       "accountExplorerLinkType": "accounts",
