@@ -40,6 +40,20 @@
       "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/hmstr/manifest.json",
       "sortingOrder": 2
     },
+	{
+      "id": "preset_humo_testnet_proto",
+      "name": "Humo Testnet",
+      "group": "humo_testnet",
+      "type": "proto",
+      "isUsedOnStart": true,
+      "endpoints": [
+        "https://rpc.humonetwork.com"
+      ],
+      "networkType": "tycho",
+      "blockExplorerUrl": "https://humoscan.com",
+      "manifestUrl": "",
+      "sortingOrder": 3
+    },
     {
       "id": "preset_tycho_testnet_proto",
       "name": "Tycho Testnet",
@@ -52,7 +66,7 @@
       "networkType": "tycho",
       "blockExplorerUrl": "https://testnet.tychoprotocol.com",
       "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tychotestnet/manifest.json",
-      "sortingOrder": 3
+      "sortingOrder": 4
     },
     {
       "id": "preset_ever_mainnet_proto",
@@ -66,7 +80,7 @@
       "networkType": "ever",
       "blockExplorerUrl": "https://everscan.io",
       "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
-      "sortingOrder": 4
+      "sortingOrder": 5
     },
     {
       "id": "preset_ever_mainnet_gql",
@@ -80,7 +94,7 @@
       "networkType": "ever",
       "blockExplorerUrl": "https://everscan.io",
       "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
-      "sortingOrder": 5
+      "sortingOrder": 6
     },
     {
       "id": "preset_venom_mainnet_proto",
@@ -94,7 +108,7 @@
       "networkType": "venom",
       "blockExplorerUrl": "https://venomscan.com",
       "manifestUrl": "https://cdn.venom.foundation/assets/mainnet/manifest.json",
-      "sortingOrder": 6
+      "sortingOrder": 7
     }
   ],
   "transports": [
@@ -169,14 +183,14 @@
       "accountExplorerLinkType": "packAddress",
       "transactionExplorerLinkType": "transaction"
     },
-	{
-      "networkName": "Hamster Network",
+    {
+      "networkName": "Humo Testnet",
       "networkType": "tycho",
-      "networkGroup": "hmstr_mainnet",
+      "networkGroup": "humo_testnet",
       "icons": {
-        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/hamster/native_token.svg",
-        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/hamster/network.svg",
-        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/hamster/vector.svg"
+        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/native_token.svg",
+        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/network.svg",
+        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/vector.svg"
       },
       "availableWalletTypes": [
         {
@@ -185,15 +199,6 @@
         {
           "type": "multisig",
           "value": "multisig2_1"
-        },
-        {
-          "type": "walletV4R1"
-        },
-        {
-          "type": "walletV4R2"
-        },
-        {
-          "type": "walletV5R1"
         }
       ],
       "defaultActiveAssets": [
@@ -224,7 +229,7 @@
       },
       "nativeTokenTickerOption": {
         "type": "byName",
-        "name": "HMSTR"
+        "name": "1KSUM"
       },
       "manifestOption": {
         "type": "fromConnection"
@@ -234,10 +239,72 @@
         12,
         24
       ],
+      "defaultNativeCurrencyDecimal": 6,
+      "baseCurrencyUrl": "",
+      "tokenApiBaseUrl": "",
+      "currencyApiBaseUrl": "",  
+      "genericTokenType": "tip3",
+      "accountExplorerLinkType": "accounts",
+      "transactionExplorerLinkType": "transactions"
+    },
+	{
+      "networkName": "Tycho Testnet",
+      "networkType": "tycho",
+      "networkGroup": "tycho_testnet",
+      "icons": {
+        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/tycho/native_token.svg",
+        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/tycho/network.svg",
+        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/tycho/vector.svg"
+      },
+      "availableWalletTypes": [
+        {
+          "type": "everWallet"
+        },
+        {
+          "type": "multisig",
+          "value": "multisig2_1"
+        },
+		{
+          "type": "walletV5R1"
+        }
+      ],
+      "walletDefaultAccountNames": {
+        "multisig": {
+          "safeMultisigWallet": "SafeMultisig",
+          "safeMultisigWallet24h": "SafeMultisig24h",
+          "setcodeMultisigWallet": "SetcodeMultisig",
+          "setcodeMultisigWallet24h": "SetcodeMultisig24h",
+          "bridgeMultisigWallet": "BridgeMultisig",
+          "surfWallet": "Surf Wallet",
+          "multisig2": "Legacy Multi-sig",
+          "multisig2_1": "Multi-sig"
+        },
+        "walletV3": "WalletV3",
+        "highloadWalletV2": "HighloadWallet",
+        "everWallet": "Default",
+        "walletV4R1": "WalletV4R1",
+        "walletV4R2": "WalletV4R2",
+        "walletV5R1": "WalletV5R1"
+      },
+      "defaultWalletType": {
+        "type": "everWallet"
+      },
+      "nativeTokenTickerOption": {
+        "type": "byName",
+        "name": "TYCHO"
+      },
+      "manifestOption": {
+        "type": "fromConnection"
+      },
+      "nativeTokenAddress": "0:8233ae1a3a94f77a9b12ab9b07f37923144fb78a7a8c582a5e3e2ed86cb40ced",
+      "seedPhraseWordsCount": [
+        12,
+		24
+      ],
       "defaultNativeCurrencyDecimal": 9,
-      "baseCurrencyUrl": "https://api.hamsterdex.io/v1/currencies",
-      "tokenApiBaseUrl": "https://tokens.hamsterscan.io/v1",
-      "currencyApiBaseUrl": "https://api.hamsterdex.io/v1/currencies",  
+      "baseCurrencyUrl": "https://api-test-tycho.flatqube.io/v1/currencies",
+      "tokenApiBaseUrl": "https://e-tokens-api-tycho.broxus.com/v1",
+      "currencyApiBaseUrl": "https://api-test-tycho.flatqube.io/v1/currencies",
       "genericTokenType": "tip3",
       "accountExplorerLinkType": "accounts",
       "transactionExplorerLinkType": "transactions"
