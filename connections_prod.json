@@ -42,7 +42,7 @@
     },
 	{
       "id": "preset_humo_testnet_proto",
-      "name": "Humo Testnet",
+      "name": "Humo",
       "group": "humo_testnet",
       "type": "proto",
       "isUsedOnStart": true,
@@ -257,7 +257,7 @@
       "transactionExplorerLinkType": "transactions"
     },
 	{
-      "networkName": "Humo Testnet",
+      "networkName": "Humo",
       "networkType": "tycho",
       "networkGroup": "humo_testnet",
       "icons": {
@@ -297,7 +297,7 @@
       },
       "nativeTokenTickerOption": {
         "type": "byName",
-        "name": "1KSUM"
+        "name": "HUMO"
       },
       "manifestOption": {
         "type": "fromConnection"
