@@ -26,7 +26,7 @@
       "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/ton-prod/manifest.json",
       "sortingOrder": 1
     },
-	{
+    {
       "id": "preset_hmstr_mainnet_proto",
       "name": "Hamster Network",
       "group": "hmstr_mainnet",
@@ -40,7 +40,7 @@
       "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/hmstr/manifest.json",
       "sortingOrder": 2
     },
-	{
+    {
       "id": "preset_humo_testnet_proto",
       "name": "Humo",
       "group": "humo_testnet",
@@ -302,12 +302,11 @@
       "manifestOption": {
         "type": "fromConnection"
       },
-      "nativeTokenAddress": "0:39b50cd546326f132e57ce3d6c488d08cb3900dc309a53681b82216993384546",
+      "nativeTokenAddress": "0:ee49dd4c3a7754ace683612e5f9d06508ff13acb4055168fada912af25919271",
       "seedPhraseWordsCount": [
-        12,
-        24
+        12
       ],
-      "defaultNativeCurrencyDecimal": 6,
+      "defaultNativeCurrencyDecimal": 9,
       "baseCurrencyUrl": "",
       "tokenApiBaseUrl": "",
       "currencyApiBaseUrl": "",  
