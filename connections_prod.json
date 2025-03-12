@@ -50,7 +50,7 @@
         "https://rpc.humonetwork.com"
       ],
       "networkType": "tycho",
-      "blockExplorerUrl": "",
+      "blockExplorerUrl": "https://humoscan.com",
       "manifestUrl": "",
       "sortingOrder": 3
     },
