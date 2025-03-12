@@ -229,10 +229,9 @@
       "manifestOption": {
         "type": "fromConnection"
       },
-      "nativeTokenAddress": "0:39b50cd546326f132e57ce3d6c488d08cb3900dc309a53681b82216993384546",
+      "nativeTokenAddress": "0:fb5af45197ae3cc0290b98416bffee70d412ae1f36f84c85dc2066461037197f",
       "seedPhraseWordsCount": [
-        12,
-        24
+        12
       ],
       "defaultNativeCurrencyDecimal": 6,
       "baseCurrencyUrl": "",
