@@ -183,7 +183,7 @@
       "accountExplorerLinkType": "packAddress",
       "transactionExplorerLinkType": "transaction"
     },
-	{
+    {
       "networkName": "Hamster Network",
       "networkType": "tycho",
       "networkGroup": "hmstr_mainnet",
@@ -256,7 +256,7 @@
       "accountExplorerLinkType": "accounts",
       "transactionExplorerLinkType": "transactions"
     },
-	{
+    {
       "networkName": "Humo",
       "networkType": "tycho",
       "networkGroup": "humo_testnet",
@@ -366,7 +366,7 @@
       "nativeTokenAddress": "0:8233ae1a3a94f77a9b12ab9b07f37923144fb78a7a8c582a5e3e2ed86cb40ced",
       "seedPhraseWordsCount": [
         12,
-		24
+	24
       ],
       "defaultNativeCurrencyDecimal": 9,
       "baseCurrencyUrl": "https://api-test-tycho.flatqube.io/v1/currencies",
@@ -376,7 +376,7 @@
       "accountExplorerLinkType": "accounts",
       "transactionExplorerLinkType": "transactions"
     },
-	{
+    {
       "networkName": "Everscale",
       "networkType": "ever",
       "networkGroup": "mainnet",
