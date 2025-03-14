@@ -1,0 +1,16 @@
+[
+{
+    "app_name": "sparx",
+    "name": "SparX Wallet",
+    "image": "https://static.tildacdn.net/tild3939-3239-4237-b738-656665386363/sparx_logo_1.svg",
+    "about_url": "https://sparxwallet.com",
+    "universal_url": "https://l.sparxwallet.com",
+    "bridge": [
+      {
+        "type": "sse",
+        "url": "https://ton-connect-bridge.sparxwallet.com/bridge"
+      }
+    ],
+    "platforms": ["ios", "android"]
+  }
+]
