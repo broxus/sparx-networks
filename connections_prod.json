@@ -51,7 +51,7 @@
       ],
       "networkType": "tycho",
       "blockExplorerUrl": "https://humoscan.com",
-      "manifestUrl": "",
+      "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json",
       "sortingOrder": 3
     },
     {
