@@ -307,7 +307,7 @@
         12
       ],
       "defaultNativeCurrencyDecimal": 9,
-      "baseCurrencyUrl": "",
+      "baseCurrencyUrl": "https://humo-dex-api.broxus.com/v1/currencies",
       "tokenApiBaseUrl": "",
       "currencyApiBaseUrl": "",  
       "genericTokenType": "tip3",
