@@ -129,6 +129,12 @@
           "type": "multisig",
           "value": "multisig2_1"
         },
+		{
+          "type": "walletV3R1"
+        },
+        {
+          "type": "walletV3R2"
+        },
         {
           "type": "walletV4R1"
         },
@@ -158,6 +164,8 @@
         "walletV3": "Legacy",
         "highloadWalletV2": "HighloadWallet",
         "everWallet": "Default",
+		"walletV3R1": "WalletV3R1",
+        "walletV3R2": "WalletV3R2",
         "walletV4R1": "WalletV4R1",
         "walletV4R2": "WalletV4R2",
         "walletV5R1": "WalletV5R1"
@@ -200,6 +208,12 @@
           "type": "multisig",
           "value": "multisig2_1"
         },
+		{
+          "type": "walletV3R1"
+        },
+        {
+          "type": "walletV3R2"
+        },
         {
           "type": "walletV4R1"
         },
@@ -229,6 +243,8 @@
         "walletV3": "WalletV3",
         "highloadWalletV2": "HighloadWallet",
         "everWallet": "SparX Wallet",
+		"walletV3R1": "WalletV3R1",
+        "walletV3R2": "WalletV3R2",
         "walletV4R1": "WalletV4R1",
         "walletV4R2": "WalletV4R2",
         "walletV5R1": "WalletV5R1"
@@ -288,6 +304,8 @@
         "walletV3": "WalletV3",
         "highloadWalletV2": "HighloadWallet",
         "everWallet": "Default",
+		"walletV3R1": "WalletV3R1",
+        "walletV3R2": "WalletV3R2",
         "walletV4R1": "WalletV4R1",
         "walletV4R2": "WalletV4R2",
         "walletV5R1": "WalletV5R1"
@@ -377,6 +395,8 @@
         "walletV3": "WalletV3",
         "highloadWalletV2": "HighloadWallet",
         "everWallet": "Default",
+		"walletV3R1": "WalletV3R1",
+        "walletV3R2": "WalletV3R2",
         "walletV4R1": "WalletV4R1",
         "walletV4R2": "WalletV4R2",
         "walletV5R1": "WalletV5R1"
@@ -465,6 +485,8 @@
         "walletV3": "WalletV3",
         "highloadWalletV2": "HighloadWallet",
         "everWallet": "EVER Wallet",
+		"walletV3R1": "WalletV3R1",
+        "walletV3R2": "WalletV3R2",
         "walletV4R1": "WalletV4R1",
         "walletV4R2": "WalletV4R2",
         "walletV5R1": "WalletV5R1"
@@ -532,6 +554,8 @@
         "walletV3": "Legacy",
         "highloadWalletV2": "HighloadWallet",
         "everWallet": "Default",
+		"walletV3R1": "WalletV3R1",
+        "walletV3R2": "WalletV3R2",
         "walletV4R1": "WalletV4R1",
         "walletV4R2": "WalletV4R2",
         "walletV5R1": "WalletV5R1"
