@@ -107,7 +107,7 @@
       ],
       "networkType": "venom",
       "blockExplorerUrl": "https://venomscan.com",
-      "manifestUrl": "",
+      "manifestUrl": "https://cdn.venom.foundation/assets/mainnet/manifest.json",
       "sortingOrder": 7
     }    
   ],
