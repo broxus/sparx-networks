@@ -79,7 +79,7 @@
       ],
       "networkType": "ever",
       "blockExplorerUrl": "https://everscan.io",
-      "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
+      "manifestUrl": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/tokens.json",
       "sortingOrder": 5
     },
     {
