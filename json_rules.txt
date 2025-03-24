@@ -32,6 +32,7 @@
                 walletV4R2: String | Map<String, dynamic>
                 walletV5R1: String | Map<String, dynamic>
             },
+            defaultActiveAssets: List<Map<String, dynamic>>
             defaultWalletType: Map<String, String>,
             baseCurrencyUrl: String?,
             nativeTokenIcon: String,
