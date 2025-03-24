@@ -26,6 +26,8 @@
                 walletV3: String | Map<String, dynamic>
                 highloadWalletV2: String | Map<String, dynamic>
                 everWallet: String | Map<String, dynamic>
+                walletV3R1: String | Map<String, dynamic>
+                walletV3R1: String | Map<String, dynamic>
                 walletV4R1: String | Map<String, dynamic>
                 walletV4R2: String | Map<String, dynamic>
                 walletV5R1: String | Map<String, dynamic>
