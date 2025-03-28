@@ -482,6 +482,9 @@
         {
           "type": "multisig",
           "value": "multisig2_1"
+        },
+        {
+          "type": "walletV5R1"
         }
       ],
       "walletDefaultAccountNames": {
