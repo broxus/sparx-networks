@@ -2,7 +2,7 @@
 {
     "app_name": "sparx",
     "name": "SparX Wallet",
-    "image": "https://app.chainconnect.com/assets/icons/SparXWallet.svg",
+    "image": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.png",
     "about_url": "https://sparxwallet.com",
     "universal_url": "https://l.sparxwallet.com",
     "bridge": [
