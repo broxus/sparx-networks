@@ -137,6 +137,48 @@
       "blockExplorerUrl": "https://e-tycho-devnet1.broxus.com/",
       "manifestUrl": "",
       "sortingOrder": 9
+    },
+	{
+      "id": "preset_hmstr_mainnet1_proto",
+      "name": "Hamster Network",
+      "group": "hmstr_mainnet",
+      "type": "proto",
+      "isUsedOnStart": true,
+      "endpoints": [
+        "https://rpc.hamster.network"
+      ],
+      "networkType": "tycho",
+      "blockExplorerUrl": "https://hamsterscan.io",
+      "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/hmstr/manifest.json",
+      "sortingOrder": 10
+    },
+	{
+      "id": "preset_humo_testnet1_proto",
+      "name": "Humo",
+      "group": "humo_testnet",
+      "type": "proto",
+      "isUsedOnStart": true,
+      "endpoints": [
+        "https://rpc.humonetwork.com"
+      ],
+      "networkType": "tycho",
+      "blockExplorerUrl": "https://humoscan.com",
+      "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json",
+      "sortingOrder": 11
+    },
+	{
+      "id": "preset_tycho_testnet1_proto",
+      "name": "Tycho Testnet",
+      "group": "tycho_testnet",
+      "type": "proto",
+      "isUsedOnStart": true,
+      "endpoints": [
+        "https://rpc-testnet.tychoprotocol.com"
+      ],
+      "networkType": "tycho",
+      "blockExplorerUrl": "https://testnet.tychoprotocol.com",
+      "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tychotestnet/manifest.json",
+      "sortingOrder": 12
     }
   ],
   "transports": [
