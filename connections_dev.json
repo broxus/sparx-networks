@@ -87,7 +87,7 @@
       "name": "Everscale (reserve)",
       "group": "mainnet",
       "type": "gql",
-      "isUsedOnStart": false,
+      "isUsedOnStart": true,
       "endpoints": [
         "https://mainnet.evercloud.dev/89a3b8f46a484f2ea3bdd364ddaee3a3/graphql"
       ],
@@ -109,7 +109,35 @@
       "blockExplorerUrl": "https://venomscan.com",
       "manifestUrl": "https://cdn.venom.foundation/assets/mainnet/manifest.json",
       "sortingOrder": 7
-    }    
+    },
+    {
+      "id": "preset_devnet1_proto",
+      "name": "Devnet 1",
+      "group": "tycho_testnet",
+      "type": "proto",
+      "isUsedOnStart": true,
+      "endpoints": [
+        "https://rpc-devnet1.tychoprotocol.com/"
+      ],
+      "networkType": "tycho",
+      "blockExplorerUrl": https://e-tycho-devnet1.broxus.com/",
+      "manifestUrl": "",
+      "sortingOrder": 8
+    },
+	{
+      "id": "preset_devnet1_1_proto",
+      "name": "Devnet 1_1",
+      "group": "tycho_testnet",
+      "type": "proto",
+      "isUsedOnStart": true,
+      "endpoints": [
+        "https://rpc-devnet1.tychoprotocol.com/"
+      ],
+      "networkType": "tycho",
+      "blockExplorerUrl": "https://e-tycho-devnet1.broxus.com/",
+      "manifestUrl": "",
+      "sortingOrder": 9
+    }
   ],
   "transports": [
     {
