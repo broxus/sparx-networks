@@ -120,7 +120,7 @@
         "https://rpc-devnet1.tychoprotocol.com/"
       ],
       "networkType": "tycho",
-      "blockExplorerUrl": https://e-tycho-devnet1.broxus.com/",
+      "blockExplorerUrl": "https://e-tycho-devnet1.broxus.com/",
       "manifestUrl": "",
       "sortingOrder": 8
     },
