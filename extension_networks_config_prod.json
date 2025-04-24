@@ -32,7 +32,7 @@
                 "decimals": 9
             },
             "sortingOrder": 7,
-            "isViewOnOnboarding": true
+            "isViewOnOnboarding": false
         },
         {
             "id": "preset_venom_mainnet_proto",
