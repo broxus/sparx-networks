@@ -110,7 +110,8 @@
                 "decimals": 9,
                 "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json"
             },
-            "sortingOrder": 6
+            "sortingOrder": 6,
+            "isViewOnOnboarding": true
         }
     ],
     "defaultBlockhainSettings": {
