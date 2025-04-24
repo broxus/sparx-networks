@@ -5,7 +5,7 @@
         {
             "id": "preset_ever_mainnet_proto",
             "network": "everscale",
-            "name": "Everscale New",
+            "name": "Everscale Old",
             "group": "mainnet",
             "type": "jrpc",
             "endpoint": "https://jrpc.everwallet.net",
@@ -53,7 +53,7 @@
         {
             "id": "preset_tycho_testnet_proto",
             "network": "tycho",
-            "name": "Tycho Testnet",
+            "name": "Tycho Testnet New",
             "group": "tycho_testnet",
             "type": "proto",
             "endpoint": "https://rpc-testnet.tychoprotocol.com/proto",
@@ -112,7 +112,7 @@
                 "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json"
             },
             "sortingOrder": 6,
-            "isViewOnOnboarding": false
+            "isViewOnOnboarding": true
         }
     ],
     "defaultBlockhainSettings": {
