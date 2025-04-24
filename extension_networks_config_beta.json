@@ -5,7 +5,7 @@
         {
             "id": "preset_ever_mainnet_proto",
             "network": "everscale",
-            "name": "Everscale",
+            "name": "Everscale New",
             "group": "mainnet",
             "type": "jrpc",
             "endpoint": "https://jrpc.everwallet.net",
@@ -112,7 +112,7 @@
                 "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json"
             },
             "sortingOrder": 6,
-            "isViewOnOnboarding": true
+            "isViewOnOnboarding": false
         }
     ],
     "defaultBlockhainSettings": {
