@@ -63,7 +63,8 @@
                 "symbol": "TYCHO",
                 "decimals": 9
             },
-            "sortingOrder": 3
+            "sortingOrder": 3,
+            "isViewOnOnboarding": true
         },
         {
             "id": "preset_ton_mainnet_proto",
