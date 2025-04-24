@@ -48,7 +48,7 @@
                 "decimals": 9
             },
             "sortingOrder": 2,
-            "isViewOnOnboarding": true
+            "isViewOnOnboarding": false
         },
         {
             "id": "preset_tycho_testnet_proto",
