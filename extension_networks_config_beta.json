@@ -40,7 +40,7 @@
             "name": "Venom",
             "group": "venom_mainnet",
             "type": "proto",
-            "endpoint": https://jrpc.venom.foundation",
+            "endpoint": "https://jrpc.venom.foundation",
             "config": {
                 "symbol": "VENOM",
                 "explorerBaseUrl": "https://venomscan.com",
