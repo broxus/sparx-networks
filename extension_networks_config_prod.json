@@ -5,7 +5,7 @@
         {
             "id": "preset_ever_mainnet_proto",
             "network": "everscale",
-            "name": "Everscale New",
+            "name": "Everscale",
             "group": "mainnet",
             "type": "jrpc",
             "endpoint": "https://jrpc.everwallet.net",
@@ -37,7 +37,7 @@
         {
             "id": "preset_venom_mainnet_proto",
             "network": "venom",
-            "name": "Venom New",
+            "name": "Venom",
             "group": "venom_mainnet",
             "type": "proto",
             "endpoint": "https://jrpc.venom.foundation",
