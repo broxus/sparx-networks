@@ -5,7 +5,7 @@
         {
             "id": "preset_ever_mainnet_proto",
             "network": "everscale",
-            "name": "Everscale Old",
+            "name": "Everscale",
             "group": "mainnet",
             "type": "jrpc",
             "endpoint": "https://jrpc.everwallet.net",
@@ -53,7 +53,7 @@
         {
             "id": "preset_tycho_testnet_proto",
             "network": "tycho",
-            "name": "Tycho Testnet New",
+            "name": "Tycho Testnet",
             "group": "tycho_testnet",
             "type": "proto",
             "endpoint": "https://rpc-testnet.tychoprotocol.com/proto",
