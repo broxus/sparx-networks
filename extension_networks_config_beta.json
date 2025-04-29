@@ -226,7 +226,7 @@
                 {
                     "type": "WalletV3R2",
                     "isDeprecated": true
-                }
+                },
                 {
                     "type": "WalletV4R1",
                     "isDeprecated": true
