@@ -96,7 +96,7 @@
                 "decimals": 9
             },
             "sortingOrder": 6,
-            "isViewOnOnboarding": false
+            "isViewOnOnboarding": true
         },
         {
             "id": "preset_venom_mainnet_proto",
