@@ -48,7 +48,7 @@
                 "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json"
             },
             "sortingOrder": 3,
-            "isViewOnOnboarding": true
+            "isViewOnOnboarding": false
         },
 		{
             "id": "preset_tycho_testnet_proto",
@@ -96,7 +96,7 @@
                 "decimals": 9
             },
             "sortingOrder": 6,
-            "isViewOnOnboarding": true
+            "isViewOnOnboarding": false
         },
         {
             "id": "preset_venom_mainnet_proto",
@@ -160,7 +160,6 @@
                 "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/vector.svg"
             },
             "walletDefaultAccountNames": {
-                "SafeMultisigWallet": "SafeMultisig24h",
                 "WalletV3": "Legacy"
             },
             "availableWalletTypes": [
@@ -401,7 +400,6 @@
                 }
             ],
             "walletDefaultAccountNames": {
-                "SafeMultisigWallet": "SafeMultisig24h",
                 "WalletV3": "Legacy"
             },
             "defaultWalletType": "EverWallet",
