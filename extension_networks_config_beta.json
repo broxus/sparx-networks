@@ -48,7 +48,7 @@
                 "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json"
             },
             "sortingOrder": 3,
-            "isViewOnOnboarding": false
+            "isViewOnOnboarding": true
         },
 		{
             "id": "preset_tycho_testnet_proto",
