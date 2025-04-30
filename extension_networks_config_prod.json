@@ -2,6 +2,70 @@
     "$schema": "./networks_config.schema.json",
     "defaultConnectionId": "preset_ever_mainnet_proto",
     "networks": [
+		{
+            "id": "preset_ton_mainnet_proto",
+            "network": "ton",
+            "name": "TON new",
+            "group": "ton",
+            "type": "jrpc",
+            "endpoint": "https://jrpc-ton.broxus.com",
+            "config": {
+                "explorerBaseUrl": "https://tonviewer.com",
+                "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/ton-prod/manifest.json",
+                "symbol": "TON",
+                "decimals": 9
+            },
+            "sortingOrder": 1,
+            "isViewOnOnboarding": true
+        },
+		{
+            "id": "preset_hmstr_mainnet_proto",
+            "network": "tycho",
+            "name": "Hamster Network",
+            "group": "hmstr_mainnet",
+            "type": "proto",
+            "endpoint": "https://rpc.hamster.network",
+            "config": {
+                "explorerBaseUrl": "https://hamsterscan.io",
+                "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/hmstr/manifest.json",
+                "symbol": "HMSTR",
+                "decimals": 9
+            },
+            "sortingOrder": 2,
+            "isViewOnOnboarding": true
+        },
+		{
+            "id": "preset_humo_testnet_proto",
+            "network": "tycho",
+            "name": "Humo",
+            "group": "humo_testnet",
+            "type": "proto",
+            "endpoint": "https://rpc.humonetwork.com",
+            "config": {
+                "explorerBaseUrl": "https://humoscan.com/",
+                "symbol": "HUMO",
+                "decimals": 9,
+                "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json"
+            },
+            "sortingOrder": 3,
+            "isViewOnOnboarding": false
+        },
+		{
+            "id": "preset_tycho_testnet_proto",
+            "network": "tycho",
+            "name": "Tycho Testnet",
+            "group": "tycho_testnet",
+            "type": "proto",
+            "endpoint": "https://rpc-testnet.tychoprotocol.com/proto",
+            "config": {
+                "explorerBaseUrl": "https://testnet.tychoprotocol.com",
+                "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tychotestnet/manifest.json",
+                "symbol": "TYCHO",
+                "decimals": 9
+            },
+            "sortingOrder": 4,
+            "isViewOnOnboarding": true
+        },
         {
             "id": "preset_ever_mainnet_proto",
             "network": "everscale",
@@ -15,7 +79,7 @@
                 "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
                 "decimals": 9
             },
-            "sortingOrder": 1,
+            "sortingOrder": 5,
             "isViewOnOnboarding": true
         },
         {
@@ -31,7 +95,7 @@
                 "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
                 "decimals": 9
             },
-            "sortingOrder": 7,
+            "sortingOrder": 6,
             "isViewOnOnboarding": false
         },
         {
@@ -47,71 +111,7 @@
                 "tokensManifestUrl": "https://cdn.venom.foundation/assets/mainnet/manifest.json",
                 "decimals": 9
             },
-            "sortingOrder": 2,
-            "isViewOnOnboarding": false
-        },
-        {
-            "id": "preset_tycho_testnet_proto",
-            "network": "tycho",
-            "name": "Tycho Testnet",
-            "group": "tycho_testnet",
-            "type": "proto",
-            "endpoint": "https://rpc-testnet.tychoprotocol.com/proto",
-            "config": {
-                "explorerBaseUrl": "https://testnet.tychoprotocol.com",
-                "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tychotestnet/manifest.json",
-                "symbol": "TYCHO",
-                "decimals": 9
-            },
-            "sortingOrder": 3,
-            "isViewOnOnboarding": true
-        },
-        {
-            "id": "preset_ton_mainnet_proto",
-            "network": "ton",
-            "name": "TON",
-            "group": "ton",
-            "type": "jrpc",
-            "endpoint": "https://jrpc-ton.broxus.com",
-            "config": {
-                "explorerBaseUrl": "https://tonviewer.com",
-                "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/ton-prod/manifest.json",
-                "symbol": "TON",
-                "decimals": 9
-            },
-            "sortingOrder": 4,
-            "isViewOnOnboarding": true
-        },
-        {
-            "id": "preset_hmstr_mainnet_proto",
-            "network": "tycho",
-            "name": "Hamster Network",
-            "group": "hmstr_mainnet",
-            "type": "proto",
-            "endpoint": "https://rpc.hamster.network",
-            "config": {
-                "explorerBaseUrl": "https://hamsterscan.io",
-                "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/hmstr/manifest.json",
-                "symbol": "HMSTR",
-                "decimals": 9
-            },
-            "sortingOrder": 5,
-            "isViewOnOnboarding": true
-        },
-        {
-            "id": "preset_humo_testnet_proto",
-            "network": "tycho",
-            "name": "Humo",
-            "group": "humo_testnet",
-            "type": "proto",
-            "endpoint": "https://rpc.humonetwork.com",
-            "config": {
-                "explorerBaseUrl": "https://humoscan.com/",
-                "symbol": "HUMO",
-                "decimals": 9,
-                "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json"
-            },
-            "sortingOrder": 6,
+            "sortingOrder": 7,
             "isViewOnOnboarding": true
         }
     ],
@@ -160,7 +160,6 @@
                 "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/vector.svg"
             },
             "walletDefaultAccountNames": {
-                "SafeMultisigWallet": "SafeMultisig24h",
                 "WalletV3": "Legacy"
             },
             "availableWalletTypes": [
@@ -169,6 +168,14 @@
                 },
                 {
                     "type": "Multisig2_1"
+                },
+                {
+                    "type": "WalletV3R1",
+                    "isDeprecated": true
+                },
+                {
+                    "type": "WalletV3R2",
+                    "isDeprecated": true
                 },
                 {
                     "type": "WalletV4R1",
@@ -180,14 +187,6 @@
                 },
                 {
                     "type": "WalletV5R1"
-                },
-                {
-                    "type": "WalletV3R1",
-                    "isDeprecated": true
-                },
-                {
-                    "type": "WalletV3R2",
-                    "isDeprecated": true
                 }
             ],
             "defaultActiveAssets": [
@@ -220,6 +219,14 @@
                     "type": "Multisig2_1"
                 },
                 {
+                    "type": "WalletV3R1",
+                    "isDeprecated": true
+                },
+                {
+                    "type": "WalletV3R2",
+                    "isDeprecated": true
+                },
+                {
                     "type": "WalletV4R1",
                     "isDeprecated": true
                 },
@@ -229,14 +236,6 @@
                 },
                 {
                     "type": "WalletV5R1"
-                },
-                {
-                    "type": "WalletV3R1",
-                    "isDeprecated": true
-                },
-                {
-                    "type": "WalletV3R2",
-                    "isDeprecated": true
                 }
             ],
             "defaultActiveAssets": [
@@ -319,6 +318,9 @@
                 "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/network.svg",
                 "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/vector.svg"
             },
+		"walletDefaultAccountNames": {
+                "EverWallet": "Ever Wallet"
+            },
             "availableWalletTypes": [
                 {
                     "type": "EverWallet"
@@ -389,6 +391,9 @@
                 "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/network.svg",
                 "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/vector.svg"
             },
+		"walletDefaultAccountNames": {
+                "WalletV3": "Legacy"
+            },
             "availableWalletTypes": [
                 {
                     "type": "EverWallet"
@@ -397,10 +402,6 @@
                     "type": "Multisig2_1"
                 }
             ],
-            "walletDefaultAccountNames": {
-                "SafeMultisigWallet": "SafeMultisig24h",
-                "WalletV3": "Legacy"
-            },
             "defaultWalletType": "EverWallet",
             "stakeInformation": {
                 "symbol": "STVENOM",
