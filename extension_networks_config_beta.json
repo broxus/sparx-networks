@@ -319,6 +319,9 @@
                 "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/network.svg",
                 "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/vector.svg"
             },
+		"walletDefaultAccountNames": {
+                "EverWallet": "EverWallet"
+            },
             "availableWalletTypes": [
                 {
                     "type": "EverWallet"
