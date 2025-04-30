@@ -318,6 +318,9 @@
                 "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/network.svg",
                 "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/vector.svg"
             },
+		"walletDefaultAccountNames": {
+                "EverWallet": "Ever Wallet"
+            },
             "availableWalletTypes": [
                 {
                     "type": "EverWallet"
@@ -358,9 +361,6 @@
                     "isDeprecated": true
                 }
             ],
-		"walletDefaultAccountNames": {
-                "EverWallet": "EverWallet"
-            },
             "defaultWalletType": "EverWallet",
             "stakeInformation": {
                 "symbol": "STEVER",
@@ -391,6 +391,9 @@
                 "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/network.svg",
                 "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/vector.svg"
             },
+		"walletDefaultAccountNames": {
+                "WalletV3": "Legacy"
+            },
             "availableWalletTypes": [
                 {
                     "type": "EverWallet"
@@ -399,9 +402,6 @@
                     "type": "Multisig2_1"
                 }
             ],
-            "walletDefaultAccountNames": {
-                "WalletV3": "Legacy"
-            },
             "defaultWalletType": "EverWallet",
             "stakeInformation": {
                 "symbol": "STVENOM",
