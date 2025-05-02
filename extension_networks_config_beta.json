@@ -3,10 +3,10 @@
     "defaultConnectionId": "preset_ever_mainnet_proto",
     "networks": [
 		{
-            "id": "preset_ton_mainnet_proto",
+            "id": "preset_ton_mainnet_jrpc",
             "network": "ton",
-            "name": "TON new",
-            "group": "ton",
+            "name": "TON",
+            "group": "ton_mainnet",
             "type": "jrpc",
             "endpoint": "https://jrpc-ton.broxus.com",
             "config": {
@@ -16,6 +16,22 @@
                 "decimals": 9
             },
             "sortingOrder": 1,
+            "isViewOnOnboarding": true
+        },
+		{
+            "id": "preset_ton_testnet_jrpc",
+            "network": "ton",
+            "name": "TON Testnet",
+            "group": "ton_testnet",
+            "type": "jrpc",
+            "endpoint": "https://jrpc-ton-testnet.broxus.com/",
+            "config": {
+                "explorerBaseUrl": "https://tonviewer.com",
+                "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/ton-testnet/manifest.json",
+                "symbol": "TON",
+                "decimals": 9
+            },
+            "sortingOrder": 8,
             "isViewOnOnboarding": true
         },
 		{
@@ -153,7 +169,7 @@
         {
             "networkName": "TON",
             "network": "ton",
-            "networkGroup": "ton",
+            "networkGroup": "ton_mainnet",
             "icons": {
                 "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/native_token.svg",
                 "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/network.svg",
@@ -192,6 +208,53 @@
             "defaultActiveAssets": [
                 {
                     "address": "0:09f2e59dec406ab26a5259a45d7ff23ef11f3e5c7c21de0b0d2a1cbe52b76b3d"
+                }
+            ],
+            "defaultWalletType": "WalletV5R1",
+            "nativeTokenAddress": "0:9a8da514d575d20234c3fb1395ee9138f5f1ad838abc905dc42c2389b46bd015",
+            "seedPhraseWordsCount": [
+                12,
+                24
+            ],
+            "currencyApiBaseUrl": "https://tonapi.io/v2"
+        },
+		{
+            "networkName": "TON Testnet",
+            "network": "ton",
+            "networkGroup": "ton_testnet",
+            "icons": {
+                "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/native_token.svg",
+                "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/network.svg",
+                "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/vector.svg"
+            },
+            "walletDefaultAccountNames": {
+                "WalletV3": "Legacy"
+            },
+            "availableWalletTypes": [
+                {
+                    "type": "EverWallet"
+                },
+                {
+                    "type": "Multisig2_1"
+                },
+                {
+                    "type": "WalletV3R1",
+                    "isDeprecated": true
+                },
+                {
+                    "type": "WalletV3R2",
+                    "isDeprecated": true
+                },
+                {
+                    "type": "WalletV4R1",
+                    "isDeprecated": true
+                },
+                {
+                    "type": "WalletV4R2",
+                    "isDeprecated": true
+                },
+                {
+                    "type": "WalletV5R1"
                 }
             ],
             "defaultWalletType": "WalletV5R1",
