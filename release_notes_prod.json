@@ -5,7 +5,7 @@
   },
   "1.4.0": {
     "available": true,
-    "info": "TON Connect integration.\nSupport for Wallet V3R1 and V3R2 on TON.\nSimulate transactions to confirm messages."
+    "info": "TON Connect integration. Support for Wallet V3R1 and V3R2 on TON. Simulate transactions to confirm messages."
   },
   "1.5.0": {
     "available": true,
@@ -17,6 +17,6 @@
   },
   "1.7.1": {
     "available": true,
-    "info": "New network selection screen.\nAdded loader animations.\nAdded forced public key scanning.\nUsing Android Photo Picker."
+    "info": "New network selection screen. Added loader animations. Added forced public key scanning. Using Android Photo Picker."
   }
 }
