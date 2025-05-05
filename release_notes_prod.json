@@ -1,6 +1,22 @@
 {
   "1.3.1": {
     "available": true,
-    "info": "Important update with TonConnect support"
+    "info": "Important update with TonConnect support."
+  },
+  "1.4.0": {
+    "available": true,
+    "info": "TON Connect integration.\nSupport for Wallet V3R1 and V3R2 on TON.\nSimulate transactions to confirm messages."
+  },
+  "1.5.0": {
+    "available": true,
+    "info": "App Version Update System."
+  },
+  "1.6.0": {
+    "available": true,
+    "info": "Added QR code scanner."
+  },
+  "1.7.1": {
+    "available": true,
+    "info": "New network selection screen.\nAdded loader animations.\nAdded forced public key scanning.\nUsing Android Photo Picker."
   }
 }
