@@ -83,20 +83,6 @@
       "sortingOrder": 5
     },
     {
-      "id": "preset_ever_mainnet_gql",
-      "name": "Everscale (reserve)",
-      "group": "mainnet",
-      "type": "gql",
-      "isUsedOnStart": false,
-      "endpoints": [
-        "https://mainnet.evercloud.dev/89a3b8f46a484f2ea3bdd364ddaee3a3/graphql"
-      ],
-      "networkType": "ever",
-      "blockExplorerUrl": "https://everscan.io",
-      "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
-      "sortingOrder": 6
-    },
-    {
       "id": "preset_venom_mainnet_proto",
       "name": "Venom",
       "group": "venom_mainnet",
@@ -108,7 +94,7 @@
       "networkType": "venom",
       "blockExplorerUrl": "https://venomscan.com",
       "manifestUrl": "https://cdn.venom.foundation/assets/mainnet/manifest.json",
-      "sortingOrder": 7
+      "sortingOrder": 6
     }
   ],
   "transports": [
