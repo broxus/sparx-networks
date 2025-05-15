@@ -95,6 +95,20 @@
       "blockExplorerUrl": "https://venomscan.com",
       "manifestUrl": "https://cdn.venom.foundation/assets/mainnet/manifest.json",
       "sortingOrder": 6
+    },
+    {
+      "id": "preset_msharia_premain_proto",
+      "name": "Msharia",
+      "group": "msharia_premain",
+      "type": "proto",
+      "isUsedOnStart": true,
+      "endpoints": [
+        "https://rpc.msharia.io"
+      ],
+      "networkType": "tycho",
+      "blockExplorerUrl": "https://mshariascan.io",
+      "manifestUrl": "",
+      "sortingOrder": 7
     }
   ],
   "transports": [
@@ -522,6 +536,64 @@
       	},
       "tokenApiBaseUrl": "https://tokens.venomscan.com/v1",
       "currencyApiBaseUrl": "https://api.web3.world/v1/currencies",
+      "genericTokenType": "tip3",
+      "accountExplorerLinkType": "accounts",
+      "transactionExplorerLinkType": "transactions"
+    },
+    {
+      "networkName": "Msharia",
+      "networkType": "tycho",
+      "networkGroup": "msharia_premain",
+      "icons": {
+        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.svg",
+        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.svg",
+        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.svg"
+      },
+      "availableWalletTypes": [
+        {
+          "type": "everWallet"
+        },
+        {
+          "type": "multisig",
+          "value": "multisig2_1"
+        }
+      ],
+      "walletDefaultAccountNames": {
+        "multisig": {
+          "safeMultisigWallet": "SafeMultisig",
+          "safeMultisigWallet24h": "SafeMultisig24h",
+          "setcodeMultisigWallet": "SetcodeMultisig",
+          "setcodeMultisigWallet24h": "SetcodeMultisig24h",
+          "bridgeMultisigWallet": "BridgeMultisig",
+          "surfWallet": "Surf Wallet",
+          "multisig2": "Legacy Multi-sig",
+          "multisig2_1": "Multi-sig"
+        },
+        "walletV3": "WalletV3",
+        "highloadWalletV2": "HighloadWallet",
+        "everWallet": "Default",
+        "walletV4R1": "WalletV4R1",
+        "walletV4R2": "WalletV4R2",
+        "walletV5R1": "WalletV5R1"
+      },
+      "defaultWalletType": {
+        "type": "everWallet"
+      },
+      "nativeTokenTickerOption": {
+        "type": "byName",
+        "name": "MSHA"
+      },
+      "manifestOption": {
+        "type": "fromConnection"
+      },
+      "nativeTokenAddress": "0:ee49dd4c3a7754ace683612e5f9d06508ff13acb4055168fada912af25919271",
+      "seedPhraseWordsCount": [
+        12
+      ],
+      "defaultNativeCurrencyDecimal": 9,
+      "baseCurrencyUrl": "",
+      "tokenApiBaseUrl": "",
+      "currencyApiBaseUrl": "",  
       "genericTokenType": "tip3",
       "accountExplorerLinkType": "accounts",
       "transactionExplorerLinkType": "transactions"
