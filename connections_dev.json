@@ -124,61 +124,19 @@
       "manifestUrl": "",
       "sortingOrder": 8
     },
-	{
-      "id": "preset_devnet1_1_proto",
-      "name": "Devnet 1_1",
-      "group": "tycho_testnet",
+    {
+      "id": "preset_msharia_premain_proto",
+      "name": "Msharia",
+      "group": "msharia_premain",
       "type": "proto",
-      "isUsedOnStart": true,
+      "isUsedOnStart": false,
       "endpoints": [
-        "https://rpc-devnet1.tychoprotocol.com/"
+        "https://rpc.msharia.io"
       ],
       "networkType": "tycho",
-      "blockExplorerUrl": "https://e-tycho-devnet1.broxus.com/",
+      "blockExplorerUrl": "https://mshariascan.io",
       "manifestUrl": "",
       "sortingOrder": 9
-    },
-	{
-      "id": "preset_hmstr_mainnet1_proto",
-      "name": "Hamster Network",
-      "group": "hmstr_mainnet",
-      "type": "proto",
-      "isUsedOnStart": true,
-      "endpoints": [
-        "https://rpc.hamster.network"
-      ],
-      "networkType": "tycho",
-      "blockExplorerUrl": "https://hamsterscan.io",
-      "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/hmstr/manifest.json",
-      "sortingOrder": 10
-    },
-	{
-      "id": "preset_humo_testnet1_proto",
-      "name": "Humo",
-      "group": "humo_testnet",
-      "type": "proto",
-      "isUsedOnStart": true,
-      "endpoints": [
-        "https://rpc.humonetwork.com"
-      ],
-      "networkType": "tycho",
-      "blockExplorerUrl": "https://humoscan.com",
-      "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json",
-      "sortingOrder": 11
-    },
-	{
-      "id": "preset_tycho_testnet1_proto",
-      "name": "Tycho Testnet",
-      "group": "tycho_testnet",
-      "type": "proto",
-      "isUsedOnStart": true,
-      "endpoints": [
-        "https://rpc-testnet.tychoprotocol.com"
-      ],
-      "networkType": "tycho",
-      "blockExplorerUrl": "https://testnet.tychoprotocol.com",
-      "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tychotestnet/manifest.json",
-      "sortingOrder": 12
     }
   ],
   "transports": [
@@ -656,6 +614,64 @@
       },
       "tokenApiBaseUrl": "https://tokens.venomscan.com/v1",
       "currencyApiBaseUrl": "https://api.web3.world/v1/currencies",
+      "genericTokenType": "tip3",
+      "accountExplorerLinkType": "accounts",
+      "transactionExplorerLinkType": "transactions"
+    },
+    {
+      "networkName": "Msharia",
+      "networkType": "tycho",
+      "networkGroup": "msharia_premain",
+      "icons": {
+        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.png",
+        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.png",
+        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.png"
+      },
+      "availableWalletTypes": [
+        {
+          "type": "everWallet"
+        },
+        {
+          "type": "multisig",
+          "value": "multisig2_1"
+        }
+      ],
+      "walletDefaultAccountNames": {
+        "multisig": {
+          "safeMultisigWallet": "SafeMultisig",
+          "safeMultisigWallet24h": "SafeMultisig24h",
+          "setcodeMultisigWallet": "SetcodeMultisig",
+          "setcodeMultisigWallet24h": "SetcodeMultisig24h",
+          "bridgeMultisigWallet": "BridgeMultisig",
+          "surfWallet": "Surf Wallet",
+          "multisig2": "Legacy Multi-sig",
+          "multisig2_1": "Multi-sig"
+        },
+        "walletV3": "WalletV3",
+        "highloadWalletV2": "HighloadWallet",
+        "everWallet": "Default",
+        "walletV4R1": "WalletV4R1",
+        "walletV4R2": "WalletV4R2",
+        "walletV5R1": "WalletV5R1"
+      },
+      "defaultWalletType": {
+        "type": "everWallet"
+      },
+      "nativeTokenTickerOption": {
+        "type": "byName",
+        "name": "MSHA"
+      },
+      "manifestOption": {
+        "type": "fromConnection"
+      },
+      "nativeTokenAddress": "0:ee49dd4c3a7754ace683612e5f9d06508ff13acb4055168fada912af25919271",
+      "seedPhraseWordsCount": [
+        12
+      ],
+      "defaultNativeCurrencyDecimal": 9,
+      "baseCurrencyUrl": "",
+      "tokenApiBaseUrl": "",
+      "currencyApiBaseUrl": "",  
       "genericTokenType": "tip3",
       "accountExplorerLinkType": "accounts",
       "transactionExplorerLinkType": "transactions"
