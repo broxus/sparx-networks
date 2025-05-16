@@ -98,7 +98,7 @@
     },
     {
       "id": "preset_msharia_premain_proto",
-      "name": "Msharia",
+      "name": "M.Sharia",
       "group": "msharia_premain",
       "type": "proto",
       "isUsedOnStart": true,
@@ -541,7 +541,7 @@
       "transactionExplorerLinkType": "transactions"
     },
     {
-      "networkName": "Msharia",
+      "networkName": "M.Sharia",
       "networkType": "tycho",
       "networkGroup": "msharia_premain",
       "icons": {
