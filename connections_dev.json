@@ -111,32 +111,18 @@
       "sortingOrder": 7
     },
     {
-      "id": "preset_devnet1_proto",
-      "name": "Devnet 1",
-      "group": "tycho_testnet",
-      "type": "proto",
-      "isUsedOnStart": true,
-      "endpoints": [
-        "https://rpc-devnet1.tychoprotocol.com/"
-      ],
-      "networkType": "tycho",
-      "blockExplorerUrl": "https://e-tycho-devnet1.broxus.com/",
-      "manifestUrl": "",
-      "sortingOrder": 8
-    },
-    {
       "id": "preset_msharia_premain_proto",
       "name": "M.Sharia",
       "group": "msharia_premain",
       "type": "proto",
-      "isUsedOnStart": false,
+      "isUsedOnStart": true,
       "endpoints": [
         "https://rpc.msharia.io"
       ],
       "networkType": "tycho",
       "blockExplorerUrl": "https://mshariascan.io",
       "manifestUrl": "",
-      "sortingOrder": 9
+      "sortingOrder": 8
     }
   ],
   "transports": [
