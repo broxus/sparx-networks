@@ -18,5 +18,9 @@
   "1.7.1": {
     "available": true,
     "info": "New network selection screen.\nAdded loader animations.\nAdded forced public key scanning.\nUsing Android Photo Picker."
+  },
+  "1.8.1": {
+    "available": true,
+    "info": "All-new built-in browser"
   }
 }
