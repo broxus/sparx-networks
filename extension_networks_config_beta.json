@@ -31,7 +31,7 @@
                 "symbol": "TON",
                 "decimals": 9
             },
-            "sortingOrder": 8,
+            "sortingOrder": 9,
             "isViewOnOnboarding": true
         },
 		{
@@ -64,7 +64,7 @@
                 "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json"
             },
             "sortingOrder": 3,
-            "isViewOnOnboarding": false
+            "isViewOnOnboarding": true
         },
 		{
             "id": "preset_tycho_testnet_proto",
@@ -128,6 +128,22 @@
                 "decimals": 9
             },
             "sortingOrder": 7,
+            "isViewOnOnboarding": true
+        },
+	{
+            "id": "preset_msharia_premain_proto",
+            "network": "tycho",
+            "name": "M.Sharia",
+            "group": "msharia_premain",
+            "type": "proto",
+            "endpoint": "https://rpc.msharia.io",
+            "config": {
+                "explorerBaseUrl": "https://mshariascan.io",
+                "symbol": "MSHA",
+                "decimals": 9,
+                "tokensManifestUrl": ""
+            },
+            "sortingOrder": 8,
             "isViewOnOnboarding": true
         }
     ],
@@ -484,6 +500,30 @@
             "tokenApiUrl": {
                 "balances": "https://tokens.venomscan.com/v1/balances"
             }
+        },
+	{
+            "networkName": "M.Sharia",
+            "network": "tycho",
+            "networkGroup": "msharia_premain",
+            "icons": {
+                "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/msharia_dark.svg",
+                "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/msharia_gold.svg",
+                "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/msharia_gold.svg"
+            },
+            "availableWalletTypes": [
+                {
+                    "type": "EverWallet"
+                },
+                {
+                    "type": "Multisig2_1"
+                }
+            ],
+            "defaultWalletType": "EverWallet",
+            "nativeTokenAddress": "0:ee49dd4c3a7754ace683612e5f9d06508ff13acb4055168fada912af25919271",
+            "seedPhraseWordsCount": [
+                12
+            ],
+            "currencyApiBaseUrl": ""
         }
     ]
 }
