@@ -3,10 +3,10 @@
     "defaultConnectionId": "preset_ever_mainnet_proto",
     "networks": [
 		{
-            "id": "preset_ton_mainnet_proto",
+            "id": "preset_ton_mainnet_jrpc",
             "network": "ton",
-            "name": "TON new",
-            "group": "ton",
+            "name": "TON",
+            "group": "ton_mainnet",
             "type": "jrpc",
             "endpoint": "https://jrpc-ton.broxus.com",
             "config": {
