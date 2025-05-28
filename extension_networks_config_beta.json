@@ -1,11 +1,11 @@
 {
     "$schema": "./networks_config.schema.json",
-    "defaultConnectionId": "preset_ever_mainnet_proto",
+    "defaultConnectionId": "preset_hmstr_mainnet_proto",
     "networks": [
 		{
             "id": "preset_ton_mainnet_jrpc",
             "network": "ton",
-            "name": "TON new",
+            "name": "TON",
             "group": "ton_mainnet",
             "type": "jrpc",
             "endpoint": "https://jrpc-ton.broxus.com",
@@ -130,7 +130,7 @@
             "sortingOrder": 7,
             "isViewOnOnboarding": true
         },
-	{
+		{
             "id": "preset_msharia_premain_proto",
             "network": "tycho",
             "name": "M.Sharia",
@@ -190,10 +190,10 @@
                 "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/native_token.svg",
                 "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/network.svg",
                 "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/vector.svg"
-            },
+				},
             "walletDefaultAccountNames": {
                 "WalletV3": "Legacy"
-            },
+				},
             "availableWalletTypes": [
                 {
                     "type": "EverWallet"
@@ -396,10 +396,10 @@
                 "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/native_token.svg",
                 "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/network.svg",
                 "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/vector.svg"
-            },
-		"walletDefaultAccountNames": {
+				},
+			"walletDefaultAccountNames": {
                 "EverWallet": "Ever Wallet"
-            },
+				},
             "availableWalletTypes": [
                 {
                     "type": "EverWallet"
@@ -470,7 +470,7 @@
                 "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/network.svg",
                 "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/vector.svg"
             },
-		"walletDefaultAccountNames": {
+			"walletDefaultAccountNames": {
                 "WalletV3": "Legacy"
             },
             "availableWalletTypes": [
@@ -501,7 +501,7 @@
                 "balances": "https://tokens.venomscan.com/v1/balances"
             }
         },
-	{
+		{
             "networkName": "M.Sharia",
             "network": "tycho",
             "networkGroup": "msharia_premain",
