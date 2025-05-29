@@ -6,7 +6,7 @@
             "id": "preset_ton_mainnet_jrpc",
             "network": "ton",
             "name": "TON",
-            "group": "ton_mainnet",
+            "group": "ton",
             "type": "jrpc",
             "endpoint": "https://jrpc-ton.broxus.com",
             "config": {
@@ -169,7 +169,7 @@
         {
             "networkName": "TON",
             "network": "ton",
-            "networkGroup": "ton_mainnet",
+            "networkGroup": "ton",
             "icons": {
                 "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/native_token.svg",
                 "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/network.svg",
