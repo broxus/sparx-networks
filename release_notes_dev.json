@@ -22,5 +22,9 @@
   "1.8.1": {
     "available": true,
     "info": "All-new built-in browser"
+  },
+  "1.9.0": {
+    "available": true,
+    "info": "Bug fixes, minor improvements and code refactoring"
   }
 }
