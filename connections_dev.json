@@ -530,6 +530,15 @@
         "stakeRemovePendingWithdrawAttachedFee": "2000000000",
         "stakeWithdrawAttachedFee": "3000000000"
       },
+	"nftInformation": {
+    		"marketplaceUrl": "https://tokstock.io",
+    		"defaultCollections": [
+      	"0:4876694042b5b385318f2bd49f2eebf9d68913f1ccd723ab95c5ccb12979c8ba",
+      	"0:a7d0694c025b61e1a4a846f1cf88980a5df8adf737d17ac58e35bf172c9fca29",
+      	"0:0cd35b77b73df2ce86288cb8530cb6328363543f04da81687e43b3d5628c0bda",
+      	"0:df7b78349b6b194997ee7d7afdb263cdd566c440371d320d1c06d519c6278c5b"
+    	]
+  	},	
       "tokenApiBaseUrl": "https://tokens.everscan.io/v1",
       "currencyApiBaseUrl": "https://api.flatqube.io/v1/currencies",
       "genericTokenType": "tip3",
