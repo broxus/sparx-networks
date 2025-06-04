@@ -442,7 +442,7 @@
         "stakeDepositAttachedFee": "3000000000",
         "stakeRemovePendingWithdrawAttachedFee": "3000000000",
         "stakeWithdrawAttachedFee": "3000000000"
-      },
+      }
     },
 	{
       "networkName": "Everscale",
