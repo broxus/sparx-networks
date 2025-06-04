@@ -434,7 +434,15 @@
       "tokenApiBaseUrl": "https://e-tokens-api-tycho.broxus.com/v1",
       "genericTokenType": "tip3",
       "accountExplorerLinkType": "accounts",
-      "transactionExplorerLinkType": "transactions"
+      "transactionExplorerLinkType": "transactions",
+      "stakeInformation": {
+        "stakingAPYLink": "https://staking-tycho-testnet-test.everwallet.net/v1/strategies/main",
+        "stakingValutAddress": "0:538b6135fd39fc707b0c1459469db104383c431d4d116ffd0d58cc75c95a3f95",
+        "stakingRootContractAddress": "0:caab0a342f46d0f32d478a0e90c4ffd61e727ad2b838ea4c2a5825a484960b54",
+        "stakeDepositAttachedFee": "3000000000",
+        "stakeRemovePendingWithdrawAttachedFee": "3000000000",
+        "stakeWithdrawAttachedFee": "3000000000"
+      },
     },
 	{
       "networkName": "Everscale",
