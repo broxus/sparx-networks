@@ -451,8 +451,8 @@
       	]	
     	},
   	  "pollingConfig": {
-  	    "tonWalletRefreshInterval": 3,
-  	    "tokenWalletRefreshInterval": 3,
+  	    "tonWalletRefreshInterval": 1,
+  	    "tokenWalletRefreshInterval": 1,
   	    "intensivePollingInterval": 1
   	  }
   },
