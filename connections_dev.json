@@ -409,7 +409,7 @@
         "walletV3": "WalletV3",
         "highloadWalletV2": "HighloadWallet",
         "everWallet": "Default",
-		"walletV3R1": "WalletV3R1",
+		    "walletV3R1": "WalletV3R1",
         "walletV3R2": "WalletV3R2",
         "walletV4R1": "WalletV4R1",
         "walletV4R2": "WalletV4R2",
@@ -443,14 +443,19 @@
         "stakeRemovePendingWithdrawAttachedFee": "3000000000",
         "stakeWithdrawAttachedFee": "3000000000"
       },
-	"nftInformation": {
+	    "nftInformation": {
     		"marketplaceUrl": "https://tycho.tokstock.io",
     		"defaultCollections": [
-	"0:6891af9a4435f7a53a471a43225eec4b0fe15ce9f1ff20b4ec76db05bddbd399",
-	"0:23a353e5da6a7811a71d6e74ad3034fb39dddfb576d80b4f3afc2796672da516"
-    	]	
-  	}	
-    },
+        	"0:6891af9a4435f7a53a471a43225eec4b0fe15ce9f1ff20b4ec76db05bddbd399",
+        	"0:23a353e5da6a7811a71d6e74ad3034fb39dddfb576d80b4f3afc2796672da516"
+      	]	
+    	},
+  	  "pollingConfig": {
+  	    "tonWalletRefreshInterval": 3,
+  	    "tokenWalletRefreshInterval": 3,
+  	    "intensivePollingInterval": 1
+  	  }
+  },
 	{
       "networkName": "Everscale",
       "networkType": "ever",
