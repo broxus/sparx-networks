@@ -284,7 +284,12 @@
       "currencyApiBaseUrl": "https://api.hamsterdex.io/v1/currencies",  
       "genericTokenType": "tip3",
       "accountExplorerLinkType": "accounts",
-      "transactionExplorerLinkType": "transactions"
+      "transactionExplorerLinkType": "transactions",
+      "pollingConfig": {
+  	    "tonWalletRefreshInterval": 1,
+  	    "tokenWalletRefreshInterval": 1,
+  	    "intensivePollingInterval": 1
+      }
     },
 	{
       "networkName": "Humo",
