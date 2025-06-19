@@ -268,7 +268,12 @@
             "currencyApiBaseUrl": "https://api.hamsterdex.io/v1",
             "tokenApiUrl": {
                 "balances": "https://tokens.hamsterscan.io/v1/balances/search"
-            }
+            },
+      "pollingConfig": {
+  	    "tonWalletRefreshInterval": 2,
+  	    "tokenWalletRefreshInterval": 2,
+  	    "intensivePollingInterval": 2
+      }
         },
         {
             "networkName": "Humo",
@@ -292,7 +297,12 @@
             "seedPhraseWordsCount": [
                 12
             ],
-            "currencyApiBaseUrl": "https://humo-dex-api.broxus.com/v1"
+            "currencyApiBaseUrl": "https://humo-dex-api.broxus.com/v1",
+      "pollingConfig": {
+  	    "tonWalletRefreshInterval": 1,
+  	    "tokenWalletRefreshInterval": 1,
+  	    "intensivePollingInterval": 1
+      }
         },
         {
             "networkName": "Tycho Testnet",
@@ -323,7 +333,12 @@
             "currencyApiBaseUrl": "https://api-test-tycho.flatqube.io/v1",
             "tokenApiUrl": {
                 "balances": "https://e-tokens-api-tycho.broxus.com/v1/balances/search"
-            }
+            },
+      "pollingConfig": {
+  	    "tonWalletRefreshInterval": 1,
+  	    "tokenWalletRefreshInterval": 1,
+  	    "intensivePollingInterval": 1
+      }
         },
         {
             "networkName": "Everscale",
