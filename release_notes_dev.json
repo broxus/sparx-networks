@@ -23,12 +23,16 @@
     "available": true,
     "info": "All-new built-in browser"
   },
-  "1.9.0": {
+    "1.9.1": {
     "available": true,
     "info": "Bug fixes, minor improvements and code refactoring."
   },
-    "1.9.2": {
+    "1.10.0": {
     "available": true,
     "info": "Bug fixes, minor improvements, and more."
+  },
+    "1.11.0": {
+    "available": true,
+    "info": "NFT support"
   }
 }
