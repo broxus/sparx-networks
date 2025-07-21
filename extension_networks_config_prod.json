@@ -458,9 +458,9 @@
             "network": "tycho",
             "networkGroup": "msharia_premain",
             "icons": {
-                "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/msharia_dark.svg",
-                "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/msharia_gold.svg",
-                "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/msharia_gold.svg"
+                "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/msharia/native_token.svg",
+                "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/msharia/native_token.svg",
+                "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/msharia/native_token.svg"
             },
             "availableWalletTypes": [
                 {
