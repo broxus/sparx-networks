@@ -34,5 +34,9 @@
     "1.11.0": {
     "available": true,
     "info": "NFT support"
+  },
+    "1.13.0": {
+    "available": true,
+    "info": "Added staking on Tycho Testnet.\nRefreshed Settings menu.\nUpdated to freezed 3.0.0.\nBug fixes, minor improvements, and more."
   }
 }
