@@ -292,7 +292,7 @@
                     "type": "Multisig2_1"
                 }
             ],
-            "defaultWalletType": "EverWallet",
+            "defaultWalletType": "WalletV5R1",
             "nativeTokenAddress": "0:ee49dd4c3a7754ace683612e5f9d06508ff13acb4055168fada912af25919271",
             "seedPhraseWordsCount": [
                 12
