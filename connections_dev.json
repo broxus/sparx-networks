@@ -330,7 +330,7 @@
                 "walletV5R1": "WalletV5R1"
             },
             "defaultWalletType": {
-                "type": "everWallet"
+                "type": "walletV5R1"
             },
             "nativeTokenTickerOption": {
                 "type": "byName",
