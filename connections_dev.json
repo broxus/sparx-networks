@@ -121,7 +121,7 @@
             ],
             "networkType": "tycho",
             "blockExplorerUrl": "https://mshariascan.io",
-            "manifestUrl": "",
+            "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/msharia/manifest.json",
             "sortingOrder": 8
         }
     ],
