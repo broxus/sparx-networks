@@ -125,7 +125,7 @@
                 "explorerBaseUrl": "https://mshariascan.io",
                 "symbol": "MSHA",
                 "decimals": 9,
-                "tokensManifestUrl": ""
+                "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/msharia/manifest.json"
             },
             "sortingOrder": 8,
             "isViewOnOnboarding": false
