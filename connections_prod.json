@@ -619,6 +619,11 @@
                     "value": "multisig2_1"
                 }
             ],
+            "defaultActiveAssets": [
+                {
+                    "address": "0:f310414c86451a3136828ffc64fad3a260f14e5d5a75e000ce92a67a01d55f27"
+                }
+            ],
             "walletDefaultAccountNames": {
                 "multisig": {
                     "safeMultisigWallet": "SafeMultisig",
