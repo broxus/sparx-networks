@@ -46,5 +46,9 @@
     "1.14.3": {
     "available": true,
     "info": "Bug fixes, minor improvements and code refactoring."
+  },
+    "1.14.4": {
+    "available": true,
+    "info": "Bug fixes, minor improvements and code refactoring."
   }
 }
