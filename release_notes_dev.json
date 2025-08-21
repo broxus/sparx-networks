@@ -47,8 +47,8 @@
     "available": true,
     "info": "Bug fixes, minor improvements and code refactoring."
   },
-    "1.14.4": {
+    "1.15.0": {
     "available": true,
-    "info": "Bug fixes, minor improvements and code refactoring."
+    "info": "Added support for importing a seed phrase using a Ledger over Bluetooth"
   }
 }
