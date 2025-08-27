@@ -56,9 +56,9 @@
             "name": "Humo",
             "group": "humo_testnet",
             "type": "proto",
-            "endpoint": "https://rpc.humonetwork.com",
+            "endpoint": "https://rpc.tvm.mirasmanda.uz",
             "config": {
-                "explorerBaseUrl": "https://humoscan.com/",
+                "explorerBaseUrl": "https://tvm.mirasmanda.uz",
                 "symbol": "HUMO",
                 "decimals": 9,
                 "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json"
