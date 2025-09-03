@@ -470,6 +470,11 @@
                     "type": "Multisig2_1"
                 }
             ],
+			"defaultActiveAssets": [
+                {
+                    "address": "0:8305ee8616735691da2d329aa28ec6f81eabe7f0204be48a671cf2be18e0f02b"
+                }
+            ],
             "defaultWalletType": "EverWallet",
             "nativeTokenAddress": "0:ee49dd4c3a7754ace683612e5f9d06508ff13acb4055168fada912af25919271",
             "seedPhraseWordsCount": [
