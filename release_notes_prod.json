@@ -54,5 +54,9 @@
     "1.15.1": {
     "available": true,
     "info": "Bug fixes, minor improvements and code refactoring."
+  },
+   "1.15.2": {
+    "available": true,
+    "info": "Refactored screens: migrated from Block to Elementary."
   }
 }
