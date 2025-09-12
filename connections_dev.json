@@ -398,6 +398,9 @@
                 {
                     "type": "multisig",
                     "value": "surfWallet"
+                },
+                {
+                    "type": "walletV5R1"
                 }
             ],
             "walletDefaultAccountNames": {
