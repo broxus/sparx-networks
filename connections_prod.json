@@ -272,9 +272,9 @@
             "accountExplorerLinkType": "accounts",
             "transactionExplorerLinkType": "transactions",
             "pollingConfig": {
-                "tonWalletRefreshInterval": 2,
-                "tokenWalletRefreshInterval": 2,
-                "intensivePollingInterval": 2
+                "tonWalletRefreshInterval": 5,
+                "tokenWalletRefreshInterval": 5,
+                "intensivePollingInterval": 5
             }
         },
         {
@@ -337,9 +337,9 @@
             "accountExplorerLinkType": "accounts",
             "transactionExplorerLinkType": "transactions",
             "pollingConfig": {
-                "tonWalletRefreshInterval": 1,
-                "tokenWalletRefreshInterval": 1,
-                "intensivePollingInterval": 1
+                "tonWalletRefreshInterval": 5,
+                "tokenWalletRefreshInterval": 5,
+                "intensivePollingInterval": 5
             }
         },
         {
