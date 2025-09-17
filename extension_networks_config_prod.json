@@ -502,7 +502,7 @@
                     "type": "WalletV5R1"
                 }
             ],
-            "defaultWalletType": "EverWallet",
+            "defaultWalletType": "WalletV5R1",
             "nativeTokenAddress": "",
             "seedPhraseWordsCount": [
                 12,
