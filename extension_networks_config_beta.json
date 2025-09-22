@@ -411,6 +411,7 @@
             "tokenApiUrl": {
                 "balances": "https://e-tokens-api-tycho.broxus.com/v1/balances/search"
             },
+			"gaslessApiBaseUrl": "https://gasless-api-test.sparxwallet.com",
   	  		"pollingConfig": {
   	    		"tonWalletRefreshInterval": 1,
   	    		"tokenWalletRefreshInterval": 1,
