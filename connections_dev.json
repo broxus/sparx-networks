@@ -441,7 +441,7 @@
             "baseCurrencyUrl": "https://api-test-tycho.flatqube.io/v1/currencies",
             "tokenApiBaseUrl": "https://e-tokens-api-tycho.broxus.com/v1",
             "currencyApiBaseUrl": "https://api-test-tycho.flatqube.io/v1/currencies",
-
+            "gaslessApiBaseUrl": "https://gasless-api-test.sparxwallet.com/v1/gasless",
             "genericTokenType": "tip3",
             "accountExplorerLinkType": "accounts",
             "transactionExplorerLinkType": "transactions",
