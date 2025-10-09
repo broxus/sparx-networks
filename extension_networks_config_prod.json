@@ -488,6 +488,9 @@
             },
             "availableWalletTypes": [
                 {
+					"type": "WalletV5R1"
+				},
+				{
                     "type": "EverWallet"
                 },
                 {
