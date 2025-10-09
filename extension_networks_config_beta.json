@@ -577,7 +577,15 @@
                 12
             ],
             "currencyApiBaseUrl": "",
-			"gaslessApiBaseUrl": "https://gasless-api-msha.sparxwallet.com"
+			"tokenApiUrl": {
+                "balances": "https://tokens-api.mshariascan.io/v1/balances/search"
+            },
+			"gaslessApiBaseUrl": "https://gasless-api-msha.sparxwallet.com",
+			"pollingConfig": {
+  	    		"tonWalletRefreshInterval": 5,
+  	    		"tokenWalletRefreshInterval": 5,
+  	    		"intensivePollingInterval": 5
+  	  		}
         },
         {
             "networkName": "",
