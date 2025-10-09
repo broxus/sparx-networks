@@ -576,7 +576,8 @@
             "seedPhraseWordsCount": [
                 12
             ],
-            "currencyApiBaseUrl": ""
+            "currencyApiBaseUrl": "",
+			"gaslessApiBaseUrl": "https://gasless-api-msha.sparxwallet.com"
         },
         {
             "networkName": "",
