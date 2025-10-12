@@ -711,7 +711,7 @@
             ],
             "defaultNativeCurrencyDecimal": 9,
             "baseCurrencyUrl": "https://msharia-dex-api.broxus.com/v1/currencies",
-            "tokenApiBaseUrl": "",
+            "tokenApiBaseUrl": "https://tokens-api.mshariascan.io/v1",
             "currencyApiBaseUrl": "https://msharia-dex-api.broxus.com/v1/currencies",
             "nftInformation": {
                 "marketplaceUrl": "",
