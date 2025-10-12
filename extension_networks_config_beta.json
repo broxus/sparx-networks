@@ -576,7 +576,7 @@
             "seedPhraseWordsCount": [
                 12
             ],
-            "currencyApiBaseUrl": "https://msharia-dex-api.broxus.com/v1/currencies",
+            "currencyApiBaseUrl": "https://msharia-dex-api.broxus.com/v1",
 			"tokenApiUrl": {
                 "balances": "https://tokens-api.mshariascan.io/v1/balances/search"
             },
