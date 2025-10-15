@@ -70,5 +70,9 @@
     "1.17.1": {
     "available": true,
     "info": "Bug fixes, minor improvements and code refactoring."
+  },
+    "1.18.0": {
+    "available": true,
+    "info": "Bug fixes, minor improvements and code refactoring."
   }
 }
