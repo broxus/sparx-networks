@@ -404,6 +404,7 @@
                     "networkType": "tycho",
                     "networkGroup": "venom_mainnet_new",
                     "type": "proto",
+                    "isViewOnOnboarding": true,
                     "endpoint": "http://57.128.125.26:8001/",
                     "config": {
                         "symbol": "VENOM",
