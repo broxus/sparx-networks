@@ -145,6 +145,22 @@
             },
             "sortingOrder": 8,
             "isViewOnOnboarding": true
+        },
+		{
+            "id": "preset_van_lang_proto",
+            "network": "tycho",
+            "name": "VAN LANG",
+            "group": "van_lang",
+            "type": "proto",
+            "endpoint": "https://rpc-vietnam.broxus.com",
+            "config": {
+                "explorerBaseUrl": "https://e-vietnam.broxus.com",
+                "symbol": "VLP",
+                "decimals": 9,
+                "tokensManifestUrl": ""
+            },
+            "sortingOrder": 10,
+            "isViewOnOnboarding": true
         }
     ],
     "defaultBlockhainSettings": {
@@ -585,6 +601,41 @@
   	    		"tonWalletRefreshInterval": 5,
   	    		"tokenWalletRefreshInterval": 5,
   	    		"intensivePollingInterval": 5
+  	  		}
+        },
+		{
+            "networkName": "VAN LANG",
+            "network": "tycho",
+            "networkGroup": "van_lang",
+            "icons": {
+                "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.svg",
+                "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.svg",
+                "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.svg"
+            },
+            "availableWalletTypes": [
+                {
+					"type": "WalletV5R1"
+				},
+				{
+                    "type": "EverWallet"
+                },
+                {
+                    "type": "Multisig2_1"
+                }
+            ],
+            "defaultWalletType": "WalletV5R1",
+            "nativeTokenAddress": "0:dc85db3b3cab2c54dd728e882084b2c03086018ed0ce5928cc510d8756ed49c9",
+            "seedPhraseWordsCount": [
+                12
+            ],
+            "currencyApiBaseUrl": "",
+			"tokenApiUrl": {
+                "balances": ""
+            },
+			"pollingConfig": {
+  	    		"tonWalletRefreshInterval": 1,
+  	    		"tokenWalletRefreshInterval": 1,
+  	    		"intensivePollingInterval": 1
   	  		}
         },
         {
