@@ -123,6 +123,20 @@
             "blockExplorerUrl": "https://mshariascan.io",
             "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/msharia/manifest.json",
             "sortingOrder": 8
+        },
+        {
+            "id": "preset_van_lang_proto",
+            "name": "Van Lang",
+            "group": "van_lang",
+            "type": "proto",
+            "isUsedOnStart": false,
+            "endpoints": [
+                "https://rpc-vietnam.broxus.com"
+            ],
+            "networkType": "tycho",
+            "blockExplorerUrl": "https://e-vietnam.broxus.com",
+            "manifestUrl": "",
+            "sortingOrder": 9
         }
     ],
     "transports": [
@@ -722,6 +736,71 @@
             "genericTokenType": "tip3",
             "accountExplorerLinkType": "accounts",
             "transactionExplorerLinkType": "transactions"
+        },
+        {
+            "networkName": "Van Lang",
+            "networkType": "tycho",
+            "networkGroup": "van_lang",
+            "icons": {
+                "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.svg",
+                "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.svg",
+                "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.svg"
+            },
+            "availableWalletTypes": [
+                {
+                    "type": "walletV5R1"
+                },
+                {
+                    "type": "multisig",
+                    "value": "multisig2_1"
+                }
+            ],
+            "walletDefaultAccountNames": {
+                "multisig": {
+                    "safeMultisigWallet": "SafeMultisig",
+                    "safeMultisigWallet24h": "SafeMultisig24h",
+                    "setcodeMultisigWallet": "SetcodeMultisig",
+                    "setcodeMultisigWallet24h": "SetcodeMultisig24h",
+                    "bridgeMultisigWallet": "BridgeMultisig",
+                    "surfWallet": "Surf Wallet",
+                    "multisig2": "Legacy Multi-sig",
+                    "multisig2_1": "Multi-sig"
+                },
+                "walletV3": "WalletV3",
+                "highloadWalletV2": "HighloadWallet",
+                "everWallet": "SparX",
+                "walletV3R1": "WalletV3R1",
+                "walletV3R2": "WalletV3R2",
+                "walletV4R1": "WalletV4R1",
+                "walletV4R2": "WalletV4R2",
+                "walletV5R1": "WalletV5R1"
+            },
+            "defaultWalletType": {
+                "type": "walletV5R1"
+            },
+            "nativeTokenTickerOption": {
+                "type": "byName",
+                "name": "VLP"
+            },
+            "manifestOption": {
+                "type": "fromConnection"
+            },
+            "nativeTokenAddress": "0:dc85db3b3cab2c54dd728e882084b2c03086018ed0ce5928cc510d8756ed49c9",
+            "seedPhraseWordsCount": [
+                12
+            ],
+            "defaultNativeCurrencyDecimal": 9,
+            "baseCurrencyUrl": "",
+            "tokenApiBaseUrl": "",
+            "currencyApiBaseUrl": "",
+            "genericTokenType": "tip3",
+            "accountExplorerLinkType": "accounts",
+            "transactionExplorerLinkType": "transactions",
+			"pollingConfig": {
+  	    		"tonWalletRefreshInterval": 1,
+  	    		"tokenWalletRefreshInterval": 1,
+  	    		"intensivePollingInterval": 1
+			}
         }
     ]
 }
