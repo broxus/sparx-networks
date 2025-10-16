@@ -538,9 +538,6 @@
                 {
 					"type": "WalletV5R1"
 				},
-				{
-                    "type": "EverWallet"
-                },
                 {
                     "type": "Multisig2_1"
                 }
