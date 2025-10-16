@@ -8,7 +8,7 @@
             "name": "TON",
             "group": "ton",
             "type": "jrpc",
-            "endpoint": "https://jrpc-ton.broxus1.com",
+            "endpoint": "https://jrpc-ton.broxus.com",
             "config": {
                 "explorerBaseUrl": "https://tonviewer.com",
                 "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/ton-prod/manifest.json",
