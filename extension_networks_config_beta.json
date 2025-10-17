@@ -152,9 +152,9 @@
             "name": "VAN LANG",
             "group": "van_lang",
             "type": "proto",
-            "endpoint": "https://rpc-vietnam.broxus.com",
+            "endpoint": "https://rpc.vanlang.io",
             "config": {
-                "explorerBaseUrl": "https://e-vietnam.broxus.com",
+                "explorerBaseUrl": "https://vanlang.io",
                 "symbol": "VLP",
                 "decimals": 9,
                 "tokensManifestUrl": ""
