@@ -131,10 +131,10 @@
             "type": "proto",
             "isUsedOnStart": false,
             "endpoints": [
-                "https://rpc-vietnam.broxus.com"
+                "https://rpc.vanlang.io"
             ],
             "networkType": "tycho",
-            "blockExplorerUrl": "https://e-vietnam.broxus.com",
+            "blockExplorerUrl": "https://vanlang.io",
             "manifestUrl": "",
             "sortingOrder": 9
         }
