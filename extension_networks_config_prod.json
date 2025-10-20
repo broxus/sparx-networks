@@ -530,7 +530,7 @@
             "network": "tycho",
             "networkGroup": "van_lang",
             "icons": {
-                "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.svg",
+                "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/vlp/native_token.svg",
                 "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.svg",
                 "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.svg"
             },
