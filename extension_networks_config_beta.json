@@ -609,7 +609,7 @@
             "networkGroup": "van_lang",
             "icons": {
                 "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/vlp/native_token2.svg",
-                "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.svg",
+                "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/vlp/network.svg",
                 "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.svg"
             },
             "availableWalletTypes": [
