@@ -75,7 +75,7 @@
     "available": true,
     "info": "Bug fixes, minor improvements and code refactoring."
   },
-    "1.19.0": {
+    "1.19.1": {
     "available": true,
     "info": "Update to Flutter 3.35."
   }
