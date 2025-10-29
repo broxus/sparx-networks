@@ -33,7 +33,7 @@
             "type": "proto",
             "isUsedOnStart": true,
             "endpoints": [
-                "https://rpc.hamster.network"
+                "https://rpc.tvm.mirasmanda.uz"
             ],
             "networkType": "tycho",
             "blockExplorerUrl": "https://hamsterscan.io",
