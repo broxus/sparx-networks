@@ -727,6 +727,7 @@
             "baseCurrencyUrl": "https://msharia-dex-api.broxus.com/v1/currencies",
             "tokenApiBaseUrl": "https://tokens-api.mshariascan.io/v1",
             "currencyApiBaseUrl": "https://msharia-dex-api.broxus.com/v1/currencies",
+			"nftApiBaseUrl": "https://nft-api.msharia.io",
             "nftInformation": {
                 "marketplaceUrl": "",
                 "defaultCollections": [
