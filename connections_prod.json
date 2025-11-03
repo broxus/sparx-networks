@@ -47,7 +47,7 @@
             "type": "proto",
             "isUsedOnStart": true,
             "endpoints": [
-                "https://rpc.humonetwork.com"
+                "https://rpc.tvm.mirasmanda.uz"
             ],
             "networkType": "tycho",
             "blockExplorerUrl": "https://humoscan.com",
