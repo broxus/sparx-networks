@@ -78,5 +78,9 @@
     "1.19.1": {
     "available": true,
     "info": "Update to Flutter 3.35."
+  },
+    "1.20.0": {
+    "available": true,
+    "info": "Improved data security.\nAdded NFT API support.\nBug fixes, minor improvements, and more."
   }
 }
