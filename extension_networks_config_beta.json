@@ -415,8 +415,7 @@
     		"defaultCollections": [
 				"0:6891af9a4435f7a53a471a43225eec4b0fe15ce9f1ff20b4ec76db05bddbd399",
 				"0:23a353e5da6a7811a71d6e74ad3034fb39dddfb576d80b4f3afc2796672da516",
-				"0:db8d09dda6803fd8aa28178de838708ee1ee26244c41bb3771412b893e05ea38",
-				"0:ac8d61406398f81f758bfd6ab3f79420dec4ea12861c0bc95e5c55f9dd5ba118"
+				"0:db8d09dda6803fd8aa28178de838708ee1ee26244c41bb3771412b893e05ea38"
     	    ]	
   	    },
             "nativeTokenAddress": "0:8233ae1a3a94f77a9b12ab9b07f37923144fb78a7a8c582a5e3e2ed86cb40ced",
