@@ -1,6 +1,6 @@
 {
     "$schema": "./networks_config.schema.json",
-    "defaultConnectionId": "preset_hmstr_mainnet_proto",
+    "defaultConnectionId": "preset_tycho_testnet_proto",
     "networks": [
 		{
             "id": "preset_ton_mainnet_jrpc",
