@@ -1,5 +1,5 @@
 {
-    "defaultConnectionId": "preset_hmstr_mainnet_proto",
+    "defaultConnectionId": "preset_tycho_testnet_proto",
     "customNetworkOptions": [
         {
             "networkType": "ever"
