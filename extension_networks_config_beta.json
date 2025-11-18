@@ -595,7 +595,7 @@
         "marketplaceUrl": "",
         "apiBaseUrl": "https://nft-api.msharia.io",
         "defaultCollections": [
-          "0:8e6fa1c1d3d9a5929eecb992696cf6eb4fff59b357ce82b3e8977579550648f"
+          "0:8e6fa1c1d3d9a5929eecb992696cf6eb4fff59b357ce82b3e8977579550648ff"
         ]
       },
       "nativeTokenAddress": "0:dc85db3b3cab2c54dd728e882084b2c03086018ed0ce5928cc510d8756ed49c9",
