@@ -145,7 +145,7 @@
       "type": "jrpc",
       "isUsedOnStart": true,
       "endpoints": [
-        "https://jrpc-ton.broxus.com"
+        "https://jrpc-ton-testnet.broxus.com"
       ],
       "networkType": "ton",
       "blockExplorerUrl": "https://testnet.tonviewer.com",
