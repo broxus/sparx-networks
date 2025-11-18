@@ -140,7 +140,7 @@
     },
     {
       "id": "preset_ton_testnet_jrpc",
-      "name": "TON",
+      "name": "TON Testnet",
       "group": "ton_testnet",
       "type": "jrpc",
       "isUsedOnStart": true,
