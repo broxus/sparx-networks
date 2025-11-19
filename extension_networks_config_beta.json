@@ -151,7 +151,7 @@
     {
       "id": "preset_van_lang_proto",
       "network": "tycho",
-      "name": "VAN LANG",
+      "name": "Van Lang",
       "group": "van_lang",
       "type": "proto",
       "endpoint": "https://rpc.vanlang.io",
@@ -612,7 +612,7 @@
       }
     },
     {
-      "networkName": "VAN LANG",
+      "networkName": "Van Lang",
       "network": "tycho",
       "networkGroup": "van_lang",
       "icons": {
