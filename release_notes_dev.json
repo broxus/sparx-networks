@@ -86,5 +86,9 @@
     "1.20.1": {
     "available": true,
     "info": "Bug fixes, minor improvements and code refactoring."
+  },
+    "1.21.0": {
+    "available": true,
+    "info": "Added support for TON API tests.\nRemoved the legacy v1 browser version."
   }
 }
