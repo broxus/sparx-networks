@@ -75,7 +75,7 @@
       "type": "proto",
       "isUsedOnStart": true,
       "endpoints": [
-        "https://jrpc.everwallet1.net"
+        "https://jrpc.everwallet.net"
       ],
       "networkType": "ever",
       "blockExplorerUrl": "https://everscan.io",
@@ -117,7 +117,7 @@
       "type": "proto",
       "isUsedOnStart": true,
       "endpoints": [
-        "https://rpc.msharia1.io"
+        "https://rpc.msharia.io"
       ],
       "networkType": "tycho",
       "blockExplorerUrl": "https://mshariascan.io",
