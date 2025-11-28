@@ -13,10 +13,10 @@
     ],
     "networks": [
         {
-            "id": "preset_ton_mainnet_jrpc",
+            "id": "preset_ton_mainnet_proto",
             "name": "TON",
             "group": "ton",
-            "type": "jrpc",
+            "type": "proto",
             "isUsedOnStart": true,
             "endpoints": [
                 "https://jrpc-ton.broxus.com"
