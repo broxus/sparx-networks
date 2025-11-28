@@ -3,11 +3,11 @@
   "defaultConnectionId": "preset_tycho_testnet_proto",
   "networks": [
     {
-      "id": "preset_ton_mainnet_jrpc",
+      "id": "preset_ton_mainnet_proto",
       "network": "ton",
       "name": "TON",
       "group": "ton",
-      "type": "jrpc",
+      "type": "proto",
       "endpoint": "https://jrpc-ton.broxus.com",
       "config": {
         "explorerBaseUrl": "https://tonviewer.com",
@@ -71,7 +71,7 @@
       "network": "everscale",
       "name": "Everscale",
       "group": "mainnet",
-      "type": "jrpc",
+      "type": "proto",
       "endpoint": "https://jrpc.everwallet.net",
       "config": {
         "symbol": "EVER",
