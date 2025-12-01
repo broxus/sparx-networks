@@ -194,7 +194,7 @@
       ],
       "walletDefaultAccountNames": {
         "multisig": {
-          "safeMultisigWallet": "SafeMultisig24h",
+          "safeMultisigWallet": "SafeMultisig",
           "safeMultisigWallet24h": "SafeMultisig24h",
           "setcodeMultisigWallet": "SetcodeMultisig",
           "setcodeMultisigWallet24h": "SetcodeMultisig24h",
@@ -621,7 +621,7 @@
       ],
       "walletDefaultAccountNames": {
         "multisig": {
-          "safeMultisigWallet": "SafeMultisig24h",
+          "safeMultisigWallet": "SafeMultisig",
           "safeMultisigWallet24h": "SafeMultisig24h",
           "setcodeMultisigWallet": "SetcodeMultisig",
           "setcodeMultisigWallet24h": "SetcodeMultisig24h",
@@ -848,7 +848,7 @@
       ],
       "walletDefaultAccountNames": {
         "multisig": {
-          "safeMultisigWallet": "SafeMultisig24h",
+          "safeMultisigWallet": "SafeMultisig",
           "safeMultisigWallet24h": "SafeMultisig24h",
           "setcodeMultisigWallet": "SetcodeMultisig",
           "setcodeMultisigWallet24h": "SetcodeMultisig24h",
