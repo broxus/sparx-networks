@@ -75,7 +75,7 @@
       "type": "proto",
       "isUsedOnStart": true,
       "endpoints": [
-        "https://jrpc.everwallet1.net"
+        "https://jrpc.everwallet.net"
       ],
       "networkType": "ever",
       "blockExplorerUrl": "https://everscan.io",
