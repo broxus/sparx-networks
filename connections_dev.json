@@ -129,7 +129,7 @@
       "name": "Van Lang",
       "group": "van_lang",
       "type": "proto",
-      "isUsedOnStart": false,
+      "isUsedOnStart": true,
       "endpoints": [
         "https://rpc.vanlang.io"
       ],
