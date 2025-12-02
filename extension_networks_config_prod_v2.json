@@ -76,6 +76,12 @@
                         }, {
                             "type": "Multisig2_1"
                         }, {
+                            "type": "WalletV3R1",
+                            "isDeprecated": true
+                        }, {
+                            "type": "WalletV3R2",
+                            "isDeprecated": true
+                        }, {
                             "type": "WalletV4R1",
                             "isDeprecated": true
                         }, {
@@ -83,12 +89,6 @@
                             "isDeprecated": true
                         }, {
                             "type": "WalletV5R1"
-                        }, {
-                            "type": "WalletV3R1",
-                            "isDeprecated": true
-                        }, {
-                            "type": "WalletV3R2",
-                            "isDeprecated": true
                         }
                     ],
                     "defaultWalletType": "WalletV5R1",
@@ -133,6 +133,12 @@
                         }, {
                             "type": "Multisig2_1"
                         }, {
+                            "type": "WalletV3R1",
+                            "isDeprecated": true
+                        }, {
+                            "type": "WalletV3R2",
+                            "isDeprecated": true
+                        }, {
                             "type": "WalletV4R1",
                             "isDeprecated": true
                         }, {
@@ -140,12 +146,6 @@
                             "isDeprecated": true
                         }, {
                             "type": "WalletV5R1"
-                        }, {
-                            "type": "WalletV3R1",
-                            "isDeprecated": true
-                        }, {
-                            "type": "WalletV3R2",
-                            "isDeprecated": true
                         }
                     ],
                     "defaultWalletType": "EverWallet",
@@ -211,7 +211,7 @@
                     "networkType": "tycho",
                     "networkGroup": "tycho_testnet",
                     "type": "proto",
-                    "endpoint": "https://rpc-testnet.tychoprotocol.com/proto",
+                    "endpoint": "https://rpc-testnet.tychoprotocol.com",
                     "config": {
                         "explorerBaseUrl": "https://testnet.tychoprotocol.com",
                         "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tychotestnet/manifest.json",
