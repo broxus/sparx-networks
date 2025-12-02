@@ -50,7 +50,7 @@
                 "https://rpc.tvm.mirasmanda.uz"
             ],
             "networkType": "tycho",
-            "blockExplorerUrl": "https://humoscan.com",
+            "blockExplorerUrl": "https://tvm.mirasmanda.uz",
             "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json",
             "sortingOrder": 3
         },
