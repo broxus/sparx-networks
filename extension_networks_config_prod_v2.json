@@ -32,19 +32,33 @@
             "SetcodeMultisigWallet24h",
             "BridgeMultisigWallet",
             "SurfWallet"
+        ],
+        "startConnections": [{
+                "connectionId": "preset_ton_mainnet_proto"
+            }, {
+                "connectionId": "preset_hmstr_mainnet_proto"
+            }, {
+                "connectionId": "preset_humo_testnet_proto"
+            }, {
+                "connectionId": "preset_tycho_testnet_proto"
+            }, {
+                "connectionId": "preset_ever_mainnet_proto"
+            }, {
+                "connectionId": "preset_venom_mainnet_proto"
+            }, {
+                "connectionId": "preset_msharia_premain_proto"
+            }
         ]
     },
     "connections": [{
             "id": "preset_ton_mainnet_proto",
             "networkName": "TON",
             "defaultWorkchainId": 0,
-            "sortingOrder": 1,
             "workchains": [{
                     "id": 0,
                     "networkType": "ton",
                     "networkGroup": "ton",
                     "type": "proto",
-                    "isViewOnOnboarding": true,
                     "endpoint": "https://jrpc-ton.broxus.com",
                     "config": {
                         "explorerBaseUrl": "https://tonviewer.com",
@@ -96,14 +110,12 @@
         }, {
             "id": "preset_hmstr_mainnet_proto",
             "networkName": "Hamster Network",
-            "defaultWorkchainId": 0,
             "sortingOrder": 2,
             "workchains": [{
                     "id": 0,
                     "networkType": "tycho",
                     "networkGroup": "hmstr_mainnet",
                     "type": "proto",
-                    "isViewOnOnboarding": true,
                     "endpoint": "https://rpc.hamster.network",
                     "config": {
                         "explorerBaseUrl": "https://hamsterscan.io",
@@ -156,13 +168,11 @@
             "id": "preset_humo_testnet_proto",
             "networkName": "Humo",
             "defaultWorkchainId": 0,
-            "sortingOrder": 3,
             "workchains": [{
                     "id": 0,
                     "networkType": "tycho",
                     "networkGroup": "humo_testnet",
                     "type": "proto",
-                    "isViewOnOnboarding": false,
                     "endpoint": "https://rpc.tvm.mirasmanda.uz",
                     "config": {
                         "explorerBaseUrl": "https://tvm.mirasmanda.uz",
@@ -196,13 +206,11 @@
             "id": "preset_tycho_testnet_proto",
             "networkName": "Tycho Testnet",
             "defaultWorkchainId": 0,
-            "sortingOrder": 4,
             "workchains": [{
                     "id": 0,
                     "networkType": "tycho",
                     "networkGroup": "tycho_testnet",
                     "type": "proto",
-                    "isViewOnOnboarding": true,
                     "endpoint": "https://rpc-testnet.tychoprotocol.com/proto",
                     "config": {
                         "explorerBaseUrl": "https://testnet.tychoprotocol.com",
@@ -255,13 +263,11 @@
             "id": "preset_ever_mainnet_proto",
             "networkName": "Everscale",
             "defaultWorkchainId": 0,
-            "sortingOrder": 5,
             "workchains": [{
                     "id": 0,
                     "networkType": "everscale",
                     "networkGroup": "mainnet",
                     "type": "proto",
-                    "isViewOnOnboarding": true,
                     "endpoint": "https://jrpc.everwallet.net",
                     "config": {
                         "explorerBaseUrl": "https://everscan.io",
@@ -340,13 +346,11 @@
             "id": "preset_venom_mainnet_proto",
             "networkName": "Venom",
             "defaultWorkchainId": 0,
-            "sortingOrder": 6,
             "workchains": [{
                     "id": 0,
                     "networkType": "venom",
                     "networkGroup": "venom_mainnet",
                     "type": "proto",
-                    "isViewOnOnboarding": true,
                     "endpoint": "https://jrpc.venom.foundation",
                     "config": {
                         "explorerBaseUrl": "https://venomscan.com",
@@ -397,13 +401,11 @@
             "id": "preset_msharia_premain_proto",
             "networkName": "M.Sharia",
             "defaultWorkchainId": 0,
-            "sortingOrder": 7,
             "workchains": [{
                     "id": 0,
                     "networkType": "tycho",
                     "networkGroup": "msharia_premain",
                     "type": "proto",
-                    "isViewOnOnboarding": true,
                     "endpoint": "https://rpc.msharia.io",
                     "config": {
                         "explorerBaseUrl": "https://mshariascan.io",
@@ -449,13 +451,11 @@
             "id": "preset_van_lang_proto",
             "networkName": "Van Lang",
             "defaultWorkchainId": 0,
-            "sortingOrder": 8,
             "workchains": [{
                     "id": 0,
                     "networkType": "tycho",
                     "networkGroup": "van_lang",
                     "type": "proto",
-                    "isViewOnOnboarding": false,
                     "endpoint": "https://rpc.vanlang.io",
                     "config": {
                         "explorerBaseUrl": "https://vanlang.io",
@@ -493,4 +493,3 @@
         }
     ]
 }
-
