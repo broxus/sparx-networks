@@ -160,10 +160,10 @@
                         12,
                         24
                     ],
-                    "currencyApiBaseUrl": "https://api.hamsterdex.io/v1",
                     "tokenApiUrl": {
                         "balances": "https://tokens.hamsterscan.io/v1/balances/search"
                     },
+                    "currencyApiBaseUrl": "https://api.hamsterdex.io/v1",
                     "pollingConfig": {
                         "tonWalletRefreshInterval": 2,
                         "tokenWalletRefreshInterval": 2,
@@ -203,10 +203,10 @@
                     "seedPhraseWordsCount": [
                         12
                     ],
-                    "currencyApiBaseUrl": "https://humo-dex-api.broxus.com/v1",
                     "tokenApiUrl": {
                         "balances": ""
-                    }
+                    },
+                    "currencyApiBaseUrl": "https://humo-dex-api.broxus.com/v1"
                 }
             ]
         }, {
@@ -244,10 +244,10 @@
                         12,
                         24
                     ],
-                    "currencyApiBaseUrl": "https://api-test-tycho.flatqube.io/v1",
                     "tokenApiUrl": {
                         "balances": "https://e-tokens-api-tycho.broxus.com/v1/balances/search"
                     },
+                    "currencyApiBaseUrl": "https://api-test-tycho.flatqube.io/v1",
                     "stakeInformation": {
                         "stakingAPYLink": "https://staking-tycho-testnet-test.everwallet.net/v1/strategies/main",
                         "stakingVaultAddress": "0:538b6135fd39fc707b0c1459469db104383c431d4d116ffd0d58cc75c95a3f95",
@@ -295,9 +295,6 @@
                         "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/network.svg",
                         "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/vector.svg"
                     },
-                    "walletDefaultAccountNames": {
-                        "EverWallet": "Ever Wallet"
-                    },
                     "availableWalletTypes": [{
                             "type": "EverWallet"
                         }, {
@@ -329,15 +326,18 @@
                         }
                     ],
                     "defaultWalletType": "EverWallet",
+                    "walletDefaultAccountNames": {
+                        "EverWallet": "Ever Wallet"
+                    },
                     "nativeTokenAddress": "0:a49cd4e158a9a15555e624759e2e4e766d22600b7800d891e46f9291f044a93d",
                     "seedPhraseWordsCount": [
                         12,
                         24
                     ],
-                    "currencyApiBaseUrl": "https://api.flatqube.io/v1",
                     "tokenApiUrl": {
                         "balances": "https://tokens.everscan.io/v1/balances"
                     },
+                    "currencyApiBaseUrl": "https://api.flatqube.io/v1",
                     "stakeInformation": {
                         "stakingAPYLink": "https://staking.everwallet.net/v1/strategies/main",
                         "stakingVaultAddress": "0:675a6d63f27e3f24d41d286043a9286b2e3eb6b84fa4c3308cc2833ef6f54d68",
@@ -392,10 +392,10 @@
                     "seedPhraseWordsCount": [
                         12
                     ],
-                    "currencyApiBaseUrl": "https://api.web3.world/v1",
                     "tokenApiUrl": {
                         "balances": "https://tokens.venomscan.com/v1/balances"
                     },
+                    "currencyApiBaseUrl": "https://api.web3.world/v1",
                     "stakeInformation": {
                         "stakingAPYLink": "https://api.venomstake.com/v1/strategies/main",
                         "stakingVaultAddress": "0:9df94dffc0ca1768647f819c04b2cf00c484b3b756ba6ecde68d5fb62de1dfc7",
@@ -484,10 +484,10 @@
                     "seedPhraseWordsCount": [
                         12
                     ],
-                    "currencyApiBaseUrl": "https://msharia-dex-api.broxus.com/v1",
                     "tokenApiUrl": {
                         "balances": "https://tokens-api.mshariascan.io/v1/balances/search"
                     },
+                    "currencyApiBaseUrl": "https://msharia-dex-api.broxus.com/v1",
                     "nftInformation": {
                         "marketplaceUrl": "",
                         "apiBaseUrl": "https://nft-api.msharia.io",
@@ -535,10 +535,10 @@
                     "seedPhraseWordsCount": [
                         12
                     ],
-                    "currencyApiBaseUrl": "",
                     "tokenApiUrl": {
                         "balances": ""
                     },
+                    "currencyApiBaseUrl": "",
                     "pollingConfig": {
                         "tonWalletRefreshInterval": 1,
                         "tokenWalletRefreshInterval": 1,
