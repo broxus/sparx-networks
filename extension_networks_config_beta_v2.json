@@ -78,6 +78,12 @@
                         }, {
                             "type": "Multisig2_1"
                         }, {
+                            "type": "WalletV3R1",
+                            "isDeprecated": true
+                        }, {
+                            "type": "WalletV3R2",
+                            "isDeprecated": true
+                        }, {
                             "type": "WalletV4R1",
                             "isDeprecated": true
                         }, {
@@ -85,12 +91,6 @@
                             "isDeprecated": true
                         }, {
                             "type": "WalletV5R1"
-                        }, {
-                            "type": "WalletV3R1",
-                            "isDeprecated": true
-                        }, {
-                            "type": "WalletV3R2",
-                            "isDeprecated": true
                         }
                     ],
                     "defaultWalletType": "WalletV5R1",
@@ -135,6 +135,12 @@
                         }, {
                             "type": "Multisig2_1"
                         }, {
+                            "type": "WalletV3R1",
+                            "isDeprecated": true
+                        }, {
+                            "type": "WalletV3R2",
+                            "isDeprecated": true
+                        }, {
                             "type": "WalletV4R1",
                             "isDeprecated": true
                         }, {
@@ -142,12 +148,6 @@
                             "isDeprecated": true
                         }, {
                             "type": "WalletV5R1"
-                        }, {
-                            "type": "WalletV3R1",
-                            "isDeprecated": true
-                        }, {
-                            "type": "WalletV3R2",
-                            "isDeprecated": true
                         }
                     ],
                     "defaultWalletType": "EverWallet",
@@ -163,12 +163,7 @@
                     "tokenApiUrl": {
                         "balances": "https://tokens.hamsterscan.io/v1/balances/search"
                     },
-                    "currencyApiBaseUrl": "https://api.hamsterdex.io/v1",
-                    "pollingConfig": {
-                        "tonWalletRefreshInterval": 2,
-                        "tokenWalletRefreshInterval": 2,
-                        "intensivePollingInterval": 2
-                    }
+                    "currencyApiBaseUrl": "https://api.hamsterdex.io/v1"
                 }
             ]
         }, {
@@ -218,7 +213,7 @@
                     "networkType": "tycho",
                     "networkGroup": "tycho_testnet",
                     "type": "proto",
-                    "endpoint": "https://rpc-testnet.tychoprotocol.com/proto",
+                    "endpoint": "https://rpc-testnet.tychoprotocol.com",
                     "config": {
                         "explorerBaseUrl": "https://testnet.tychoprotocol.com",
                         "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tychotestnet/manifest.json",
@@ -233,7 +228,31 @@
                     "availableWalletTypes": [{
                             "type": "EverWallet"
                         }, {
+                            "type": "Multisig2",
+                            "isDeprecated": true
+                        }, {
                             "type": "Multisig2_1"
+                        }, {
+                            "type": "WalletV3",
+                            "isDeprecated": true
+                        }, {
+                            "type": "SafeMultisigWallet",
+                            "isDeprecated": true
+                        }, {
+                            "type": "SafeMultisigWallet24h",
+                            "isDeprecated": true
+                        }, {
+                            "type": "SetcodeMultisigWallet",
+                            "isDeprecated": true
+                        }, {
+                            "type": "SetcodeMultisigWallet24h",
+                            "isDeprecated": true
+                        }, {
+                            "type": "BridgeMultisigWallet",
+                            "isDeprecated": true
+                        }, {
+                            "type": "SurfWallet",
+                            "isDeprecated": true
                         }, {
                             "type": "WalletV5R1"
                         }
@@ -360,7 +379,7 @@
         }, {
             "id": "preset_venom_mainnet_proto",
             "networkName": "Venom",
-            "defaultWorkchainId": 1,
+            "defaultWorkchainId": 0,
             "workchains": [{
                     "id": 0,
                     "networkType": "venom",
@@ -417,9 +436,9 @@
                     "type": "proto",
                     "endpoint": "https://tycho-test-sparx-node.broxus.com/",
                     "config": {
-                        "explorerBaseUrl": "https://venomscan.com",
+                        "explorerBaseUrl": "",
                         "tokensManifestUrl": "",
-                        "symbol": "VENOM",
+                        "symbol": "newVENOM",
                         "decimals": 9
                     },
                     "icons": {
@@ -434,16 +453,12 @@
                         }
                     ],
                     "defaultWalletType": "EverWallet",
-                    "walletDefaultAccountNames": {
-                        "WalletV3": "Legacy"
-                    },
                     "nativeTokenAddress": "1:77d36848bb159fa485628bc38dc37eadb74befa514395e09910f601b841f749e",
                     "seedPhraseWordsCount": [
                         12
                     ],
-                    "currencyApiBaseUrl": "",
                     "tokenApiBaseUrl": "",
-                    "defaultNativeCurrencyDecimal": 9
+                    "currencyApiBaseUrl": "",
                 }
             ]
         }, {
@@ -496,11 +511,6 @@
                         ]
                     },
                     "gaslessApiBaseUrl": "https://gasless-api-msha.sparxwallet.com",
-                    "pollingConfig": {
-                        "tonWalletRefreshInterval": 5,
-                        "tokenWalletRefreshInterval": 5,
-                        "intensivePollingInterval": 5
-                    }
                 }
             ]
         }, {
@@ -538,12 +548,7 @@
                     "tokenApiUrl": {
                         "balances": ""
                     },
-                    "currencyApiBaseUrl": "",
-                    "pollingConfig": {
-                        "tonWalletRefreshInterval": 1,
-                        "tokenWalletRefreshInterval": 1,
-                        "intensivePollingInterval": 1
-                    }
+                    "currencyApiBaseUrl": ""
                 }
             ]
         }
