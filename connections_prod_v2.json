@@ -178,7 +178,7 @@
                     "endpoints": [
                         "https://rpc.tvm.mirasmanda.uz"
                     ],
-                    "blockExplorerUrl": "https://humoscan.com",
+                    "blockExplorerUrl": "https://tvm.mirasmanda.uz",
                     "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json",
                     "nativeTokenTicker": {
                         "name": "HUMO"
