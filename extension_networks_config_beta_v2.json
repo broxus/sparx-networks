@@ -50,7 +50,7 @@
             }, {
                 "connectionId": "preset_van_lang_proto"
             }
-        ],
+        ]
     },
     "connections": [{
             "id": "preset_ton_mainnet_proto",
