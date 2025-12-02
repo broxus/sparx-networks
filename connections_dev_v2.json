@@ -163,11 +163,6 @@
                     ],
                     "tokenApiBaseUrl": "https://tokens.hamsterscan.io/v1",
                     "currencyApiBaseUrl": "https://api.hamsterdex.io/v1/currencies",
-                    "pollingConfig": {
-                        "tonWalletRefreshInterval": 5,
-                        "tokenWalletRefreshInterval": 5,
-                        "intensivePollingInterval": 5
-                    },
                     "genericTokenType": "tip3",
                     "accountExplorerLinkType": "accounts",
                     "transactionExplorerLinkType": "transactions"
@@ -185,7 +180,7 @@
                     "endpoints": [
                         "https://rpc.tvm.mirasmanda.uz"
                     ],
-                    "blockExplorerUrl": "https://humoscan.com",
+                    "blockExplorerUrl": "https://tvm.mirasmanda.uz",
                     "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json",
                     "nativeTokenTicker": {
                         "name": "HUMO"
@@ -204,7 +199,7 @@
                         }
                     ],
                     "defaultWalletType": {
-                        "type": "walletV5R1"
+                        "type": "everWallet"
                     },
                     "nativeTokenAddress": "0:ee49dd4c3a7754ace683612e5f9d06508ff13acb4055168fada912af25919271",
                     "seedPhraseWordsCount": [
@@ -284,7 +279,7 @@
                     "currencyApiBaseUrl": "https://api-test-tycho.flatqube.io/v1/currencies",
                     "stakeInformation": {
                         "stakingAPYLink": "https://staking-tycho-testnet-test.everwallet.net/v1/strategies/main",
-                        "stakingValutAddress": "0:538b6135fd39fc707b0c1459469db104383c431d4d116ffd0d58cc75c95a3f95",
+                        "stakingVaultAddress": "0:538b6135fd39fc707b0c1459469db104383c431d4d116ffd0d58cc75c95a3f95",
                         "stakingRootContractAddress": "0:caab0a342f46d0f32d478a0e90c4ffd61e727ad2b838ea4c2a5825a484960b54",
                         "stakeDepositAttachedFee": "3000000000",
                         "stakeRemovePendingWithdrawAttachedFee": "3000000000",
@@ -295,7 +290,9 @@
                         "apiBaseUrl": "https://api-tycho-testnet.tokstock.io",
                         "defaultCollections": [
                             "0:6891af9a4435f7a53a471a43225eec4b0fe15ce9f1ff20b4ec76db05bddbd399",
-                            "0:23a353e5da6a7811a71d6e74ad3034fb39dddfb576d80b4f3afc2796672da516"
+                            "0:23a353e5da6a7811a71d6e74ad3034fb39dddfb576d80b4f3afc2796672da516",
+                            "0:db8d09dda6803fd8aa28178de838708ee1ee26244c41bb3771412b893e05ea38",
+                            "0:ac8d61406398f81f758bfd6ab3f79420dec4ea12861c0bc95e5c55f9dd5ba118"
                         ]
                     },
                     "gaslessApiBaseUrl": "https://gasless-api-test.sparxwallet.com/v1/gasless",
@@ -366,7 +363,7 @@
                         "type": "everWallet"
                     },
                     "walletDefaultAccountNames": {
-                        "everWallet": "EVER Wallet"
+                        "everWallet": "Ever Wallet"
                     },
                     "nativeTokenAddress": "0:a49cd4e158a9a15555e624759e2e4e766d22600b7800d891e46f9291f044a93d",
                     "seedPhraseWordsCount": [
@@ -471,9 +468,9 @@
                     },
                     "defaultNativeCurrencyDecimal": 9,
                     "icons": {
-                        "nativeToken": "",
-                        "network": "",
-                        "vector": ""
+                        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/native_token.svg",
+                        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/network.svg",
+                        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/vector.svg"
                     },
                     "availableWalletTypes": [{
                             "type": "everWallet"
@@ -587,20 +584,12 @@
                     "defaultWalletType": {
                         "type": "walletV5R1"
                     },
-                    "walletDefaultAccountNames": {
-                        "everWallet": "SparX"
-                    },
                     "nativeTokenAddress": "0:dc85db3b3cab2c54dd728e882084b2c03086018ed0ce5928cc510d8756ed49c9",
                     "seedPhraseWordsCount": [
                         12
                     ],
                     "tokenApiBaseUrl": "",
                     "currencyApiBaseUrl": "",
-                    "pollingConfig": {
-                        "tonWalletRefreshInterval": 1,
-                        "tokenWalletRefreshInterval": 1,
-                        "intensivePollingInterval": 1
-                    },
                     "genericTokenType": "tip3",
                     "accountExplorerLinkType": "accounts",
                     "transactionExplorerLinkType": "transactions"
