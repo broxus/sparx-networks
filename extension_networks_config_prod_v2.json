@@ -110,6 +110,7 @@
         }, {
             "id": "preset_hmstr_mainnet_proto",
             "networkName": "Hamster Network",
+            "defaultWorkchainId": 0,
             "workchains": [{
                     "id": 0,
                     "networkType": "tycho",
