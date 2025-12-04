@@ -117,7 +117,7 @@
       "type": "proto",
       "isUsedOnStart": true,
       "endpoints": [
-        "https://rpc.mshari1a.io"
+        "https://rpc.msharia.io"
       ],
       "networkType": "tycho",
       "blockExplorerUrl": "https://mshariascan.io",
