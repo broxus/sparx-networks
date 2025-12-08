@@ -163,7 +163,23 @@
       },
       "sortingOrder": 10,
       "isViewOnOnboarding": true
-    }
+    },
+    {
+      "id": "preset_devnet1_proto",
+      "network": "tycho",
+      "name": "DevNet 1",
+      "group": "devnet1",
+      "type": "proto",
+      "endpoint": "https://rpc-devnet1.tychoprotocol.com",
+      "config": {
+        "explorerBaseUrl": "https://e-tycho-devnet1.broxus.com",
+        "tokensManifestUrl": "",
+        "symbol": "DVN1",
+        "decimals": 9
+      },
+      "sortingOrder": 11,
+      "isViewOnOnboarding": true
+    }    
   ],
   "defaultBlockhainSettings": {
     "walletDefaultAccountNames": {
@@ -672,6 +688,53 @@
       "currencyApiBaseUrl": "",
       "tokenApiUrl": {
         "balances": ""
+      }
+    },
+    {
+      "networkName": "DevNet 1",
+      "network": "tycho",
+      "networkGroup": "devnet1",
+      "icons": {
+        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/tycho/native_token.svg",
+        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/tycho/network.svg",
+        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/tycho/vector.svg"
+      },
+      "availableWalletTypes": [
+        {
+          "type": "EverWallet"
+        },
+        {
+          "type": "Multisig2_1"
+        },
+        {
+          "type": "WalletV5R1"
+        }
+      ],
+      "defaultWalletType": "EverWallet",
+      "stakeInformation": {
+        "symbol": "stDVN1",
+        "decimals": 9,
+        "stakingAPYLink": "https://staking-tycho-devnet1-test.everwallet.net/v1/strategies/main",
+        "stakingVaultAddress": "0:38911e78dfc8d83899b0cb0c11227b8aeb06a32fd1722105c7de003ae1cc62a5",
+        "stakingRootContractAddress": "0:ce9e830b0c867c6a1834ad6bd9adf8670182556e2cb6e47e7564da80bfd0eb93",
+        "stakeDepositAttachedFee": "3000000000",
+        "stakeRemovePendingWithdrawAttachedFee": "3000000000",
+        "stakeWithdrawAttachedFee": "3000000000"
+      },
+      "nativeTokenAddress": "0:8233ae1a3a94f77a9b12ab9b07f37923144fb78a7a8c582a5e3e2ed86cb40ced",
+      "seedPhraseWordsCount": [
+        12,
+        24
+      ],
+      "currencyApiBaseUrl": "",
+      "tokenApiUrl": {
+        "balances": ""
+      },
+      "gaslessApiBaseUrl": "",
+      "pollingConfig": {
+        "tonWalletRefreshInterval": 1,
+        "tokenWalletRefreshInterval": 1,
+        "intensivePollingInterval": 1
       }
     }
   ]
