@@ -173,7 +173,7 @@
       "endpoint": "https://rpc-devnet1.tychoprotocol.com",
       "config": {
         "explorerBaseUrl": "https://e-tycho-devnet1.broxus.com",
-        "tokensManifestUrl": "",
+        "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tychodevnet1/manifest.json",
         "symbol": "DVN1",
         "decimals": 9
       },
@@ -712,8 +712,6 @@
       ],
       "defaultWalletType": "EverWallet",
       "stakeInformation": {
-        "symbol": "stDVN1",
-        "decimals": 9,
         "stakingAPYLink": "https://staking-tycho-devnet1-test.everwallet.net/v1/strategies/main",
         "stakingVaultAddress": "0:38911e78dfc8d83899b0cb0c11227b8aeb06a32fd1722105c7de003ae1cc62a5",
         "stakingRootContractAddress": "0:ce9e830b0c867c6a1834ad6bd9adf8670182556e2cb6e47e7564da80bfd0eb93",
