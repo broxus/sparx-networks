@@ -472,7 +472,7 @@
                         "tonWalletRefreshInterval": 5,
                         "tokenWalletRefreshInterval": 5,
                         "intensivePollingInterval": 5
-                    }
+                    },
                     "genericTokenType": "tip3",
                     "accountExplorerLinkType": "accounts",
                     "transactionExplorerLinkType": "transactions"
