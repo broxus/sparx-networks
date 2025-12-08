@@ -721,7 +721,7 @@
         "stakeRemovePendingWithdrawAttachedFee": "3000000000",
         "stakeWithdrawAttachedFee": "3000000000"
       },
-      "nativeTokenAddress": "0:8233ae1a3a94f77a9b12ab9b07f37923144fb78a7a8c582a5e3e2ed86cb40ced",
+      "nativeTokenAddress": "0:dc85db3b3cab2c54dd728e882084b2c03086018ed0ce5928cc510d8756ed49c9",
       "seedPhraseWordsCount": [
         12,
         24
