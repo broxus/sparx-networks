@@ -397,7 +397,7 @@
         }, {
             "id": "preset_venom_mainnet_proto",
             "networkName": "Venom",
-            "defaultWorkchainId": 0,
+            "defaultWorkchainId": 1,
             "workchains": [{
                     "id": 0,
                     "networkType": "venom",
