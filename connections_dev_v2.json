@@ -279,8 +279,8 @@
                     "currencyApiBaseUrl": "https://api-test-tycho.flatqube.io/v1/currencies",
                     "stakeInformation": {
                         "stakingAPYLink": "https://staking-tycho-testnet-test.everwallet.net/v1/strategies/main",
-                        "stakingVaultAddress": "0:538b6135fd39fc707b0c1459469db104383c431d4d116ffd0d58cc75c95a3f95",
-                        "stakingRootContractAddress": "0:caab0a342f46d0f32d478a0e90c4ffd61e727ad2b838ea4c2a5825a484960b54",
+                        "stakingVaultAddress": "0:0937d2a80996268db6b48cfcdfc22c934c8569ea8d70f6f05df7d3ff86c6b4c4",
+                        "stakingRootContractAddress": "0:bf7b8ca9bd9f6651624fdff9e4b207ff3dd5899788b38f93a780b4bd6b9c087f",
                         "stakeDepositAttachedFee": "3000000000",
                         "stakeRemovePendingWithdrawAttachedFee": "3000000000",
                         "stakeWithdrawAttachedFee": "3000000000"
