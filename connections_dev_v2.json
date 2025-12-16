@@ -453,6 +453,44 @@
                     "genericTokenType": "tip3",
                     "accountExplorerLinkType": "accounts",
                     "transactionExplorerLinkType": "transactions"
+                }, {
+                    "id": 1,
+                    "networkType": "tycho",
+                    "networkGroup": "venom_mainnet_new",
+                    "transportType": "proto",
+                    "endpoints": [
+                        "https://tycho-test-sparx-node.broxus.com/"
+                    ],
+                    "blockExplorerUrl": "",
+                    "manifestUrl": "",
+                    "nativeTokenTicker": {
+                        "name": "newVENOM"
+                    },
+                    "defaultNativeCurrencyDecimal": 9,
+                    "icons": {
+                        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/native_token.svg",
+                        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/network.svg",
+                        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/vector.svg"
+                    },
+                    "availableWalletTypes": [{
+                            "type": "everWallet"
+                        }, {
+                            "type": "multisig",
+                            "value": "multisig2_1"
+                        }
+                    ],
+                    "defaultWalletType": {
+                        "type": "everWallet"
+                    },
+                    "nativeTokenAddress": "1:77d36848bb159fa485628bc38dc37eadb74befa514395e09910f601b841f749e",
+                    "seedPhraseWordsCount": [
+                        12
+                    ],
+                    "tokenApiBaseUrl": "",
+                    "currencyApiBaseUrl": "",
+                    "genericTokenType": "tip3",
+                    "accountExplorerLinkType": "accounts",
+                    "transactionExplorerLinkType": "transactions"
                 }
             ]
         }, {
