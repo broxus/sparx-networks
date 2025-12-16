@@ -525,7 +525,11 @@
       "seedPhraseWordsCount": [
         12
       ],
-      "currencyApiBaseUrl": ""
+      "currencyApiBaseUrl": "https://msharia-dex-api.broxus.com/v1",
+      "tokenApiUrl": {
+        "balances": "https://tokens-api.mshariascan.io/v1/balances/search"
+        },
+      "gaslessApiBaseUrl": "https://gasless-api-msha.sparxwallet.com"
     },
     {
       "networkName": "Van Lang",
