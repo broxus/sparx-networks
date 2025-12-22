@@ -467,7 +467,7 @@
                     ],
                     "tokenApiBaseUrl": "https://tokens-api.mshariascan.io/v1",
                     "currencyApiBaseUrl": "",
-                    "gaslessApiBaseUrl": "",
+                    "gaslessApiBaseUrl": "https://gasless-api-msha.sparxwallet.com/v1/gasless",
                     "pollingConfig": {
                         "tonWalletRefreshInterval": 5,
                         "tokenWalletRefreshInterval": 5,
