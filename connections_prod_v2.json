@@ -205,6 +205,11 @@
                     ],
                     "tokenApiBaseUrl": "",
                     "currencyApiBaseUrl": "https://humo-dex-api.broxus.com/v1/currencies",
+                    "pollingConfig": {
+                        "tonWalletRefreshInterval": 5,
+                        "tokenWalletRefreshInterval": 5,
+                        "intensivePollingInterval": 5
+                    },
                     "genericTokenType": "tip3",
                     "accountExplorerLinkType": "accounts",
                     "transactionExplorerLinkType": "transactions"
@@ -466,7 +471,14 @@
                         12
                     ],
                     "tokenApiBaseUrl": "https://tokens-api.mshariascan.io/v1",
-                    "currencyApiBaseUrl": "",
+                    "currencyApiBaseUrl": "https://msharia-dex-api.broxus.com/v1/currencies",
+                    "nftInformation": {
+                        "marketplaceUrl": "",
+                        "apiBaseUrl": "https://nft-api.msharia.io",
+                        "defaultCollections": [
+                            "0:8e6fa1c1d3d9a5929eecb992696cf6eb4fff59b357ce82b3e8977579550648ff"
+                        ]
+                    },
                     "gaslessApiBaseUrl": "https://gasless-api-msha.sparxwallet.com/v1/gasless",
                     "pollingConfig": {
                         "tonWalletRefreshInterval": 5,
