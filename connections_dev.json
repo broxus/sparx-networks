@@ -38,7 +38,7 @@
       "networkType": "tycho",
       "blockExplorerUrl": "https://tvm.mirasmanda.uz",
       "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json",
-      "sortingOrder": 3
+      "sortingOrder": 2
     },
     {
       "id": "preset_tycho_testnet_proto",
@@ -52,7 +52,7 @@
       "networkType": "tycho",
       "blockExplorerUrl": "https://testnet.tychoprotocol.com",
       "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tychotestnet/manifest.json",
-      "sortingOrder": 4
+      "sortingOrder": 3
     },
     {
       "id": "preset_ever_mainnet_proto",
@@ -66,7 +66,7 @@
       "networkType": "ever",
       "blockExplorerUrl": "https://everscan.io",
       "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
-      "sortingOrder": 5
+      "sortingOrder": 4
     },
     {
       "id": "preset_ever_mainnet_gql",
@@ -80,7 +80,7 @@
       "networkType": "ever",
       "blockExplorerUrl": "https://everscan.io",
       "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
-      "sortingOrder": 6
+      "sortingOrder": 5
     },
     {
       "id": "preset_venom_mainnet_proto",
@@ -94,7 +94,7 @@
       "networkType": "venom",
       "blockExplorerUrl": "https://venomscan.com",
       "manifestUrl": "https://cdn.venom.foundation/assets/mainnet/manifest.json",
-      "sortingOrder": 7
+      "sortingOrder": 6
     },
     {
       "id": "preset_msharia_premain_proto",
@@ -108,7 +108,7 @@
       "networkType": "tycho",
       "blockExplorerUrl": "https://mshariascan.io",
       "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/msharia/manifest.json",
-      "sortingOrder": 8
+      "sortingOrder": 7
     },
     {
       "id": "preset_van_lang_proto",
@@ -122,7 +122,7 @@
       "networkType": "tycho",
       "blockExplorerUrl": "https://vanlang.io",
       "manifestUrl": "",
-      "sortingOrder": 9
+      "sortingOrder": 8
     },
     {
       "id": "preset_ton_testnet_proto",
@@ -136,7 +136,7 @@
       "networkType": "ton",
       "blockExplorerUrl": "https://testnet.tonviewer.com",
       "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/ton-testnet/manifest.json",
-      "sortingOrder": 10
+      "sortingOrder": 9
     }
   ],
   "transports": [
