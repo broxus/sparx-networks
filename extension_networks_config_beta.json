@@ -1,6 +1,6 @@
 {
   "$schema": "./networks_config.schema.json",
-  "defaultConnectionId": "preset_tycho_testnet_proto",
+  "defaultConnectionId": "preset_ever_mainnet_proto",
   "networks": [
     {
       "id": "preset_ton_mainnet_proto",
