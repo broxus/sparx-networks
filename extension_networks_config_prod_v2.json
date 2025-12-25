@@ -1,5 +1,5 @@
 {
-    "defaultConnectionId": "preset_hmstr_mainnet_proto",
+    "defaultConnectionId": "preset_ever_mainnet_proto",
     "defaultSettings": {
         "walletDefaultAccountNames": {
             "SafeMultisigWallet": "SafeMultisig",
@@ -37,8 +37,6 @@
                 "connectionId": "preset_ton_mainnet_proto"
             }, {
                 "connectionId": "preset_hmstr_mainnet_proto"
-            }, {
-                "connectionId": "preset_humo_testnet_proto"
             }, {
                 "connectionId": "preset_tycho_testnet_proto"
             }, {
@@ -199,7 +197,12 @@
                     "tokenApiUrl": {
                         "balances": ""
                     },
-                    "currencyApiBaseUrl": "https://humo-dex-api.broxus.com/v1"
+                    "currencyApiBaseUrl": "https://humo-dex-api.broxus.com/v1",
+                    "pollingConfig": {
+                        "tonWalletRefreshInterval": 2,
+                        "tokenWalletRefreshInterval": 5,
+                        "intensivePollingInterval": 5
+                    }
                 }
             ]
         }, {
@@ -438,8 +441,8 @@
                     "tokenApiUrl": {
                         "balances": "https://tokens-api.mshariascan.io/v1/balances/search"
                     },
-                    "currencyApiBaseUrl": "",
-                    "gaslessApiBaseUrl": "",
+                    "currencyApiBaseUrl": "https://msharia-dex-api.broxus.com/v1",
+                    "gaslessApiBaseUrl": "https://gasless-api-msha.sparxwallet.com",
                     "pollingConfig": {
                         "tonWalletRefreshInterval": 5,
                         "tokenWalletRefreshInterval": 5,
