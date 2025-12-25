@@ -1,6 +1,6 @@
 {
   "$schema": "./networks_config.schema.json",
-  "defaultConnectionId": "preset_tycho_testnet_proto",
+  "defaultConnectionId": "preset_ever_mainnet_proto",
   "networks": [
     {
       "id": "preset_ton_mainnet_proto",
@@ -19,22 +19,6 @@
       "isViewOnOnboarding": true
     },
     {
-      "id": "preset_hmstr_mainnet_proto",
-      "network": "tycho",
-      "name": "Hamster Network",
-      "group": "hmstr_mainnet",
-      "type": "proto",
-      "endpoint": "https://rpc.hamster.network",
-      "config": {
-        "explorerBaseUrl": "https://hamsterscan.io",
-        "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/hmstr/manifest.json",
-        "symbol": "HMSTR",
-        "decimals": 9
-      },
-      "sortingOrder": 2,
-      "isViewOnOnboarding": true
-    },
-    {
       "id": "preset_humo_testnet_proto",
       "network": "tycho",
       "name": "Humo",
@@ -47,7 +31,7 @@
         "decimals": 9,
         "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json"
       },
-      "sortingOrder": 3,
+      "sortingOrder": 2,
       "isViewOnOnboarding": false
     },
     {
@@ -63,7 +47,7 @@
         "symbol": "TYCHO",
         "decimals": 9
       },
-      "sortingOrder": 4,
+      "sortingOrder": 3,
       "isViewOnOnboarding": true
     },
     {
@@ -79,7 +63,7 @@
         "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
         "decimals": 9
       },
-      "sortingOrder": 5,
+      "sortingOrder": 4,
       "isViewOnOnboarding": true
     },
     {
@@ -97,7 +81,7 @@
         "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
         "decimals": 9
       },
-      "sortingOrder": 6,
+      "sortingOrder": 5,
       "isViewOnOnboarding": false
     },
     {
@@ -113,7 +97,7 @@
         "tokensManifestUrl": "https://cdn.venom.foundation/assets/mainnet/manifest.json",
         "decimals": 9
       },
-      "sortingOrder": 7,
+      "sortingOrder": 6,
       "isViewOnOnboarding": true
     },
     {
@@ -129,7 +113,7 @@
         "decimals": 9,
         "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/msharia/manifest.json"
       },
-      "sortingOrder": 8,
+      "sortingOrder": 7,
       "isViewOnOnboarding": true
     },
     {
@@ -145,7 +129,7 @@
         "decimals": 9,
         "tokensManifestUrl": ""
       },
-      "sortingOrder": 9,
+      "sortingOrder": 8,
       "isViewOnOnboarding": false
     }
   ],
@@ -235,63 +219,6 @@
         24
       ],
       "currencyApiBaseUrl": "https://tonapi.io/v2"
-    },
-    {
-      "networkName": "Hamster Network",
-      "network": "tycho",
-      "networkGroup": "hmstr_mainnet",
-      "icons": {
-        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/hamster/native_token.svg",
-        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/hamster/network.svg",
-        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/hamster/vector.svg"
-      },
-      "availableWalletTypes": [
-        {
-          "type": "EverWallet"
-        },
-        {
-          "type": "Multisig2_1"
-        },
-        {
-          "type": "WalletV3R1",
-          "isDeprecated": true
-        },
-        {
-          "type": "WalletV3R2",
-          "isDeprecated": true
-        },
-        {
-          "type": "WalletV4R1",
-          "isDeprecated": true
-        },
-        {
-          "type": "WalletV4R2",
-          "isDeprecated": true
-        },
-        {
-          "type": "WalletV5R1"
-        }
-      ],
-      "defaultActiveAssets": [
-        {
-          "address": "0:fddc005ddffcc9c5cc8e2d684c1338d3fa5548426602b04b2cfd2a1a3504be80"
-        }
-      ],
-      "defaultWalletType": "EverWallet",
-      "nativeTokenAddress": "0:39b50cd546326f132e57ce3d6c488d08cb3900dc309a53681b82216993384546",
-      "seedPhraseWordsCount": [
-        12,
-        24
-      ],
-      "currencyApiBaseUrl": "https://api.hamsterdex.io/v1",
-      "tokenApiUrl": {
-        "balances": "https://tokens.hamsterscan.io/v1/balances/search"
-      },
-      "pollingConfig": {
-        "tonWalletRefreshInterval": 2,
-        "tokenWalletRefreshInterval": 2,
-        "intensivePollingInterval": 2
-      }
     },
     {
       "networkName": "Humo",
