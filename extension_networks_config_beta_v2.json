@@ -427,36 +427,6 @@
                             "0:fa200706e21863c1da8f35d334f48faeb39d34ad21efd81178ffab40850c0898"
                         ]
                     }
-                }, {
-                    "id": 1,
-                    "networkType": "tycho",
-                    "networkGroup": "venom_mainnet_new",
-                    "type": "proto",
-                    "endpoint": "https://tycho-test-sparx-node.broxus.com/",
-                    "config": {
-                        "explorerBaseUrl": "",
-                        "tokensManifestUrl": "",
-                        "symbol": "newVENOM",
-                        "decimals": 9
-                    },
-                    "icons": {
-                        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/native_token.svg",
-                        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/network.svg",
-                        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/vector.svg"
-                    },
-                    "availableWalletTypes": [{
-                            "type": "EverWallet"
-                        }, {
-                            "type": "Multisig2_1"
-                        }
-                    ],
-                    "defaultWalletType": "EverWallet",
-                    "nativeTokenAddress": "1:77d36848bb159fa485628bc38dc37eadb74befa514395e09910f601b841f749e",
-                    "seedPhraseWordsCount": [
-                        12
-                    ],
-                    "tokenApiBaseUrl": "",
-                    "currencyApiBaseUrl": ""
                 }
             ]
         }, {
