@@ -145,7 +145,7 @@
                     "tokenApiBaseUrl": "",
                     "currencyApiBaseUrl": "https://humo-dex-api.broxus.com/v1/currencies",
                     "pollingConfig": {
-                        "tonWalletRefreshInterval": 5,
+                        "tonWalletRefreshInterval": 2,
                         "tokenWalletRefreshInterval": 5,
                         "intensivePollingInterval": 5
                     },
