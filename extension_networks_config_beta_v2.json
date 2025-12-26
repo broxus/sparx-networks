@@ -95,10 +95,6 @@
                     "walletDefaultAccountNames": {
                         "WalletV3": "Legacy"
                     },
-                    "defaultActiveAssets": [{
-                            "address": "0:09f2e59dec406ab26a5259a45d7ff23ef11f3e5c7c21de0b0d2a1cbe52b76b3d"
-                        }
-                    ],
                     "nativeTokenAddress": "0:9a8da514d575d20234c3fb1395ee9138f5f1ad838abc905dc42c2389b46bd015",
                     "seedPhraseWordsCount": [
                         12,
