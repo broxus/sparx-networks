@@ -98,5 +98,9 @@
   "1.22.1": {
     "available": true,
     "info": "Bug fixes, minor improvements and code refactoring."
+  },
+  "2.0.0": {
+    "available": true,
+    "info": "New network configuration type."
   }
 }
