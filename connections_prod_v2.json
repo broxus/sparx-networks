@@ -35,11 +35,13 @@
         }, {
             "connectionId": "preset_humo_testnet_proto"
         }, {
+            "connectionId": "preset_ppi_chain_proto"
+        }, {
             "connectionId": "preset_tycho_testnet_proto"
         }, {
-            "connectionId": "preset_ever_mainnet_proto"
-        }, {
             "connectionId": "preset_venom_mainnet_proto"
+        }, {
+            "connectionId": "preset_ever_mainnet_proto"
         }, {
             "connectionId": "preset_msharia_premain_proto"
         }
