@@ -484,7 +484,7 @@
                     "endpoints": [
                         "https://ppi-rpc.broxus.com"
                     ],
-                    "blockExplorerUrl": "",
+                    "blockExplorerUrl": "https://ppiscan.com",
                     "manifestUrl": "",
                     "nativeTokenTicker": {
                         "name": "PPI"
