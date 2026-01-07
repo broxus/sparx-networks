@@ -437,6 +437,49 @@
                     }
                 }
             ]
+        }, {
+            "id": "preset_ppi_chain_proto",
+            "networkName": "PPI Chain",
+            "defaultWorkchainId": 0,
+            "workchains": [{
+                    "id": 0,
+                    "networkType": "tycho",
+                    "networkGroup": "ppi_chain",
+                    "type": "proto",
+                    "endpoint": "https://ppi-rpc.broxus.com",
+                    "config": {
+                        "explorerBaseUrl": "",
+                        "tokensManifestUrl": "",
+                        "symbol": "UAED",
+                        "decimals": 9
+                    },
+                    "icons": {
+                        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.png",
+                        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.png",
+                        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.png"
+                    },
+                    "availableWalletTypes": [{ {
+                                "type": "Multisig2_1"
+                            }, {
+                                "type": "WalletV5R1"
+                            }
+                            ],
+                            "defaultWalletType": "WalletV5R1",
+                            "nativeTokenAddress": "0:8233ae1a3a94f77a9b12ab9b07f37923144fb78a7a8c582a5e3e2ed86cb40ced",
+                            "seedPhraseWordsCount": [
+                                12
+                            ],
+                            "tokenApiUrl": {
+                                "balances": ""
+                            },
+                            "currencyApiBaseUrl": "",
+                            "pollingConfig": {
+                                "tonWalletRefreshInterval": 1,
+                                "tokenWalletRefreshInterval": 1,
+                                "intensivePollingInterval": 1
+                            }
+                        }
+                    ]
+                }
+            ]
         }
-    ]
-}
