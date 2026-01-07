@@ -246,6 +246,61 @@
                     }
                 ]
             }, {
+                "id": "preset_venom_mainnet_proto",
+                "networkName": "Venom",
+                "defaultWorkchainId": 0,
+                "workchains": [{
+                        "id": 0,
+                        "networkType": "venom",
+                        "networkGroup": "venom_mainnet",
+                        "type": "proto",
+                        "endpoint": "https://jrpc.venom.foundation",
+                        "config": {
+                            "explorerBaseUrl": "https://venomscan.com",
+                            "tokensManifestUrl": "https://cdn.venom.foundation/assets/mainnet/manifest.json",
+                            "symbol": "VENOM",
+                            "decimals": 9
+                        },
+                        "icons": {
+                            "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/native_token.svg",
+                            "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/network.svg",
+                            "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/vector.svg"
+                        },
+                        "availableWalletTypes": [{
+                                "type": "EverWallet"
+                            }, {
+                                "type": "Multisig2_1"
+                            }
+                        ],
+                        "defaultWalletType": "EverWallet",
+                        "walletDefaultAccountNames": {
+                            "WalletV3": "Legacy"
+                        },
+                        "nativeTokenAddress": "0:77d36848bb159fa485628bc38dc37eadb74befa514395e09910f601b841f749e",
+                        "seedPhraseWordsCount": [
+                            12
+                        ],
+                        "tokenApiUrl": {
+                            "balances": "https://tokens.venomscan.com/v1/balances"
+                        },
+                        "currencyApiBaseUrl": "https://api.web3.world/v1",
+                        "stakeInformation": {
+                            "stakingAPYLink": "https://api.venomstake.com/v1/strategies/main",
+                            "stakingVaultAddress": "0:9df94dffc0ca1768647f819c04b2cf00c484b3b756ba6ecde68d5fb62de1dfc7",
+                            "stakingRootContractAddress": "0:74604c7a56419477d67329848d754d205f31870025a7135909e90e1726ad9a54",
+                            "stakeDepositAttachedFee": "3000000000",
+                            "stakeRemovePendingWithdrawAttachedFee": "2000000000",
+                            "stakeWithdrawAttachedFee": "3000000000"
+                        },
+                        "nftInformation": {
+                            "marketplaceUrl": "https://oasis.gallery",
+                            "defaultCollections": [
+                                "0:fa200706e21863c1da8f35d334f48faeb39d34ad21efd81178ffab40850c0898"
+                            ]
+                        }
+                    }
+                ]
+            }, {
                 "id": "preset_ever_mainnet_proto",
                 "networkName": "Everscale",
                 "defaultWorkchainId": 0,
@@ -324,61 +379,6 @@
                                 "0:a7d0694c025b61e1a4a846f1cf88980a5df8adf737d17ac58e35bf172c9fca29",
                                 "0:0cd35b77b73df2ce86288cb8530cb6328363543f04da81687e43b3d5628c0bda",
                                 "0:df7b78349b6b194997ee7d7afdb263cdd566c440371d320d1c06d519c6278c5b"
-                            ]
-                        }
-                    }
-                ]
-            }, {
-                "id": "preset_venom_mainnet_proto",
-                "networkName": "Venom",
-                "defaultWorkchainId": 0,
-                "workchains": [{
-                        "id": 0,
-                        "networkType": "venom",
-                        "networkGroup": "venom_mainnet",
-                        "type": "proto",
-                        "endpoint": "https://jrpc.venom.foundation",
-                        "config": {
-                            "explorerBaseUrl": "https://venomscan.com",
-                            "tokensManifestUrl": "https://cdn.venom.foundation/assets/mainnet/manifest.json",
-                            "symbol": "VENOM",
-                            "decimals": 9
-                        },
-                        "icons": {
-                            "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/native_token.svg",
-                            "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/network.svg",
-                            "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/vector.svg"
-                        },
-                        "availableWalletTypes": [{
-                                "type": "EverWallet"
-                            }, {
-                                "type": "Multisig2_1"
-                            }
-                        ],
-                        "defaultWalletType": "EverWallet",
-                        "walletDefaultAccountNames": {
-                            "WalletV3": "Legacy"
-                        },
-                        "nativeTokenAddress": "0:77d36848bb159fa485628bc38dc37eadb74befa514395e09910f601b841f749e",
-                        "seedPhraseWordsCount": [
-                            12
-                        ],
-                        "tokenApiUrl": {
-                            "balances": "https://tokens.venomscan.com/v1/balances"
-                        },
-                        "currencyApiBaseUrl": "https://api.web3.world/v1",
-                        "stakeInformation": {
-                            "stakingAPYLink": "https://api.venomstake.com/v1/strategies/main",
-                            "stakingVaultAddress": "0:9df94dffc0ca1768647f819c04b2cf00c484b3b756ba6ecde68d5fb62de1dfc7",
-                            "stakingRootContractAddress": "0:74604c7a56419477d67329848d754d205f31870025a7135909e90e1726ad9a54",
-                            "stakeDepositAttachedFee": "3000000000",
-                            "stakeRemovePendingWithdrawAttachedFee": "2000000000",
-                            "stakeWithdrawAttachedFee": "3000000000"
-                        },
-                        "nftInformation": {
-                            "marketplaceUrl": "https://oasis.gallery",
-                            "defaultCollections": [
-                                "0:fa200706e21863c1da8f35d334f48faeb39d34ad21efd81178ffab40850c0898"
                             ]
                         }
                     }
