@@ -33,26 +33,31 @@
             "BridgeMultisigWallet",
             "SurfWallet"
         ],
-        "startConnections": [{
+        "startConnections": [
+            {
                 "connectionId": "preset_ton_mainnet_proto"
-            }, {
+            },
+            {
                 "connectionId": "preset_tycho_testnet_proto"
-            }, {
+            },
+            {
                 "connectionId": "preset_ever_mainnet_proto"
-            }, {
+            },
+            {
                 "connectionId": "preset_venom_mainnet_proto"
-            }, {
+            },
+            {
                 "connectionId": "preset_msharia_premain_proto"
-            }, {
-                "connectionId": "preset_ppi_chain_proto"
             }
         ]
     },
-    "connections": [{
+    "connections": [
+        {
             "id": "preset_ton_mainnet_proto",
             "networkName": "TON",
             "defaultWorkchainId": 0,
-            "workchains": [{
+            "workchains": [
+                {
                     "id": 0,
                     "networkType": "ton",
                     "networkGroup": "ton",
@@ -69,23 +74,30 @@
                         "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/network.svg",
                         "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/vector.svg"
                     },
-                    "availableWalletTypes": [{
+                    "availableWalletTypes": [
+                        {
                             "type": "EverWallet"
-                        }, {
+                        },
+                        {
                             "type": "Multisig2_1"
-                        }, {
+                        },
+                        {
                             "type": "WalletV3R1",
                             "isDeprecated": true
-                        }, {
+                        },
+                        {
                             "type": "WalletV3R2",
                             "isDeprecated": true
-                        }, {
+                        },
+                        {
                             "type": "WalletV4R1",
                             "isDeprecated": true
-                        }, {
+                        },
+                        {
                             "type": "WalletV4R2",
                             "isDeprecated": true
-                        }, {
+                        },
+                        {
                             "type": "WalletV5R1"
                         }
                     ],
@@ -101,11 +113,13 @@
                     "currencyApiBaseUrl": "https://tonapi.io/v2"
                 }
             ]
-        }, {
+        },
+        {
             "id": "preset_humo_testnet_proto",
             "networkName": "Humo",
             "defaultWorkchainId": 0,
-            "workchains": [{
+            "workchains": [
+                {
                     "id": 0,
                     "networkType": "tycho",
                     "networkGroup": "humo_testnet",
@@ -122,9 +136,11 @@
                         "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/network.svg",
                         "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/vector.svg"
                     },
-                    "availableWalletTypes": [{
+                    "availableWalletTypes": [
+                        {
                             "type": "EverWallet"
-                        }, {
+                        },
+                        {
                             "type": "Multisig2_1"
                         }
                     ],
@@ -144,11 +160,13 @@
                     }
                 }
             ]
-        }, {
+        },
+        {
             "id": "preset_tycho_testnet_proto",
             "networkName": "Tycho Testnet",
             "defaultWorkchainId": 0,
-            "workchains": [{
+            "workchains": [
+                {
                     "id": 0,
                     "networkType": "tycho",
                     "networkGroup": "tycho_testnet",
@@ -165,11 +183,14 @@
                         "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/tycho/network.svg",
                         "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/tycho/vector.svg"
                     },
-                    "availableWalletTypes": [{
+                    "availableWalletTypes": [
+                        {
                             "type": "EverWallet"
-                        }, {
+                        },
+                        {
                             "type": "Multisig2_1"
-                        }, {
+                        },
+                        {
                             "type": "WalletV5R1"
                         }
                     ],
@@ -201,11 +222,13 @@
                     }
                 }
             ]
-        }, {
+        },
+        {
             "id": "preset_ever_mainnet_proto",
             "networkName": "Everscale",
             "defaultWorkchainId": 0,
-            "workchains": [{
+            "workchains": [
+                {
                     "id": 0,
                     "networkType": "everscale",
                     "networkGroup": "mainnet",
@@ -222,32 +245,42 @@
                         "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/network.svg",
                         "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ever/vector.svg"
                     },
-                    "availableWalletTypes": [{
+                    "availableWalletTypes": [
+                        {
                             "type": "EverWallet"
-                        }, {
+                        },
+                        {
                             "type": "Multisig2",
                             "isDeprecated": true
-                        }, {
+                        },
+                        {
                             "type": "Multisig2_1"
-                        }, {
+                        },
+                        {
                             "type": "WalletV3",
                             "isDeprecated": true
-                        }, {
+                        },
+                        {
                             "type": "SafeMultisigWallet",
                             "isDeprecated": true
-                        }, {
+                        },
+                        {
                             "type": "SafeMultisigWallet24h",
                             "isDeprecated": true
-                        }, {
+                        },
+                        {
                             "type": "SetcodeMultisigWallet",
                             "isDeprecated": true
-                        }, {
+                        },
+                        {
                             "type": "SetcodeMultisigWallet24h",
                             "isDeprecated": true
-                        }, {
+                        },
+                        {
                             "type": "BridgeMultisigWallet",
                             "isDeprecated": true
-                        }, {
+                        },
+                        {
                             "type": "SurfWallet",
                             "isDeprecated": true
                         }
@@ -284,11 +317,13 @@
                     }
                 }
             ]
-        }, {
+        },
+        {
             "id": "preset_venom_mainnet_proto",
             "networkName": "Venom",
             "defaultWorkchainId": 0,
-            "workchains": [{
+            "workchains": [
+                {
                     "id": 0,
                     "networkType": "venom",
                     "networkGroup": "venom_mainnet",
@@ -305,9 +340,11 @@
                         "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/network.svg",
                         "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/vector.svg"
                     },
-                    "availableWalletTypes": [{
+                    "availableWalletTypes": [
+                        {
                             "type": "EverWallet"
-                        }, {
+                        },
+                        {
                             "type": "Multisig2_1"
                         }
                     ],
@@ -339,11 +376,13 @@
                     }
                 }
             ]
-        }, {
+        },
+        {
             "id": "preset_msharia_premain_proto",
             "networkName": "M.Sharia",
             "defaultWorkchainId": 0,
-            "workchains": [{
+            "workchains": [
+                {
                     "id": 0,
                     "networkType": "tycho",
                     "networkGroup": "msharia_premain",
@@ -360,16 +399,20 @@
                         "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/msharia/native_token.svg",
                         "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/msharia/native_token.svg"
                     },
-                    "availableWalletTypes": [{
+                    "availableWalletTypes": [
+                        {
                             "type": "WalletV5R1"
-                        }, {
+                        },
+                        {
                             "type": "EverWallet"
-                        }, {
+                        },
+                        {
                             "type": "Multisig2_1"
                         }
                     ],
                     "defaultWalletType": "WalletV5R1",
-                    "defaultActiveAssets": [{
+                    "defaultActiveAssets": [
+                        {
                             "address": "0:8305ee8616735691da2d329aa28ec6f81eabe7f0204be48a671cf2be18e0f02b"
                         }
                     ],
@@ -396,11 +439,13 @@
                     }
                 }
             ]
-        }, {
+        },
+        {
             "id": "preset_van_lang_proto",
             "networkName": "Van Lang",
             "defaultWorkchainId": 0,
-            "workchains": [{
+            "workchains": [
+                {
                     "id": 0,
                     "networkType": "tycho",
                     "networkGroup": "van_lang",
@@ -417,9 +462,11 @@
                         "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/vlp/network.svg",
                         "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.svg"
                     },
-                    "availableWalletTypes": [{
+                    "availableWalletTypes": [
+                        {
                             "type": "WalletV5R1"
-                        }, {
+                        },
+                        {
                             "type": "Multisig2_1"
                         }
                     ],
@@ -439,11 +486,13 @@
                     }
                 }
             ]
-        }, {
+        },
+        {
             "id": "preset_ppi_chain_proto",
             "networkName": "PPI Chain",
             "defaultWorkchainId": 0,
-            "workchains": [{
+            "workchains": [
+                {
                     "id": 0,
                     "networkType": "tycho",
                     "networkGroup": "ppi_chain",
@@ -460,28 +509,30 @@
                         "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/ppichain/ppicoin.svg",
                         "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/ppichain/ppicoin.svg"
                     },
-                    "availableWalletTypes": [{ {
-                                "type": "Multisig2_1"
-                            }, {
-                                "type": "WalletV5R1"
-                            }
-                            ],
-                            "defaultWalletType": "WalletV5R1",
-                            "nativeTokenAddress": "0:8233ae1a3a94f77a9b12ab9b07f37923144fb78a7a8c582a5e3e2ed86cb40ced",
-                            "seedPhraseWordsCount": [
-                                12
-                            ],
-                            "tokenApiUrl": {
-                                "balances": ""
-                            },
-                            "currencyApiBaseUrl": "",
-                            "pollingConfig": {
-                                "tonWalletRefreshInterval": 1,
-                                "tokenWalletRefreshInterval": 1,
-                                "intensivePollingInterval": 1
-                            }
+                    "availableWalletTypes": [
+                        {
+                            "type": "Multisig2_1"
+                        },
+                        {
+                            "type": "WalletV5R1"
                         }
-                    ]
+                    ],
+                    "defaultWalletType": "WalletV5R1",
+                    "nativeTokenAddress": "0:8233ae1a3a94f77a9b12ab9b07f37923144fb78a7a8c582a5e3e2ed86cb40ced",
+                    "seedPhraseWordsCount": [
+                        12
+                    ],
+                    "tokenApiUrl": {
+                        "balances": ""
+                    },
+                    "currencyApiBaseUrl": "",
+                    "pollingConfig": {
+                        "tonWalletRefreshInterval": 1,
+                        "tokenWalletRefreshInterval": 1,
+                        "intensivePollingInterval": 1
+                    }
                 }
             ]
         }
+    ]
+}
