@@ -499,7 +499,7 @@
                     "id": 0,
                     "networkType": "tycho",
                     "networkGroup": "ppi_chain",
-                    "type": "proto",
+                    "type": "jrpc",
                     "endpoint": "https://ppi-rpc.broxus.com",
                     "config": {
                         "explorerBaseUrl": "https://ppi-scan.broxus.com",
