@@ -43,6 +43,8 @@
                 "connectionId": "preset_venom_mainnet_proto"
             }, {
                 "connectionId": "preset_msharia_premain_proto"
+            }, {
+                "connectionId": "preset_ppi_chain_proto"
             }
         ]
     },
