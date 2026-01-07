@@ -480,11 +480,11 @@
                     "id": 0,
                     "networkType": "tycho",
                     "networkGroup": "ppi_chain",
-                    "transportType": "proto",
+                    "transportType": "jrpc",
                     "endpoints": [
                         "https://ppi-rpc.broxus.com"
                     ],
-                    "blockExplorerUrl": "https://ppiscan.com",
+                    "blockExplorerUrl": "",
                     "manifestUrl": "",
                     "nativeTokenTicker": {
                         "name": "PPI"
