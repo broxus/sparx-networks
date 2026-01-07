@@ -480,7 +480,7 @@
                     "id": 0,
                     "networkType": "tycho",
                     "networkGroup": "ppi_chain",
-                    "transportType": "jrpc",
+                    "transportType": "proto",
                     "endpoints": [
                         "https://ppi-rpc.broxus.com"
                     ],
