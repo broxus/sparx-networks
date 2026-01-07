@@ -448,15 +448,15 @@
                     "type": "proto",
                     "endpoint": "https://ppi-rpc.broxus.com",
                     "config": {
-                        "explorerBaseUrl": "https://ppiscan.com",
+                        "explorerBaseUrl": "https://ppi-scan.broxus.com",
                         "tokensManifestUrl": "",
                         "symbol": "PPI",
                         "decimals": 9
                     },
                     "icons": {
-                        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.png",
-                        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.png",
-                        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.png"
+                        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/ppichain/ppicoin.svg",
+                        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/ppichain/ppicoin.svg",
+                        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/ppichain/ppicoin.svg"
                     },
                     "availableWalletTypes": [{ {
                                 "type": "Multisig2_1"
