@@ -490,6 +490,55 @@
                     "transactionExplorerLinkType": "transactions"
                 }
             ]
+        }, {
+            "id": "preset_ppi_chain_proto",
+            "networkName": "PPI Chain",
+            "defaultWorkchainId": 0,
+            "workchains": [{
+                    "id": 0,
+                    "networkType": "tycho",
+                    "networkGroup": "ppi_chain",
+                    "transportType": "proto",
+                    "endpoints": [
+                        "https://ppi-rpc.broxus.com"
+                    ],
+                    "blockExplorerUrl": "https://ppi-scan.broxus.com",
+                    "manifestUrl": "",
+                    "nativeTokenTicker": {
+                        "name": "PPI"
+                    },
+                    "defaultNativeCurrencyDecimal": 9,
+                    "icons": {
+                        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/ppichain/ppicoin.svg",
+                        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/ppichain/ppicoin.svg",
+                        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/ppichain/ppicoin.svg"
+                    },
+                    "availableWalletTypes": [{
+                            "type": "multisig",
+                            "value": "multisig2_1"
+                        }, {
+                            "type": "walletV5R1"
+                        }
+                    ],
+                    "defaultWalletType": {
+                        "type": "walletV5R1"
+                    },
+                    "nativeTokenAddress": "0:8233ae1a3a94f77a9b12ab9b07f37923144fb78a7a8c582a5e3e2ed86cb40ced",
+                    "seedPhraseWordsCount": [
+                        12
+                    ],
+                    "tokenApiBaseUrl": "",
+                    "currencyApiBaseUrl": "",
+                    "pollingConfig": {
+                        "tonWalletRefreshInterval": 1,
+                        "tokenWalletRefreshInterval": 1,
+                        "intensivePollingInterval": 1
+                    },
+                    "genericTokenType": "tip3",
+                    "accountExplorerLinkType": "accounts",
+                    "transactionExplorerLinkType": "transactions"
+                }
+            ]
         }
     ]
 }
