@@ -72,9 +72,11 @@
                         "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/ton/vector.svg"
                     },
                     "availableWalletTypes": [{
-                            "type": "EverWallet"
+                            "type": "WalletV5R1"
                         }, {
                             "type": "Multisig2_1"
+                        }, {
+                            "type": "EverWallet"
                         }, {
                             "type": "WalletV3R1",
                             "isDeprecated": true
@@ -87,8 +89,6 @@
                         }, {
                             "type": "WalletV4R2",
                             "isDeprecated": true
-                        }, {
-                            "type": "WalletV5R1"
                         }
                     ],
                     "defaultWalletType": "WalletV5R1",
