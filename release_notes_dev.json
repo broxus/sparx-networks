@@ -102,5 +102,9 @@
   "2.0.0": {
     "available": true,
     "info": "New network configuration type."
+  },
+  "2.1.0": {
+    "available": true,
+    "info": "Flutter updated to 3.38.4.\nBrowser and app security improvements.\nBug fixes, minor improvements, and more."
   }
 }
