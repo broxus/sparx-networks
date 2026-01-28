@@ -1,6 +1,6 @@
 {
   "blockingVersion": "1.4.0",
-  "warningVersion": "1.22.1",
+  "warningVersion": "2.0.0",
   "warningShowTimes": 5,
   "warningShowDelayS": 600
 }
