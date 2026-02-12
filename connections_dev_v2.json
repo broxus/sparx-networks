@@ -399,7 +399,7 @@
                     "networkGroup": "msharia_premain",
                     "transportType": "proto",
                     "endpoints": [
-                        "https://rpc.msharia.io"
+                        "https://rpc.msharia1.io"
                     ],
                     "blockExplorerUrl": "https://mshariascan.io",
                     "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/msharia/manifest.json",
