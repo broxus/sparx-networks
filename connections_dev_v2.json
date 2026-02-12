@@ -501,7 +501,7 @@
                     "networkGroup": "ppi_chain",
                     "transportType": "proto",
                     "endpoints": [
-                        "https://ppi-rpc.broxus.com"
+                        "https://ppi-rpc.broxus1.com"
                     ],
                     "blockExplorerUrl": "https://ppi-scan.broxus.com",
                     "manifestUrl": "",
