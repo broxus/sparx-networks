@@ -99,12 +99,16 @@
     "available": true,
     "info": "Bug fixes, minor improvements and code refactoring."
   },
-  "2.0.0": {
+    "2.0.0": {
     "available": true,
     "info": "New network configuration type."
   },
-  "2.1.0": {
+    "2.1.0": {
     "available": true,
     "info": "Flutter updated to 3.38.4.\nBrowser and app security improvements.\nBug fixes, minor improvements, and more."
+  },
+    "2.2.0": {
+    "available": true,
+    "info": "Enabled SSE support.\nRefactoring the UI for small screens and the Android navigation bar."
   }
 }
