@@ -310,7 +310,7 @@
                     "id": 0,
                     "networkType": "everscale",
                     "networkGroup": "mainnet",
-                    "type": "proto",
+                    "type": "jrpc",
                     "endpoint": "https://jrpc.everwallet.net",
                     "config": {
                         "explorerBaseUrl": "https://everscan.io",
