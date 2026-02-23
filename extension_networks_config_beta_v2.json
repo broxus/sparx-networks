@@ -466,7 +466,7 @@
             "workchains": [{
                     "id": 0,
                     "networkType": "ton",
-                    "networkGroup": "ton",
+                    "networkGroup": "ton1",
                     "type": "proto",
                     "endpoint": "https://rpc-devnet1.tychoprotocol.com",
                     "config": {
