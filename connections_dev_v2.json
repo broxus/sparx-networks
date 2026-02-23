@@ -540,6 +540,63 @@
                     "transactionExplorerLinkType": "transactions"
                 }
             ]
+        }, {
+            "id": "preset_devnet1_proto",
+            "networkName": "dvn1",
+            "defaultWorkchainId": 0,
+            "workchains": [{
+                    "id": 0,
+                    "networkType": "ton",
+                    "networkGroup": "ton",
+                    "transportType": "proto",
+                    "endpoints": [
+                        "https://rpc-devnet1.tychoprotocol.com/"
+                    ],
+                    "blockExplorerUrl": "https://e-tycho-devnet1.broxus.com",
+                    "manifestUrl": "",
+                    "nativeTokenTicker": {
+                        "name": "TON"
+                    },
+                    "defaultNativeCurrencyDecimal": 9,
+                    "icons": {
+                        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.png",
+                        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.png",
+                        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/sparx/sparx.png"
+                    },
+                    "availableWalletTypes": [{
+                            "type": "everWallet"
+                        }, {
+                            "type": "multisig",
+                            "value": "multisig2_1"
+                        }, {
+                            "type": "walletV3R1"
+                        }, {
+                            "type": "walletV3R2"
+                        }, {
+                            "type": "walletV4R1"
+                        }, {
+                            "type": "walletV4R2"
+                        }, {
+                            "type": "walletV5R1"
+                        }
+                    ],
+                    "defaultWalletType": {
+                        "type": "walletV5R1"
+                    },
+                    "walletDefaultAccountNames": {
+                        "walletV3": "Legacy"
+                    },
+                    "nativeTokenAddress": "0:9a8da514d575d20234c3fb1395ee9138f5f1ad838abc905dc42c2389b46bd015",
+                    "seedPhraseWordsCount": [
+                        12,
+                        24
+                    ],
+                    "currencyApiBaseUrl": "https://tonapi.io/v2",
+                    "genericTokenType": "jetton",
+                    "accountExplorerLinkType": "packAddress",
+                    "transactionExplorerLinkType": "transaction"
+                }
+            ]
         }
     ]
 }
