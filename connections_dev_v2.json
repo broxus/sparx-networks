@@ -96,6 +96,7 @@
                         24
                     ],
                     "currencyApiBaseUrl": "https://tonapi.io/v2",
+                    "tonTokenApiBaseUrl": "https://ton-tokens-api.broxus.com",
                     "genericTokenType": "jetton",
                     "accountExplorerLinkType": "packAddress",
                     "transactionExplorerLinkType": "transaction"
@@ -545,7 +546,8 @@
                         12,
                         24
                     ],
-                    "currencyApiBaseUrl": "https://tonapi.io/v2",
+                    "currencyApiBaseUrl": "https://tetra.tonapi.io/v2",
+                    "tonTokenApiBaseUrl": "https://tetra-tokens-meta.chainconnect.com",
                     "genericTokenType": "jetton",
                     "accountExplorerLinkType": "packAddress",
                     "transactionExplorerLinkType": "transaction"
