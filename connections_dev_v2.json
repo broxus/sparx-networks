@@ -502,7 +502,7 @@
             "workchains": [{
                     "id": 0,
                     "networkType": "ton",
-                    "networkGroup": "ton",
+                    "networkGroup": "ton1",
                     "transportType": "proto",
                     "endpoints": [
                         "https://rpc-devnet1.tychoprotocol.com/"
