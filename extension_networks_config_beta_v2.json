@@ -98,6 +98,7 @@
                         12,
                         24
                     ],
+					"tonTokensApiBaseUrl": "https://ton-tokens-api.broxus.com",
                     "currencyApiBaseUrl": "https://tonapi.io/v2"
                 }
             ]
@@ -506,7 +507,8 @@
                         12,
                         24
                     ],
-                    "currencyApiBaseUrl": "https://tonapi.io/v2"
+					"tonTokensApiBaseUrl": "https://tetra-tokens-meta.chainconnect.com",
+                    "currencyApiBaseUrl": "https://tetra.tonapi.io/v2"
                 }
             ]
         }
