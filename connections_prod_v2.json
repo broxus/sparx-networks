@@ -255,7 +255,8 @@
                     "pollingConfig": {
                         "tonWalletRefreshInterval": 1,
                         "tokenWalletRefreshInterval": 1,
-                        "intensivePollingInterval": 1
+                        "intensivePollingInterval": 1,
+                        "sseBaseUrl": "https://rpc-testnet.tychoprotocol.com"
                     },
                     "genericTokenType": "tip3",
                     "accountExplorerLinkType": "accounts",
