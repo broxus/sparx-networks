@@ -267,7 +267,7 @@
                         "tonWalletRefreshInterval": 1,
                         "tokenWalletRefreshInterval": 1,
                         "intensivePollingInterval": 1,
-                        "sseBaseUrl": "https://rpc-testnet.tychoprotocol.com/stream"
+                        "sseBaseUrl": "https://rpc-testnet.tychoprotocol.com"
                     }
                 }
             ]
