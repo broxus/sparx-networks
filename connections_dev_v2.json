@@ -232,7 +232,7 @@
                         "tonWalletRefreshInterval": 1,
                         "tokenWalletRefreshInterval": 1,
                         "intensivePollingInterval": 1,
-                        "sseBaseUrl": "https://rpc-testnet.tychoprotocol.com"
+                        "sseBaseUrl": "https://rpc-testnet.tychoprotocol.com/stream"
                     },
                     "genericTokenType": "tip3",
                     "accountExplorerLinkType": "accounts",
