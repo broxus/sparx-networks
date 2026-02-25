@@ -473,7 +473,7 @@
                     "endpoint": "https://rpc-devnet1.tychoprotocol.com",
                     "config": {
                         "explorerBaseUrl": "https://e-tycho-devnet1.broxus.com",
-                        "tokensManifestUrl": "",
+                        "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tetra/manifest.json",
                         "symbol": "TON",
                         "decimals": 9
                     },
