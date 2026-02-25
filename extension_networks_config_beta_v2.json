@@ -98,7 +98,7 @@
                         12,
                         24
                     ],
-					"tonTokensApiBaseUrl": "https://ton-tokens-api.broxus.com",
+					"tonTokensApiBaseUrl": "https://ton-tokens-meta.chainconnect.com",
                     "currencyApiBaseUrl": "https://tonapi.io/v2"
                 }
             ]
