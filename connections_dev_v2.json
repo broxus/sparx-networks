@@ -508,7 +508,7 @@
                         "https://rpc-devnet1.tychoprotocol.com/"
                     ],
                     "blockExplorerUrl": "https://e-tycho-devnet1.broxus.com",
-                    "manifestUrl": "",
+                    "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/tetra/manifest.json",
                     "nativeTokenTicker": {
                         "name": "TON"
                     },
