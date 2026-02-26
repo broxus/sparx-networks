@@ -548,6 +548,11 @@
                     ],
                     "currencyApiBaseUrl": "https://tetra.tonapi.io/v2",
                     "tonTokensApiBaseUrl": "https://tetra-tokens-meta.chainconnect.com",
+                    "pollingConfig": {
+                        "tonWalletRefreshInterval": 1,
+                        "tokenWalletRefreshInterval": 1,
+                        "intensivePollingInterval": 1
+                    },
                     "genericTokenType": "jetton",
                     "accountExplorerLinkType": "packAddress",
                     "transactionExplorerLinkType": "transaction"
