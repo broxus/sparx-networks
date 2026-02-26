@@ -98,6 +98,7 @@
                         24
                     ],
                     "currencyApiBaseUrl": "https://tonapi.io/v2",
+                    "tonTokensApiBaseUrl": "https://ton-tokens-meta.chainconnect.com",
                     "genericTokenType": "jetton",
                     "accountExplorerLinkType": "packAddress",
                     "transactionExplorerLinkType": "transaction"
