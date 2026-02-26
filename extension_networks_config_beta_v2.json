@@ -98,7 +98,7 @@
                         12,
                         24
                     ],
-					"tonTokensApiBaseUrl": "https://ton-tokens-meta.chainconnect.com",
+                    "tonTokensApiBaseUrl": "https://ton-tokens-meta.chainconnect.com",
                     "currencyApiBaseUrl": "https://tonapi.io/v2"
                 }
             ]
@@ -508,8 +508,13 @@
                         12,
                         24
                     ],
-					"tonTokensApiBaseUrl": "https://tetra-tokens-meta.chainconnect.com",
-                    "currencyApiBaseUrl": "https://tetra.tonapi.io/v2"
+                    "tonTokensApiBaseUrl": "https://tetra-tokens-meta.chainconnect.com",
+                    "currencyApiBaseUrl": "https://tetra.tonapi.io/v2",
+                    "pollingConfig": {
+                        "tonWalletRefreshInterval": 1,
+                        "tokenWalletRefreshInterval": 1,
+                        "intensivePollingInterval": 1
+                    }
                 }
             ]
         }
