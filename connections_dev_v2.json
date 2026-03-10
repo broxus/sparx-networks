@@ -398,7 +398,7 @@
                     "networkGroup": "msharia_premain",
                     "transportType": "proto",
                     "endpoints": [
-                        "https://rpc.msharia1.io"
+                        "https://rpc.msharia.io"
                     ],
                     "blockExplorerUrl": "https://mshariascan.io",
                     "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/msharia/manifest.json",
@@ -456,7 +456,7 @@
                     "networkGroup": "ppi_chain",
                     "transportType": "proto",
                     "endpoints": [
-                        "https://ppi-rpc.broxus1.com"
+                        "https://ppi-rpc.broxus.com"
                     ],
                     "blockExplorerUrl": "https://ppi-scan.broxus.com",
                     "manifestUrl": "",
