@@ -118,5 +118,21 @@
     "2.3.1": {
         "available": true,
         "info": "Bug fixes, minor improvements and code refactoring."
+    },
+    "2.4.0": {
+        "available": true,
+        "info": "Improved seed phrase flow UI.\nImproved Ledger signing flow.\nTechnical improvements and bug fixes."
+    },
+    "2.4.1": {
+        "available": true,
+        "info": "Bug fixes, minor improvements and code refactoring."
+    },
+    "2.4.2": {
+        "available": true,
+        "info": "Bug fixes, minor improvements and code refactoring."
+    },
+    "2.5.0": {
+        "available": true,
+        "info": "Support for new languages."
     }
 }
