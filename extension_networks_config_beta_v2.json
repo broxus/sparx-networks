@@ -103,49 +103,6 @@
                 }
             ]
         }, {
-            "id": "preset_ppi_chain_proto",
-            "networkName": "PPI Chain",
-            "defaultWorkchainId": 0,
-            "workchains": [{
-                    "id": 0,
-                    "networkType": "tycho",
-                    "networkGroup": "ppi_chain",
-                    "type": "proto",
-                    "endpoint": "https://ppi-rpc.broxus.com",
-                    "config": {
-                        "explorerBaseUrl": "https://ppi-scan.broxus.com",
-                        "tokensManifestUrl": "",
-                        "symbol": "PPI",
-                        "decimals": 9
-                    },
-                    "icons": {
-                        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/ppichain/ppicoin.svg",
-                        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/ppichain/ppicoin.svg",
-                        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/refs/heads/master/icons/ppichain/ppicoin.svg"
-                    },
-                    "availableWalletTypes": [{
-                            "type": "Multisig2_1"
-                        }, {
-                            "type": "WalletV5R1"
-                        }
-                    ],
-                    "defaultWalletType": "WalletV5R1",
-                    "nativeTokenAddress": "0:8233ae1a3a94f77a9b12ab9b07f37923144fb78a7a8c582a5e3e2ed86cb40ced",
-                    "seedPhraseWordsCount": [
-                        12
-                    ],
-                    "tokenApiUrl": {
-                        "balances": ""
-                    },
-                    "currencyApiBaseUrl": "",
-                    "pollingConfig": {
-                        "tonWalletRefreshInterval": 1,
-                        "tokenWalletRefreshInterval": 1,
-                        "intensivePollingInterval": 1
-                    }
-                }
-            ]
-        }, {
             "id": "preset_humo_testnet_proto",
             "networkName": "Humo",
             "defaultWorkchainId": 0,
