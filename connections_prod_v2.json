@@ -186,7 +186,7 @@
                     "defaultWalletType": {
                         "type": "everWallet"
                     },
-                    "nativeTokenAddress": "0:8233ae1a3a94f77a9b12ab9b07f37923144fb78a7a8c582a5e3e2ed86cb40ced",
+                    "nativeTokenAddress": "0:d9f7bbf217bcf0e7ee418713c5383478187875099129690b25f1b93f0d0d010d",
                     "seedPhraseWordsCount": [
                         12,
                         24
