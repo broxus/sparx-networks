@@ -36,10 +36,12 @@
         "startConnections": [{
                 "connectionId": "preset_ton_mainnet_proto"
             }, {
-                "connectionId": "preset_humo_testnet_proto"
+                "connectionId": "preset_new_venom_proto"
             }, {
                 "connectionId": "preset_tycho_testnet_proto"
             }, {
+                "connectionId": "preset_humo_testnet_proto"
+            },{
                 "connectionId": "preset_ever_mainnet_proto"
             }, {
                 "connectionId": "preset_venom_mainnet_proto"
@@ -103,25 +105,25 @@
                 }
             ]
         }, {
-            "id": "preset_humo_testnet_proto",
-            "networkName": "Humo",
+            "id": "preset_new_venom_proto",
+            "networkName": "Venom",
             "defaultWorkchainId": 0,
             "workchains": [{
                     "id": 0,
                     "networkType": "tycho",
-                    "networkGroup": "humo_testnet",
+                    "networkGroup": "new_venom",
                     "type": "proto",
-                    "endpoint": "https://rpc.tvm.mirasmanda.uz",
+                    "endpoint": "https://jrpc-new.venom.foundation",
                     "config": {
-                        "explorerBaseUrl": "https://tvm.mirasmanda.uz",
-                        "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json",
-                        "symbol": "HUMO",
+                        "explorerBaseUrl": "https://new.venomscan.com",
+                        "tokensManifestUrl": "",
+                        "symbol": "Venom",
                         "decimals": 9
                     },
                     "icons": {
-                        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/native_token.svg",
-                        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/network.svg",
-                        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/vector.svg"
+                        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/native_token.svg",
+                        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/network.svg",
+                        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/vector.svg"
                     },
                     "availableWalletTypes": [{
                             "type": "EverWallet"
@@ -137,7 +139,13 @@
                     "tokenApiUrl": {
                         "balances": ""
                     },
-                    "currencyApiBaseUrl": "https://humo-dex-api.broxus.com/v1"
+                    "currencyApiBaseUrl": "",
+                    "pollingConfig": {
+                        "tonWalletRefreshInterval": 1,
+                        "tokenWalletRefreshInterval": 1,
+                        "intensivePollingInterval": 1,
+						"sseBaseUrl": "https://jrpc-new.venom.foundation"
+                    }
                 }
             ]
         }, {
@@ -229,6 +237,44 @@
                 }
             ]
         }, {
+            "id": "preset_humo_testnet_proto",
+            "networkName": "Humo",
+            "defaultWorkchainId": 0,
+            "workchains": [{
+                    "id": 0,
+                    "networkType": "tycho",
+                    "networkGroup": "humo_testnet",
+                    "type": "proto",
+                    "endpoint": "https://rpc.tvm.mirasmanda.uz",
+                    "config": {
+                        "explorerBaseUrl": "https://tvm.mirasmanda.uz",
+                        "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json",
+                        "symbol": "HUMO",
+                        "decimals": 9
+                    },
+                    "icons": {
+                        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/native_token.svg",
+                        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/network.svg",
+                        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/vector.svg"
+                    },
+                    "availableWalletTypes": [{
+                            "type": "EverWallet"
+                        }, {
+                            "type": "Multisig2_1"
+                        }
+                    ],
+                    "defaultWalletType": "EverWallet",
+                    "nativeTokenAddress": "0:f7d09c6aba2cb23f901e8435f8980ad1df067f59375faa449d14a873ebe27cd0",
+                    "seedPhraseWordsCount": [
+                        12
+                    ],
+                    "tokenApiUrl": {
+                        "balances": ""
+                    },
+                    "currencyApiBaseUrl": "https://humo-dex-api.broxus.com/v1"
+                }
+            ]
+        }, {
             "id": "preset_ever_mainnet_proto",
             "networkName": "Everscale",
             "defaultWorkchainId": 0,
@@ -313,7 +359,7 @@
             ]
         }, {
             "id": "preset_venom_mainnet_proto",
-            "networkName": "Venom",
+            "networkName": "Venom (old)",
             "defaultWorkchainId": 0,
             "workchains": [{
                     "id": 0,
