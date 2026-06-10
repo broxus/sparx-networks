@@ -40,12 +40,12 @@
             }, {
                 "connectionId": "preset_tycho_testnet_proto"
             }, {
-                "connectionId": "preset_humo_testnet_proto"
-            },{
                 "connectionId": "preset_ever_mainnet_proto"
             }, {
                 "connectionId": "preset_venom_mainnet_proto"
             }, {
+                "connectionId": "preset_humo_testnet_proto"
+            },{
                 "connectionId": "preset_msharia_premain_proto"
             }
         ]
@@ -237,44 +237,6 @@
                 }
             ]
         }, {
-            "id": "preset_humo_testnet_proto",
-            "networkName": "Humo",
-            "defaultWorkchainId": 0,
-            "workchains": [{
-                    "id": 0,
-                    "networkType": "tycho",
-                    "networkGroup": "humo_testnet",
-                    "type": "proto",
-                    "endpoint": "https://rpc.tvm.mirasmanda.uz",
-                    "config": {
-                        "explorerBaseUrl": "https://tvm.mirasmanda.uz",
-                        "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json",
-                        "symbol": "HUMO",
-                        "decimals": 9
-                    },
-                    "icons": {
-                        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/native_token.svg",
-                        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/network.svg",
-                        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/vector.svg"
-                    },
-                    "availableWalletTypes": [{
-                            "type": "EverWallet"
-                        }, {
-                            "type": "Multisig2_1"
-                        }
-                    ],
-                    "defaultWalletType": "EverWallet",
-                    "nativeTokenAddress": "0:f7d09c6aba2cb23f901e8435f8980ad1df067f59375faa449d14a873ebe27cd0",
-                    "seedPhraseWordsCount": [
-                        12
-                    ],
-                    "tokenApiUrl": {
-                        "balances": ""
-                    },
-                    "currencyApiBaseUrl": "https://humo-dex-api.broxus.com/v1"
-                }
-            ]
-        }, {
             "id": "preset_ever_mainnet_proto",
             "networkName": "Everscale",
             "defaultWorkchainId": 0,
@@ -410,6 +372,44 @@
                             "0:fa200706e21863c1da8f35d334f48faeb39d34ad21efd81178ffab40850c0898"
                         ]
                     }
+                }
+            ]
+        }, {
+            "id": "preset_humo_testnet_proto",
+            "networkName": "Humo",
+            "defaultWorkchainId": 0,
+            "workchains": [{
+                    "id": 0,
+                    "networkType": "tycho",
+                    "networkGroup": "humo_testnet",
+                    "type": "proto",
+                    "endpoint": "https://rpc.tvm.mirasmanda.uz",
+                    "config": {
+                        "explorerBaseUrl": "https://tvm.mirasmanda.uz",
+                        "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json",
+                        "symbol": "HUMO",
+                        "decimals": 9
+                    },
+                    "icons": {
+                        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/native_token.svg",
+                        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/network.svg",
+                        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/vector.svg"
+                    },
+                    "availableWalletTypes": [{
+                            "type": "EverWallet"
+                        }, {
+                            "type": "Multisig2_1"
+                        }
+                    ],
+                    "defaultWalletType": "EverWallet",
+                    "nativeTokenAddress": "0:f7d09c6aba2cb23f901e8435f8980ad1df067f59375faa449d14a873ebe27cd0",
+                    "seedPhraseWordsCount": [
+                        12
+                    ],
+                    "tokenApiUrl": {
+                        "balances": ""
+                    },
+                    "currencyApiBaseUrl": "https://humo-dex-api.broxus.com/v1"
                 }
             ]
         }, {
