@@ -33,7 +33,7 @@
     "startConnections": [{
             "connectionId": "preset_ton_mainnet_proto"
         }, {
-            "connectionId": "preset_humo_testnet_proto"
+            "connectionId": "preset_new_venom_proto"
         }, {
             "connectionId": "preset_tycho_testnet_proto"
         }, {
@@ -41,9 +41,9 @@
         }, {
             "connectionId": "preset_venom_mainnet_proto"
         }, {
-            "connectionId": "preset_msharia_premain_proto"
+            "connectionId": "preset_humo_testnet_proto"
         }, {
-            "connectionId": "preset_devnet1_proto"
+            "connectionId": "preset_msharia_premain_proto"
         }
     ],
     "connections": [{
@@ -105,27 +105,27 @@
                 }
             ]
         }, {
-            "id": "preset_humo_testnet_proto",
-            "networkName": "Humo",
+            "id": "preset_new_venom_proto",
+            "networkName": "Venom",
             "defaultWorkchainId": 0,
             "workchains": [{
                     "id": 0,
                     "networkType": "tycho",
-                    "networkGroup": "humo_testnet",
+                    "networkGroup": "new_venom",
                     "transportType": "proto",
                     "endpoints": [
-                        "https://rpc.tvm.mirasmanda.uz"
+                        "https://jrpc-new.venom.foundation"
                     ],
-                    "blockExplorerUrl": "https://tvm.mirasmanda.uz",
-                    "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json",
+                    "blockExplorerUrl": "https://new.venomscan.com",
+                    "manifestUrl": "",
                     "nativeTokenTicker": {
-                        "name": "HUMO"
+                        "name": "Venom"
                     },
                     "defaultNativeCurrencyDecimal": 9,
                     "icons": {
-                        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/native_token.svg",
-                        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/network.svg",
-                        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/vector.svg"
+                        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/native_token.svg",
+                        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/network.svg",
+                        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/venom/vector.svg"
                     },
                     "availableWalletTypes": [{
                             "type": "everWallet"
@@ -142,7 +142,13 @@
                         12
                     ],
                     "tokenApiBaseUrl": "",
-                    "currencyApiBaseUrl": "https://humo-dex-api.broxus.com/v1/currencies",
+                    "currencyApiBaseUrl": "",
+					"pollingConfig": {
+                        "tonWalletRefreshInterval": 2,
+                        "tokenWalletRefreshInterval": 2,
+                        "intensivePollingInterval": 2,
+                        "sseBaseUrl": "https://jrpc-new.venom.foundation"
+                    },
                     "genericTokenType": "tip3",
                     "accountExplorerLinkType": "accounts",
                     "transactionExplorerLinkType": "transactions"
@@ -331,7 +337,7 @@
             ]
         }, {
             "id": "preset_venom_mainnet_proto",
-            "networkName": "Venom",
+            "networkName": "Venom (old)",
             "defaultWorkchainId": 0,
             "workchains": [{
                     "id": 0,
@@ -385,6 +391,50 @@
                             "0:fa200706e21863c1da8f35d334f48faeb39d34ad21efd81178ffab40850c0898"
                         ]
                     },
+                    "genericTokenType": "tip3",
+                    "accountExplorerLinkType": "accounts",
+                    "transactionExplorerLinkType": "transactions"
+                }
+            ]
+        }, {
+            "id": "preset_humo_testnet_proto",
+            "networkName": "Humo",
+            "defaultWorkchainId": 0,
+            "workchains": [{
+                    "id": 0,
+                    "networkType": "tycho",
+                    "networkGroup": "humo_testnet",
+                    "transportType": "proto",
+                    "endpoints": [
+                        "https://rpc.tvm.mirasmanda.uz"
+                    ],
+                    "blockExplorerUrl": "https://tvm.mirasmanda.uz",
+                    "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/humo/manifest.json",
+                    "nativeTokenTicker": {
+                        "name": "HUMO"
+                    },
+                    "defaultNativeCurrencyDecimal": 9,
+                    "icons": {
+                        "nativeToken": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/native_token.svg",
+                        "network": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/network.svg",
+                        "vector": "https://raw.githubusercontent.com/broxus/sparx-networks/master/icons/humo/vector.svg"
+                    },
+                    "availableWalletTypes": [{
+                            "type": "everWallet"
+                        }, {
+                            "type": "multisig",
+                            "value": "multisig2_1"
+                        }
+                    ],
+                    "defaultWalletType": {
+                        "type": "everWallet"
+                    },
+                    "nativeTokenAddress": "0:f7d09c6aba2cb23f901e8435f8980ad1df067f59375faa449d14a873ebe27cd0",
+                    "seedPhraseWordsCount": [
+                        12
+                    ],
+                    "tokenApiBaseUrl": "",
+                    "currencyApiBaseUrl": "https://humo-dex-api.broxus.com/v1/currencies",
                     "genericTokenType": "tip3",
                     "accountExplorerLinkType": "accounts",
                     "transactionExplorerLinkType": "transactions"
