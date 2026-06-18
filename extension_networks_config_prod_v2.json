@@ -117,7 +117,7 @@
                     "endpoint": "https://jrpc-new.venom.foundation",
                     "config": {
                         "explorerBaseUrl": "https://new.venomscan.com",
-                        "tokensManifestUrl": "",
+                        "tokensManifestUrl": "https://cdn.venom.foundation/assets/mainnet-new/manifest.json",
                         "symbol": "Venom",
                         "decimals": 9
                     },
@@ -133,7 +133,7 @@
                         }
                     ],
                     "defaultWalletType": "EverWallet",
-                    "nativeTokenAddress": "0:f7d09c6aba2cb23f901e8435f8980ad1df067f59375faa449d14a873ebe27cd0",
+                    "nativeTokenAddress": "0:252c3bfc608d7d6529c212fa2c4af37bd07daaad3ac7b7a56b1b608449a8eddc",
                     "seedPhraseWordsCount": [
                         12
                     ],
