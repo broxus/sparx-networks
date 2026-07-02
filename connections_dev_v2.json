@@ -141,8 +141,8 @@
                     "seedPhraseWordsCount": [
                         12
                     ],
-                    "tokenApiBaseUrl": "",
-                    "currencyApiBaseUrl": "",
+                    "tokenApiBaseUrl": "https://new-tokens.venomscan.com/v1",
+                    "currencyApiBaseUrl": "https://api-new.web3.world/v1/currencies",
 					"pollingConfig": {
                         "tonWalletRefreshInterval": 2,
                         "tokenWalletRefreshInterval": 2,
