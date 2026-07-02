@@ -138,9 +138,9 @@
                         12
                     ],
                     "tokenApiUrl": {
-                        "balances": ""
+                        "balances": "https://new-tokens.venomscan.com/v1/balances"
                     },
-                    "currencyApiBaseUrl": "",
+                    "currencyApiBaseUrl": "https://api-new.web3.world/v1",
                     "pollingConfig": {
                         "tonWalletRefreshInterval": 2,
                         "tokenWalletRefreshInterval": 2,
