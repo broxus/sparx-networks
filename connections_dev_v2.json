@@ -61,7 +61,7 @@
                     "blockExplorerUrl": "https://tonviewer.com",
                     "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/refs/heads/ton-prod/manifest.json",
                     "nativeTokenTicker": {
-                        "name": "TON"
+                        "name": "GRAM (prev. TON)"
                     },
                     "defaultNativeCurrencyDecimal": 9,
                     "icons": {
