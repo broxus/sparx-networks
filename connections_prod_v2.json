@@ -224,9 +224,9 @@
                     "id": 0,
                     "networkType": "ever",
                     "networkGroup": "mainnet",
-                    "transportType": "proto",
+                    "transportType": "gql",
                     "endpoints": [
-                        "https://jrpc.everwallet.net"
+                        "https://mainnet.evercloud.dev"
                     ],
                     "blockExplorerUrl": "https://everscan.io",
                     "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
