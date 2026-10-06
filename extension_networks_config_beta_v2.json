@@ -245,7 +245,7 @@
                     "networkType": "everscale",
                     "networkGroup": "mainnet",
                     "type": "gql",
-                    "endpoint": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
+                    "endpoint": "https://mainnet.evercloud.dev/89a3b8f46a484f2ea3bdd364ddaee3a3/graphql",
                     "config": {
                         "explorerBaseUrl": "https://everscan.io",
                         "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
