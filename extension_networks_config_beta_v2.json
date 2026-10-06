@@ -244,8 +244,8 @@
                     "id": 0,
                     "networkType": "everscale",
                     "networkGroup": "mainnet",
-                    "type": "proto",
-                    "endpoint": "https://jrpc.everwallet.net",
+                    "type": "gql",
+                    "endpoint": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
                     "config": {
                         "explorerBaseUrl": "https://everscan.io",
                         "tokensManifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
