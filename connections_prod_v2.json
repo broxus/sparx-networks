@@ -226,7 +226,7 @@
                     "networkGroup": "mainnet",
                     "transportType": "gql",
                     "endpoints": [
-                        "https://mainnet.evercloud.dev"
+                        "https://mainnet.evercloud.dev/89a3b8f46a484f2ea3bdd364ddaee3a3/graphql"
                     ],
                     "blockExplorerUrl": "https://everscan.io",
                     "manifestUrl": "https://raw.githubusercontent.com/broxus/ton-assets/master/manifest.json",
